@@ -35,9 +35,9 @@ title: Retomada sera mais longa (e dificil) para os pequenos (in portuguese)
 Hey, me and some colleagues just had a talk with the people from one of the websites I read the most ([Administradores.com.br](Administradores.com.br)). I hope you enjoy it.
 
 
-{{< figure src="07.10 - Retomada dos setores - Portal Administradores p1.jpg" width="45%" >}}
+{{< figure src="07.10 - Retomada dos setores - Portal Administradores p1.jpg" width="100%" >}}
 
-{{< figure src="07.10 - Retomada dos setores - Portal Administradores p2.jpg" width="45%" >}}
+{{< figure src="07.10 - Retomada dos setores - Portal Administradores p2.jpg" width="75%" >}}
 
 {{< figure src="07.10 - Retomada dos setores - Portal Administradores p3.jpg" width="45%" >}}
 
