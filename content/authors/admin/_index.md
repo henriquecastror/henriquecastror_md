@@ -18,7 +18,7 @@ organizations:
   url: "https://iag.puc-rio.br/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
+bio: Assistant Professor of Finance
 
 interests:
 - Corporate Finance
@@ -107,6 +107,5 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
