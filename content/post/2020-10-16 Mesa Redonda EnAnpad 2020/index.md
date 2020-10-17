@@ -25,7 +25,7 @@ summary:
 tags: 
 - Portugues
 
-title: Talk about internationalization in Finance Research - EnAnpad 2020
+title: Exemplo de criação de slides
 
 slides: "example"
 
