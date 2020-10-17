@@ -5,7 +5,7 @@ title: Henrique Castro Martins
 # Username (this should match the folder name)
 authors:
 - admin
-avatar_image: good.jpg
+
 
 # Is this the primary user of the site?
 superuser: true
