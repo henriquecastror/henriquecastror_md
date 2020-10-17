@@ -72,9 +72,9 @@ social:
   icon_pack: fab
   link: https://www.youtube.com/channel/UCS9ws4WEedza36NRimBZXeg?view_as=subscriber
   
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/henriquecastror
+# - icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/henriquecastror
   
 - icon: instagram
   icon_pack: fab
@@ -84,9 +84,9 @@ social:
   icon_pack: fab
   link: https://facebook.com/henriquecastror
   
-- icon: cv
-  icon_pack: ai
-  link: http://lattes.cnpq.br/6076997472159785
+# - icon: cv
+#  icon_pack: ai
+#  link: http://lattes.cnpq.br/6076997472159785
   
   
   
