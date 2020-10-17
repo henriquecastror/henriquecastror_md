@@ -33,28 +33,17 @@ IAG PUC-Rio
 
 ## Controls
 
-- Next: `Right Arrow` or `Space`
-- Previous: `Left Arrow`
-- Start: `Home`
-- Finish: `End`
-- Overview: `Esc`
-- Speaker notes: `S`
-- Fullscreen: `F`
-- Zoom: `Alt + Click`
-- [PDF Export](https://github.com/hakimel/reveal.js#pdf-export): `E`
+{{< youtube -Il68vTUI5I >}}
+
 
 ---
 
 ## Code Highlighting
 
-Inline code: `variable`
+{{< figure src="all.png" width="50%" >}}
 
-Code block:
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-  print("Eating...")
-```
+
+
 
 ---
 
