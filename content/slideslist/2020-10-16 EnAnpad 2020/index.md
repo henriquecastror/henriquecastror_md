@@ -5,7 +5,7 @@ authors:
 date: "2020-10-16T00:00:00Z"
 
 tags: 
-- Portugues
+- Português
 - Slides
 
 title: EnAnpad 2020 - Internationalization in Finance Research (2020-10-16)
