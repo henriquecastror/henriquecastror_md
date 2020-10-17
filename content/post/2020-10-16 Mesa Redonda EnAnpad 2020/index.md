@@ -31,6 +31,5 @@ slides: "example"
 
 ---
 
-Hey, check the ([slides](https://zenodo.org/record/4096078)) I used in a talk at the most important Management Conference (EnAnpad) in Brazil. We discussed strategies to publish Finance academic articles in international journals. I hope you enjoy it!
 
 
