@@ -11,20 +11,23 @@ slides:
   # Choose a code highlighting style (if highlighting enabled in `params.toml`)
   #   Light style: github. Dark style: dracula (default).
   highlight_style: dracula
----
-
-# Welcome to Slides
-
-[academia](https://sourcethemes.com/academic/)
 
 ---
 
-## Features
+# EnAnpad - Mesa Redonda
 
-- Efficiently write slides in Markdown
-- 3-in-1: Create, Present, and Publish your slides
-- Supports speaker notes
-- Mobile friendly slides
+Henrique Castro Martins
+IAG PUC-Rio
+
+
+---
+
+## 1. Pensar em termos de qualidade internacional é fundamental
+
+
+- ABS3 ou mais
+- click [here](https://charteredabs.org/academic-journal-guide-2018/)
+
 
 ---
 
