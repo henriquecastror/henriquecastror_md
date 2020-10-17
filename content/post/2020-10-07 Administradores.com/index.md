@@ -23,9 +23,9 @@ subtitle:
 summary: 
 
 tags: 
-- Portugues
+- Português
 
-title: Retomada sera mais longa (e dificil) para os pequenos (in portuguese)
+title: Retomada será mais longa (e difícil) para os pequenos (in portuguese)
 
 ---
 
