@@ -4,19 +4,13 @@ authors:
 
 date: "2020-10-16T00:00:00Z"
 
-url_slides: "slides/example"
-
-image:
-  caption: 
-  focal_point: smart
-  preview_only: false
-
 tags: 
 - Portugues
+- Slides
 
 title: EnAnpad 2020 - Internationalization in Finance Research
 
 ---
 
-
+Download slides [here](https://zenodo.org/record/4096078)
 
