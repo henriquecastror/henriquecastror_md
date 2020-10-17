@@ -54,12 +54,12 @@ Then, let's graph it.
     par(bg="gray") 
     pie(table(prop$ON2)/length(prop$ON2),
                  col=c("darkred", "darkorange", "darkblue", "red","darkgreen") , 
-                 labels=c("\nEm 22 empresas, \no maior acionista possui \nentre 0% e 20% das ações \ncom direito a voto" ,
-                          "\nEm 23 empresas, \no maior acionista possui \nentre 21% e 40% das ações\ncom direito a voto \n" ,
-                          "\nEm 31 empresas, \no maior acionista possui \nentre 41% e 60% das ações \ncom direito a voto " ,
-                          "\nEm 15 empresas, \no maior acionista possui \nentre 61% e 80% das ações \ncom direito a voto" ,
-                          "\nEm 9 empresas, \no maior acionista possui \nentre 81% e 100% das ações \ncom direito a voto" ), 
-                 main="Percentual de ações com direito a voto \n100 maiores empresas (Julho 2020)",
+                 labels=c("\nEm 22 empresas, \no maior acionista possui \nentre 0% e 20% das aÃ§Ãµes \ncom direito a voto" ,
+                          "\nEm 23 empresas, \no maior acionista possui \nentre 21% e 40% das aÃ§Ãµes\ncom direito a voto \n" ,
+                          "\nEm 31 empresas, \no maior acionista possui \nentre 41% e 60% das aÃ§Ãµes \ncom direito a voto " ,
+                          "\nEm 15 empresas, \no maior acionista possui \nentre 61% e 80% das aÃ§Ãµes \ncom direito a voto" ,
+                          "\nEm 9 empresas, \no maior acionista possui \nentre 81% e 100% das aÃ§Ãµes \ncom direito a voto" ), 
+                 main="Percentual de aÃ§Ãµes com direito a voto \n100 maiores empresas (Julho 2020)",
                  font= 2)
 
 
@@ -102,5 +102,5 @@ What do you think?
 Thanks for stopping by! 
 
 
-{{< soundcloud 859379371 >}}
+# {{< soundcloud 859379371 >}}
 
