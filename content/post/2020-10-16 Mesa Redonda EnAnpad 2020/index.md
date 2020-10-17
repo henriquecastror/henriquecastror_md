@@ -9,8 +9,6 @@ draft: false
 
 featured: false
 
-url_slides: "slides/example"
-
 gallery_item:
 
 image:
@@ -34,8 +32,6 @@ title: Talk about internationalization in Finance Research - EnAnpad 2020
 Hey, check the ([slides](https://zenodo.org/record/4096078)) I used in a talk at the most important Management Conference (EnAnpad) in Brazil. We discussed strategies to publish Finance academic articles in international journals. I hope you enjoy it!
 
 
-
-url_slides: "example"
 
 
 {{< gdocs scr = "https://drive.google.com/file/d/1p-prPMV-Q0eUUYQ7Bidw2Yek_vv7XIro/view?usp=sharing" >}}
