@@ -1,5 +1,4 @@
 ---
-abstract: Previous literature suggests that shareholders can concentrate control without cash flow rights, creating incentives to expropriate firm resources...
 
 authors:
 - admin
@@ -22,21 +21,11 @@ publication_types:
 publishDate: "2020-09-01T00:00:00Z"
 summary: 
 
-tags:
-
 
 title: Does control concentration affect board busyness? International evidence
 
 
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
 
 
 *Abstract:*
