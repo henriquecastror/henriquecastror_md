@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Henrique Castro Martins
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,36 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor of Finance
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Pontifical Catholic University of Rio de Janeiro (PUC-Rio)
+  url: "https://iag.puc-rio.br/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Corporate Finance
+- Corporate Governance
+- Financial policies
+- Empirical methods in finance
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Finance
+    institution: UFRGS
+    year: 2016
+    
+  - course: Master Finance
+    institution: UFRGS
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+    
+  - course: BSc in Management
+    institution: PUCRS
+    year: 2010
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +48,46 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: 'mailto:hcm@iag.puc-rio.br'
+
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
+
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-3186-4245
+
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Henrique_Castro_Martins
+
+- icon: linkedin
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://www.linkedin.com/in/henriquecastror/
+
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UCS9ws4WEedza36NRimBZXeg?view_as=subscriber
+  
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/henriquecastror
+  
+- icon: instagram
+  icon_pack: fab
+  link: https://instagram.com/henriquecastror
+
+- icon: facebook
+  icon_pack: fab
+  link: https://facebook.com/henriquecastror
+  
+- icon: cv
+  icon_pack: ai
+  link: http://lattes.cnpq.br/6076997472159785
+  
+  
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
