@@ -30,7 +30,7 @@ title: Retomada será mais longa (e difícil) para os pequenos (in portuguese)
 ---
 
 
-##  Article Administradores.com.br wesbiste
+##  Article Administradores.com.br
 
 Hey, me and some colleagues had a talk with the journalits from one of the websites I read the most ([Administradores.com.br](Administradores.com.br)). Full article [here](https://administradores.com.br/noticias/retomada-será-mais-longa-e-difícil-para-os-pequenos), but below you have prints. 
 
