@@ -1,6 +1,4 @@
 ---
-abstract: This study examines the effects of the firm's ownership concentration...
-
 authors:
 - admin
 
@@ -25,20 +23,10 @@ summary:
 
 tags:
 
-
 title: Do shareholder protection and creditor rights have distinct effects on the association between debt maturity and ownership structure?
 
 
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
-
 
 *Abstract:*
 
