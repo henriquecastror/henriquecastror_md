@@ -8,7 +8,7 @@ tags:
 - Portugues
 - Slides
 
-title: EnAnpad 2020 - Internationalization in Finance Research 
+title: EnAnpad 2020 - Internationalization in Finance Research (2020-10-16)
 
 ---
 
