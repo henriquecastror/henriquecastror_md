@@ -48,10 +48,10 @@
     url = "files/cv.pdf"
     weight = 70
 
-[[main]]
-    name = "Newsletter"
-    url = "http://eepurl.com/g8zSq5"
-    weight = 80
+# [[main]]
+#    name = "Newsletter"
+#    url = "http://eepurl.com/g8zSq5"
+#    weight = 80
     
 
 
