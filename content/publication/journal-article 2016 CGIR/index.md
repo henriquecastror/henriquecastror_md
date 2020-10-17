@@ -1,5 +1,4 @@
 ---
-abstract: 
 
 authors:
 - admin
@@ -26,15 +25,8 @@ tags:
 
 
 title: Cross-National Governance Research - A Systematic Review and Assessment
+
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
 
 
 *Research Question/Issue:*
