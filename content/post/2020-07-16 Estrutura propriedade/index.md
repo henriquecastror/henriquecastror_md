@@ -102,5 +102,3 @@ What do you think?
 Thanks for stopping by! 
 
 
-# {{< soundcloud 859379371 >}}
-
