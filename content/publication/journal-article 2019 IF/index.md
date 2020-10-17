@@ -1,5 +1,4 @@
 ---
-abstract: 
 
 authors:
 - admin
@@ -24,19 +23,9 @@ summary:
 
 tags:
 
-
 title: Investor protection, managerial entrenchment, and cash holdings - Cross-country evidence
 
-
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
 
 
 *Abstract:*
