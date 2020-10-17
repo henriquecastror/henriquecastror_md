@@ -34,7 +34,7 @@ Hey, check the ([slides](https://zenodo.org/record/4096078)) I used in a talk at
 
 
 
-{{< gdocs scr = "https://drive.google.com/file/d/1p-prPMV-Q0eUUYQ7Bidw2Yek_vv7XIro/view?usp=sharing" >}}
+{{< gdocs scr = "https://drive.google.com/file/d/178zsxY3OMrEqplFnA_gqhnAFOn4Y5VUg/view?usp=sharing" >}}
 
 
 <iframe src="https://drive.google.com/file/d/1p-prPMV-Q0eUUYQ7Bidw2Yek_vv7XIro/view?usp=sharing" style="width:718px; height:700px;" frameborder="0"></iframe>
