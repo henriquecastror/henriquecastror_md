@@ -1,5 +1,4 @@
 ---
-abstract: This study investigates the interplay between country-level governance quality and the capital structure choice at the firm level in Brazil and Chile...
 
 authors:
 - admin
@@ -26,15 +25,8 @@ tags:
 
 
 title: Country-level governance quality, ownership concentration, and debt maturity - A comparative study of Brazil and Chile
+
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
 
 
 *Research Question/Issue:*
