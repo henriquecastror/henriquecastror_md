@@ -32,13 +32,16 @@ title: Retomada será mais longa (e difícil) para os pequenos (in portuguese)
 
 ##  Article Administradores.com.br wesbiste
 
-Hey, me and some colleagues just had a talk with the people from one of the websites I read the most ([Administradores.com.br](Administradores.com.br)). I hope you enjoy it.
+Hey, me and some colleagues had a talk with the journalits from one of the websites I read the most ([Administradores.com.br](Administradores.com.br)). Full article [here](https://administradores.com.br/noticias/retomada-será-mais-longa-e-difícil-para-os-pequenos), but below you have prints. 
+
+I hope you enjoy it.
+
 
 
 {{< figure src="07.10 - Retomada dos setores - Portal Administradores p1.jpg" width="100%" >}}
 
-{{< figure src="07.10 - Retomada dos setores - Portal Administradores p2.jpg" width="75%" >}}
+{{< figure src="07.10 - Retomada dos setores - Portal Administradores p2.jpg" width="100%" >}}
 
-{{< figure src="07.10 - Retomada dos setores - Portal Administradores p3.jpg" width="45%" >}}
+{{< figure src="07.10 - Retomada dos setores - Portal Administradores p3.jpg" width="100%" >}}
 
-{{< figure src="07.10 - Retomada dos setores - Portal Administradores p4.jpg" width="45%" >}}
+{{< figure src="07.10 - Retomada dos setores - Portal Administradores p4.jpg" width="100%" >}}
