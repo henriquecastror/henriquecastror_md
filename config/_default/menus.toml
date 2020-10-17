@@ -23,9 +23,6 @@
   url = "#featured"
   weight = 40
 
-
-
-
 [[main]]
   name = "Teaching"
   url = "teaching/"
@@ -36,17 +33,24 @@
   url = "seminar/"
   weight = 60
   
-#[[main]]
-#  name = "Podcast"
-#  url = "podcast/"
-#  weight = 65
-
-
-    
+[[main]]
+  name = "My Slides"
+  url = "slideslist/"
+  weight = 65
+  
 [[main]]
     name = "CV"
     url = "files/cv.pdf"
     weight = 70
+
+
+
+
+
+# [[main]]
+#  name = "Podcast"
+#  url = "podcast/"
+#  weight = 65
 
 # [[main]]
 #    name = "Newsletter"
