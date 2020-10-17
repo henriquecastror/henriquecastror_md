@@ -27,7 +27,7 @@ tags:
 
 title: Talk about internationalization in Finance Research - EnAnpad 2020
 
- slides: "example"
+slides: "example"
 
 ---
 
