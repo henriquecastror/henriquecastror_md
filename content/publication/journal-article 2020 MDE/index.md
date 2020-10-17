@@ -1,5 +1,4 @@
 ---
-abstract: We investigate whether a bankruptcy reform, which increased creditors' protection, affected the risk taking ...
 
 authors:
 - admin
@@ -24,18 +23,10 @@ summary:
 
 tags:
 
-
 title: The Brazilian bankruptcy law reform, corporate ownership concentration, and risk-taking
 
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
 
 
 *Abstract:*
