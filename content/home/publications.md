@@ -15,10 +15,10 @@ subtitle = ""
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 3
   
   # Choose how many pages you would like to offset by
-  offset = 3
+  offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
