@@ -19,7 +19,7 @@ organizations:
   url: "https://iag.puc-rio.br/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Assistant Professor of Finance
+bio:
 
 interests:
 - Corporate Finance
