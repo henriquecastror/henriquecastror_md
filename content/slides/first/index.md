@@ -4,7 +4,6 @@ author: "Henrique Castro Martins"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader: default
-  pdf_document: default
 params:
   name1: Henrique teste
   name2: HCM
@@ -13,9 +12,9 @@ params:
 <!-- output: xaringan::moon_reader  -->
 
 
-# Introduce yourself!
+# Introduce yourself
 
-> My name is Alison and I am a Data Scientist & Professional Educator at RStudio. I live in Portland, Oregon with my husband, daughter, and our sourdough starter.
+> Hi, this is a test using RMarkdown.
 
 ---
 
@@ -28,7 +27,7 @@ All the details...
 
 class: center, middle
 # Slide with centered content in the middle
-My name is Alison. I like hot toddies, `#rdogladies`, and babies.
+My name is Henrique.
 
 ---
 class: center, middle 
@@ -42,20 +41,19 @@ My name is Alison. I like hot toddies,
 
 
 # Hi there
-My name is Alison
+My name is HCM
 
 --
 
-
-I like hot toddies
-
---
-
-`#rdogladies`
+I like one
 
 --
 
-and babies
+two
+
+--
+
+three
 
 
 
