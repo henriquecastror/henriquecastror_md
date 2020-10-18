@@ -5,12 +5,11 @@ authors:
 date: "2020-05-13T00:00:00Z"
 
 tags: 
-- Português
+- PortuguÃªs
 - Slides
 
 title: 2020-05-13 Webinar COVID-19 IAG PUC-Rio 
 
-# url_slides: "https://zenodo.org/record/3825572"
 
 ---
 
