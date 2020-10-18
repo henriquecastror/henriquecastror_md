@@ -8,7 +8,7 @@ tags:
 - Português
 - Slides
 
-title: 2019-10-19 Conteudo Cafe IAG PUC-Rio 
+title: 2019-10-19 Talk about Governance at IAG PUC-Rio 
 
 url_slides:https://zenodo.org/record/3518114
 
