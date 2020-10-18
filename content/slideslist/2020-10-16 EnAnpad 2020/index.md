@@ -8,7 +8,7 @@ tags:
 - Português
 - Slides
 
-title: EnAnpad 2020 (2020-10-16)
+title: 2020-10-16 EnAnpad 
 
 url_slides: https://zenodo.org/record/4096078
 
