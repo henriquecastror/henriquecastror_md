@@ -18,5 +18,11 @@ Slides from a talk about "Internationalization in Finance Research" (EnAnapad - 
 
 {{< gdocs src="https://drive.google.com/file/d/178zsxY3OMrEqplFnA_gqhnAFOn4Y5VUg/preview" >}}
 
+TEste 
+
+{{< gdocs src="https://drive.google.com/file/d/1p-prPMV-Q0eUUYQ7Bidw2Yek_vv7XIro/preview" >}}
+
+
+
 
 
