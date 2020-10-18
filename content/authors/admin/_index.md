@@ -109,5 +109,7 @@ user_groups:
 - Visitors
 ---
 
-I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
+I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. 
+
+If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
 
