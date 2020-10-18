@@ -10,6 +10,8 @@ tags:
 
 title: EnAnpad 2020 (2020-10-16)
 
+url_slides: https://zenodo.org/record/4096078
+
 ---
 
 Slides on the talk "Internationalization in Finance Research" (EnAnpad 2020). 
