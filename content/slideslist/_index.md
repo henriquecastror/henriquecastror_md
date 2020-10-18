@@ -1,5 +1,5 @@
 ---
-title: Slides I used in classes and seminars.
+title: Slides I used in classes and seminars
 
 # View.
 #   1 = List
