@@ -2,10 +2,10 @@
 authors:
 - admin
 
-date: "2020-10-16"
+date: "2020-10-16T00:00:00Z"
 
 tags: 
-- Português
+- PortuguÃªs
 - Slides
 
 title: 2020-10-16 EnAnpad
