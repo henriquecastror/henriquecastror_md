@@ -2,7 +2,7 @@
 authors:
 - admin
 
-date: "2020-10-16T00:00:00Z"
+date: "2020-10-16"
 
 tags: 
 - Português
