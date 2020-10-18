@@ -14,6 +14,4 @@ url_slides: https://zenodo.org/record/4096078
 
 ---
 
-Slides on the talk "Internationalization in Finance Research" (EnAnpad 2020). 
-
-Download slides [here](https://zenodo.org/record/4096078).
+Slides on the talk "Internationalization in Finance Research" (EnAnapad - Brazilian Management Meeting 2020). 
