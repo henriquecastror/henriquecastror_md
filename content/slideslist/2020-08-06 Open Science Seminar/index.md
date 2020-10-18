@@ -8,7 +8,7 @@ tags:
 - Português
 - Slides
 
-title: Open Science seminar (2020-08-06)
+title: 2020-08-06 Open Science seminar 
 
 url_slides: https://zenodo.org/record/3972198
 
