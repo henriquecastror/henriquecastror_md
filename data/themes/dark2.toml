@@ -5,7 +5,7 @@ name = "Dark"
 light = false
 
 # Primary
-primary = "#fc6f5c"
+primary = "#f2432c"
 
 # Menu
 menu_primary = "rgb(20, 22, 34)"
