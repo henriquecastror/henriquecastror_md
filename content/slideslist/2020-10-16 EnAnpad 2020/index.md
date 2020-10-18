@@ -5,12 +5,12 @@ authors:
 date: "2020-10-16T00:00:00Z"
 
 tags: 
-- Português
+- PortuguÃªs
 - Slides
 
 title: 2020-10-16 EnAnpad
 
-url_slides: https://zenodo.org/record/4096078
+url_slides: "https://zenodo.org/record/4096078"
 
 # url_slides: https://henriquemartins-slides-enanpad.netlify.app
 
