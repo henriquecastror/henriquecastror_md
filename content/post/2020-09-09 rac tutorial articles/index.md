@@ -24,6 +24,7 @@ summary:
 
 tags:
 - RAC
+- Open Science
 
 title: RAC's special issue of tutorial-articles
 
@@ -31,7 +32,7 @@ title: RAC's special issue of tutorial-articles
 
 I am so happy to share that the special issue of tutorial-articles has been published by RAC - Journal of Contemporary Administration. It is the v. 25 n. 1 (2021): Jan/Fev - 2021 (Special Issue) of RAC.
 
-You can download all tutorial-articles [here](https://rac.anpad.org.br/index.php/rac). 
+You can download all tutorial-articles [here](https://rac.anpad.org.br/index.php/rac/issue/view/147). 
 
 I am quite sure you'd love to know that all articles have open data and open code. You can use them all to learn a great deal about empirical methods.
 
