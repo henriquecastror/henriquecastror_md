@@ -7,7 +7,7 @@ menu:
   empiricalfinance20202:
     name: Introduction
     weight: 1
-summary: This is part of my couse about Empirical Finance as of 2020/02.
+summary: This is part of my couse about Empirical Finance in 2020/02.
 
 title: Introduction
 toc: true
