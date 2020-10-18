@@ -14,4 +14,4 @@ url_slides: https://zenodo.org/record/4096078
 
 ---
 
-Slides on the talk "Internationalization in Finance Research" (EnAnapad - Brazilian Management Meeting 2020). 
+Slides from a talk about "Internationalization in Finance Research" (EnAnapad - Brazilian Management Meeting 2020). 
