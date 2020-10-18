@@ -49,7 +49,7 @@ subtitle = ""
 
 
 
-👉 [**See Post here**](https://wowchemy.com/docs/install/)
+👉 [**See Post here**](https://henriquemartins.net/post/2020-08-18-betas/)
 
 
 
