@@ -5,10 +5,10 @@ authors:
 date: "2019-10-19T00:00:00Z"
 
 tags: 
-- Português
+- PortuguÃªs
 - Slides
 
-title: Conteúdo Café IAG PUC-Rio (2019-10-19)
+title: 2019-10-19 ConteÃºdo CafÃ© IAG PUC-Rio 
 
 url_slides:https://zenodo.org/record/3518114
 
