@@ -10,8 +10,9 @@ tags:
 
 title: Open Science seminar (2020-08-06)
 
+url_slides: https://zenodo.org/record/3972198
+
 ---
 
-Slides on a talk about "Open Science" (August 2020). 
+Slides from a talk about Open Science in Accounting, Finance, and Management research (August 2020). 
 
-Download slides, in portuguese, [here](https://zenodo.org/record/3972198) .
