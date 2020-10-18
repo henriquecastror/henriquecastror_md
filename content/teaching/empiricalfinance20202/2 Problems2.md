@@ -14,7 +14,7 @@ weight: 3
 
 ## Example of omitted variable bias
 
-The video contains an example of the omitted variable bias problem. We use R and Stata to discuss this problem. You can download the necessary files from [here](https://doi.org/10.7910/DVN/Y8PHC8).
+The video contains an example of the omitted variable bias problem. We use R and Stata to discuss this problem. You can download the necessary files [here](https://doi.org/10.7910/DVN/Y8PHC8).
 
 I hope you like it.
 
