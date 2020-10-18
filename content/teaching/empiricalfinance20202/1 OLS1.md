@@ -14,7 +14,7 @@ weight: 2
 
 ## Linear regression in Stata & R
 
-In this video, I present the basics about linear regression. You can download the files used in this video from [Zenodo](https://zenodo.org/record/3840566).
+In this video, I present the basics about linear regression. You can download the files [here](https://zenodo.org/record/3840566).
 
 **Check it out:**
 
