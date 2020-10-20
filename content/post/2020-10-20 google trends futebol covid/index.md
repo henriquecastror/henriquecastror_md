@@ -6,7 +6,7 @@ categories:
 
 date: "2020-10-20T00:00:00Z"
 
-draft: false
+draft: true
 
 featured: false
 
@@ -63,7 +63,7 @@ Below you can find the code I used. Thank you for stopping by!
     legend("topright", legend=c("Futebol", "Covid 19"),col=c("red", "darkgreen"), lty=1:1, cex=1.5)
     mtext(side=1, line=2, "Meses", col="black", font=2, cex=1.5)
     mtext(side=2, line=2, "Hits", col="black", font=2, cex=1.5)
-    mtext(side=3, line=2, "Pesquisa das palavra 'Futebol' e 'Covid-19' nos últimos 12 meses", col="black",font=2,cex=2.25)
+    mtext(side=3, line=2, "Pesquisa das palavra 'Futebol' e 'Covid-19' nos Ãºltimos 12 meses", col="black",font=2,cex=2.25)
     axis(2, seq(0,100),las=2, font=2, col="black")
 
 
