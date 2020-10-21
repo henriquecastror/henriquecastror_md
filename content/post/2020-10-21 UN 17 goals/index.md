@@ -36,16 +36,17 @@ If you are interested in helping me, you can check the original content from the
 
 On top of that, we also have to keep in mind the Brazilian Government's strategic goals for 2020-2023 (see document [here](https://www.in.gov.br/en/web/dou/-/portaria-n-1.122-de-19-de-marco-de-2020-249437397)). 
 
-- Espacial, Nuclear, Cibernética, e Segurança pública	e de fronteira;
+- Espacial, Nuclear, CibernÃ©tica, e SeguranÃ§a pÃºblica	e de fronteira;
 
-- Inteligência Artificial, Internet das coisas, Materiais Avançados,  Biotecnologia, e Nanotecnologia;
+- InteligÃªncia Artificial, Internet das coisas, Materiais AvanÃ§ados,  Biotecnologia, e Nanotecnologia;
 
-- Indústria, Agronegócio, Comunicações, Infraestrutura, e Serviços;
+- IndÃºstria, AgronegÃ³cio, ComunicaÃ§Ãµes, Infraestrutura, e ServiÃ§os;
 
-- Cidades inteligentes, Energias renováveis, Bioeconomia, Tratamento e reciclagem de resíduos, Tratamento da poluição, Prevenção de desastres ambientais, e preservação ambiental
+- Cidades inteligentes, Energias renovÃ¡veis, Bioeconomia, Tratamento e reciclagem de resÃ­duos, Tratamento da poluiÃ§Ã£o, PrevenÃ§Ã£o de desastres ambientais, e preservaÃ§Ã£o ambiental
 
-- Saúde, Saneamento básico, Segurança hídrica, e Tecnologias assistivas
+- SaÃºde, Saneamento bÃ¡sico, SeguranÃ§a hÃ­drica, e Tecnologias assistivas
 
 
 As you can see, Finance is not there. 
+
 
