@@ -73,11 +73,11 @@ Then, let's plot it in a graph.
 
 This is the graph we find using the currently available data.
 
-{{< figure src="cceLinkedin.png"  width="60%" >}}
+{{< figure src="cceLinkedin.png"  width="100%" >}}
 
 If we create the same graph for the six variables, this is what we find.
 
-{{< figure src="all.png"  width="60%" >}}
+{{< figure src="all.png"  width="100%" >}}
 
 
 # What do we see?       
