@@ -23,7 +23,11 @@ subtitle: Launching my website with a portfolio optimization example.
 summary: 
 
 tags:
-- 
+- Open Code
+- Open Data
+- Brazil
+- Research
+- Finance
 
 title: My very first post! 
 

@@ -80,9 +80,9 @@ Then, create the graphs.
           legend.position = "none")
 
 
-{{< figure src="some.png" width="50%" >}}
+{{< figure src="some.png" width="100%" >}}
 
-{{< figure src="all.png" width="50%" >}}
+{{< figure src="all.png" width="100%" >}}
 
 
 

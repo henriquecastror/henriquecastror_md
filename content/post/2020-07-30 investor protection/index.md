@@ -25,7 +25,9 @@ subtitle: Graphing how well we protect our minority investors
 summary: 
 
 tags:
-- 
+- Open Code
+- Finance
+- Governance
 
 title: Minority Investor Protection
 
@@ -79,11 +81,11 @@ Then, let's plot it in a graph.
                       
 This is the graph we find, using the code above.
 
-{{< figure src="protec.png" width="60%" >}}
+{{< figure src="protec.png" width="100%" >}}
 
 The graph above contains the full index. It is composed of six sub-indexes combined. If we graph the six sub-indexes in separate graphs, this is what we have. The bottom three sub-indexes seem weird, but they are correct. They show that some countries have zero scores in it.
 
-{{< figure src="protecall.png" width="60%" >}}
+{{< figure src="protecall.png" width="100%" >}}
 
 
 

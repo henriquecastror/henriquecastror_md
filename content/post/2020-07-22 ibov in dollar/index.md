@@ -27,6 +27,7 @@ summary:
 tags:
 - Finance
 - Open Data
+- Open Code
 
 title: Ibovespa vs. Ibovespa in dollar
 

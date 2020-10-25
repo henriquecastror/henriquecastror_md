@@ -24,6 +24,8 @@ summary:
 
 tags:
 - MBA
+- Open Code
+- Finance
 
 title: A comment about a stock's Beta
 
@@ -44,7 +46,7 @@ The graph below is a simple plot of the IBOV's (market) and ABEV's (a selected s
 There are two things to understand here: 1) Beta is used in valuation models (such as the CAPM); thus it is essential to calculate it correctly; 2) when Beta is higher than 1, it means the stock is aggressive  (meaning that when the market's return is 1% the stock's return is higher than 1%). The opposite  occurs when the Beta is below 1 (meaning that when the market's return is 1% the stock's return is lower than 1%), and the stock is defensive.
 
 
-{{< figure src="Beta.png" width="60%" >}}
+{{< figure src="Beta.png" width="100%" >}}
 
 
 # Beta variation through time
@@ -122,7 +124,7 @@ Then, plot the graph.
     
    
    
-{{< figure src="abev3.png" width="60%" >}}
+{{< figure src="abev3.png" width="100%" >}}
 
 
 

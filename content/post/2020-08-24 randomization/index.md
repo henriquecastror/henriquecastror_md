@@ -82,7 +82,7 @@ Ok, to be cool, let's check for a moment these differences in a box plot.
 This is the figure you will find. It shows that the treatment group has a higher mean of variable X than the control group. This is the expected result should the treatment works. The figure illustrates the findings of the previous analysis in the excel file.
 
 
-{{< figure src="Rplot.png" width="50%" >}}
+{{< figure src="Rplot.png" width="100%" >}}
 
 
 But let's calculate the mean difference between groups using the row below. Notice that the average X in the treatment group is 1.47 (22.27 - 20.80) higher than in the control group. 
@@ -167,11 +167,11 @@ Before delving deep into the meaning of all this, let's create a histogram to vi
         
         
     
-{{< figure src="histogram.png" width="60%" >}}
+{{< figure src="histogram.png" width="100%" >}}
 
 And, just to be cool again, I am including an animation of this histogram below:
 
-{{< figure src="gif2.gif" width="60%" >}}
+{{< figure src="gif2.gif" width="100%" >}}
 
 # What do we learn?       
 

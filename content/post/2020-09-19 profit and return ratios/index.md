@@ -59,7 +59,7 @@ $$ROE  = \frac{Net\ profit}{Total\ Equity} = -0.0087$$
 And below, you can see the evolution of these ratios. Notice that the X-axis is inverted, so we need to look the evolution from right to left (see the axis' legend).
 
 
-{{< figure src="fig.png" width="50%" >}}
+{{< figure src="fig.png" width="100%" >}}
 
 
 Overall, there are only a few quarters the company has negative profitability. The average profit margin in this period is around 1.5%, which is a good quarter number, in my view. Excluding the last quarter, where the profit was negative due to the COVID crisis, the company seems well managed, with good control costs and appropriate return generation. 

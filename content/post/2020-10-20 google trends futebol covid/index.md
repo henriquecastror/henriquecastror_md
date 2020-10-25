@@ -24,7 +24,8 @@ subtitle: Back to "normal"?
 summary: 
 
 tags:
-- 
+- Open Code
+- Brazil
 
 title: Google trends - Futebol vs. Covid 19
 

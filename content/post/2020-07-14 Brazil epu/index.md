@@ -23,7 +23,10 @@ subtitle: Graphing Brazil Economic Policy Uncertainty
 summary: 
 
 tags:
-- 
+- Open Code
+- Open Data
+- Brazil
+- Research
 
 title: Brazil Economic Policy Uncertainty
 

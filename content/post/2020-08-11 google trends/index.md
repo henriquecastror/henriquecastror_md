@@ -25,7 +25,8 @@ subtitle: Searching for some finance words in Google
 summary: 
 
 tags:
-- 
+- Open Data
+- Open Code
 
 title: Google trends and finance
 
@@ -65,7 +66,7 @@ Now, we include the four plots together in a single graph.
 
 This is what we find:
 
-{{< figure src="all.png" width="65%" >}}
+{{< figure src="all.png" width="100%" >}}
 
 
 # What do we see? 
