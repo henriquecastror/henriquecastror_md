@@ -24,7 +24,7 @@ summary:
 
 tags: 
 - Governance
-- Português
+- Portuguese
 - Brazil
 - Midia
 

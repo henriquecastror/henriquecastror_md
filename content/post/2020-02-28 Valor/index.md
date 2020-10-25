@@ -23,7 +23,7 @@ subtitle:
 summary: 
 
 tags: 
-- Português
+- Portuguese
 - Brazil
 - Midia
 
