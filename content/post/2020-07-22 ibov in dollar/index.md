@@ -25,7 +25,8 @@ subtitle: Graphing Ibovespa in dollar using ipeadatar
 summary: 
 
 tags:
-- 
+- Finance
+- Open Data
 
 title: Ibovespa vs. Ibovespa in dollar
 
@@ -76,7 +77,7 @@ Lastly, you are good to go, and you can create the plot below using the followin
 
 This is the graph you will find using the currently available data.
 
-{{< figure src="ibov.png"  width="60%">}}
+{{< figure src="ibov.png"  width="100%">}}
 
 
 

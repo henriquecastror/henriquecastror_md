@@ -23,7 +23,9 @@ subtitle:
 summary: 
 
 tags: 
-- Portugues
+- Português
+- Brazil
+- Midia
 
 title: Gestao de caixa ganha com visao de longo prazo (Valor Economico - in portuguese)
 

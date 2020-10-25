@@ -25,7 +25,9 @@ subtitle: Are we doing better?
 summary: 
 
 tags:
-- 
+- Research
+- Open Data
+- Brazil
 
 title: Brazilian corruption Index (WGI)
 

@@ -25,7 +25,9 @@ subtitle: Graphing the number of Brazilian listed firms
 summary: 
 
 tags:
-- 
+- Research
+- Governance
+- Open Data
 
 title: The number of Brazilian listed firms
 
@@ -55,7 +57,7 @@ Then, let's plot it in a graph.
     
 This is the graph you will find, using the currently available data.
 
-{{< figure src="nrfims.png" width="60%" >}}
+{{< figure src="nrfims.png" width="100%" >}}
 
 
 

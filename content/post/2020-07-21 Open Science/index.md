@@ -24,6 +24,7 @@ summary:
 
 tags:
 - Open Science
+- Open Data
 
 title: Some words about Open Science (OS)
 

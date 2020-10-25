@@ -25,7 +25,8 @@ subtitle: Are we doing better?
 summary: 
 
 tags:
-- 
+- Open Data
+- Brazil
 
 title: Economic Freedom of Brazil
 
@@ -63,7 +64,7 @@ Plot the graph.
   
 This is the graph we find, using the code above.
 
-{{< figure src="site.png" width="60%" >}}
+{{< figure src="site.png" width="100%" >}}
 
 
 # What do we see?       

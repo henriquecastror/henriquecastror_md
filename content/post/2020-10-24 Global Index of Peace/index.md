@@ -34,7 +34,7 @@ Did you know there is a Global Index of Peace? I certainly didn't.
 
 Apparently, the [**Institute for Economics & Peace**](https://www.economicsandpeace.org/) measures peace in almost all countries since 2014.
 
-Brazil is not doing well in this ranking. We are at position **126** in the 2020 report (See the report [here](https://www.economicsandpeace.org/wp-content/uploads/2020/08/GPI_2020_web.pdf) or [here](https://zenodo.org/record/4127329)). We lost three positions since 2019.
+Brazil is not doing well in this ranking. We are at position **126** in the 2020 report (see the report [here](https://www.economicsandpeace.org/wp-content/uploads/2020/08/GPI_2020_web.pdf) or [here](https://zenodo.org/record/4127329)). We lost three positions since 2019.
 
 The report suggests the problem of Brazil is not domestic nor international conflict. It is societal safety and security. I agree!
 
@@ -48,5 +48,5 @@ Some countries that caught my attention by their position:
 - France: 66th (Not a good position for an important country as France.)
 - United States of America: 121th (It doesn't look right!)
 
-
+Thanks for passing by!
 

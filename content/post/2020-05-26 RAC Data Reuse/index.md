@@ -22,7 +22,9 @@ subtitle: Data reuse - What new information can we learn from used data?
 
 summary: 
 
-tags: []
+tags: 
+- RAC
+- Research
 
 title: Call for Papers - Data Reuse (RAC - Journal of Contemporary Administration)
 
