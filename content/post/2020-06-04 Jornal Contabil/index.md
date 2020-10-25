@@ -23,14 +23,14 @@ subtitle:
 summary: 
 
 tags: 
-- Portugues
+- Português
 
-title: Pandemia - Tres problemas a lidar na gestao financeira das empresas (Jornal Contabil - in portuguese)
+title: Pandemia - Três problemas a lidar na gestão financeira das empresas (Jornal Contábil - in portuguese)
 
 ---
 
 
-##  Article at Newspaper Jornal Contabil
+##  Article at Newspaper Jornal Contábil
 
 Hey, I just had an article published at a major newspaper. 
 Check [**here:**](https://www.jornalcontabil.com.br/pandemia-tres-problemas-a-lidar-na-gestao-financeira-das-empresas/)
