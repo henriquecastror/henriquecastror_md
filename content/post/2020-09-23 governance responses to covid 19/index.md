@@ -65,8 +65,6 @@ Also, several countries extended the period corporations had for the quarter or 
 
 Honestly, I am not sure. They are all beneficial since they provide some level of flexibilization in critical procedures corporations need to execute. However, except for the flexibilization regarding illiquidity issues when related to Covid, I don't see these responses helping to preserve jobs, for instance. 
 
-What do you think? 
-
 Thanks for passing by!
 
 

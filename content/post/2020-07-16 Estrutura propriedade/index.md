@@ -97,8 +97,6 @@ Other people would say this is bad because if this shareholder puts his/her inte
 
 Theory and evidence are mixed but biased towards the second interpretation.
 
-What do you think?
-
 Thanks for stopping by! 
 
 

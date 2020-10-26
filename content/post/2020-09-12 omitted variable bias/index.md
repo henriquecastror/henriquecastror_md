@@ -32,9 +32,6 @@ title: Master class 3 - Omitted variable bias
 
 Hey, check my video (in portuguese) where we discuss an example about omitted variable and how they can bias a regression coefficient.
 
-
-Let me know if you have any questions.
-
 I hope you like it! Thanks for passing by!
 
 {{< youtube -Il68vTUI5I >}}

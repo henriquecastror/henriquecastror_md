@@ -95,7 +95,5 @@ My assessment of these graphs is the following: Brazil shows intermediate values
 
 The exciting part is in the second graph. It shows where we can improve (relatively to other countries). It seems that we could do better on Disclosure practices and Easy of suiting shareholders. Improving these two seems a good idea and an excellent way to enhance our stock markets in the near future.
 
-Please let me know what do you think about these graphs in the comments. 
-
 Thanks for stopping by!
 

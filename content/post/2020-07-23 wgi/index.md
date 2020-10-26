@@ -91,8 +91,6 @@ Then, in 2014, the score dropped to -0.3, and the negative peak is 2017 with a s
 
 Again, we need to interpret this data, knowing it measures the **perception** of Brazilians. The fact that the score dropped does not mean that corruption increased, it means that the **perception** of corruption increased.
 
-Do you agree with my assessment?
-
 Thanks for stopping by!
 
 
