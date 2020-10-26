@@ -24,21 +24,16 @@ summary:
 
 tags: 
 - Governance
-- Portuguese
+- Português
 - Brazil
-- Midia
+- Media
 
-title: The future of Corporate Governance (Estadao - in portuguese)
+title: The future of Corporate Governance (Estadão - in portuguese)
 
 ---
 
 
-##  Article at Newspaper Estadao
+##  Article at Newspaper Estadão
 
 Hey, I just had an article published at a major newspaper. 
 Check [**here:**](https://politica.estadao.com.br/blogs/fausto-macedo/o-futuro-da-governanca-corporativa/)
-
-
-
-
-
