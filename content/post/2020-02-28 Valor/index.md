@@ -23,18 +23,18 @@ subtitle:
 summary: 
 
 tags: 
-- Portuguese
+- Português
 - Brazil
-- Midia
+- Media
 
-title: Gestao de caixa ganha com visao de longo prazo (Valor Economico - in portuguese)
+title: Gestão de caixa ganha com visão de longo prazo (Valor Econômico - in portuguese)
 
 ---
 
 
-##  Article at Newspaper Jornal Valor Economico
+##  Article at Newspaper Jornal Valor Econômico
 
-Hey, I just had an article published at a major newspaper. 
+Hey, I just had an article published at a major Brazilian newspaper. 
 Check [**here:**](https://valor.globo.com/publicacoes/suplementos/noticia/2020/02/28/gestao-de-caixa-ganha-com-visao-de-longo-prazo.ghtml)
 
 ![Example image](pic1.png)
