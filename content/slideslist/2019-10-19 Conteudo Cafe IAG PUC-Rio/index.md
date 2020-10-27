@@ -7,8 +7,9 @@ date: "2019-10-19T00:00:00Z"
 tags: 
 - Português
 - Slides
+- Brazil
 
-title: 2019-10-19 Conteudo Cafe IAG PUC-Rio
+title: 2019-10-19 Conteúdo Café IAG PUC-Rio
 
 url_slides: "https://zenodo.org/record/3518114"
 
