@@ -9,7 +9,7 @@ date: "2020-10-29T00:00:00Z"
 tags: 
 - Brazil
 - Portugues
-- Graduação
+- Graduacao
 
 title: 2020-10-29 Aula Graduacao NAF e Taxas de Crescimento
 
