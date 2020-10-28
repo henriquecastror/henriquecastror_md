@@ -8,10 +8,10 @@ date: "2020-10-29T00:00:00Z"
 
 tags: 
 - Brazil
-- Português
+- Portugues
 - Graduação
 
-title: 2020-10-29 Aula Graduação NAF e Taxas de Crescimento
+title: 2020-10-29 Aula Graduacao NAF e Taxas de Crescimento
 
 url_slides: "/slides/slides2-aula-grad-naf-tcs.html"
 
