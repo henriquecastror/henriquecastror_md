@@ -2,7 +2,7 @@
 authors:
 - admin
 
-draft: false
+
 
 date: "2020-10-29T00:00:00Z"
 
