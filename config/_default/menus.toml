@@ -39,15 +39,15 @@
   url = "slideslist/"
   weight = 65
 
-[[main]]
-    name = "Book of Notes"
-    url = "https://henriquemartins-notes.netlify.app/"
-    weight = 70
+#[[main]]
+#    name = "Book of Notes"
+#    url = "https://henriquemartins-notes.netlify.app/"
+#    weight = 70
 
 [[main]]
-    name = "Book of Notes 2"
+    name = "Book of Notes"
     url = "book/_book/"
-    weight = 71
+    weight = 70
 
     
   
