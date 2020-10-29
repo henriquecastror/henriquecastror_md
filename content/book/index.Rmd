@@ -1,0 +1,38 @@
+--- 
+title: "A messy book of notes / Meu bloco de notas sobre tudo"
+author: "Henrique Castro Martins (hcm@iag.puc-rio.br)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [ref books.bib , ref papers.bib , ref econometrics.bib , ref open science.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo:
+description: "This is a book containing all sorts of notes related to my classes, my articles or projects."
+output:
+  html_document:
+    toc: true
+    toc_depth: 1
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+# Book of notes
+
+This is a collection of random notes that I am continually updating using **Markdown**.
+
+The primary purpose is to make online stuff that is important in my **classes**, **projects**, or **articles**.
+
+You may consult here searching for **references**, **project ideas**, and some **codes** that I used eventually.
+
+You may consult a bunch of other stuff in https://henriquemartins.net/. 
+
+**I hope you find it useful. Thanks for passing by!**
+
+
+
+
+```{block, type='caution'}
+Vou misturar Português e Inglês. Some notes are in English, others in Portuguese.
+```
