@@ -41,7 +41,7 @@
 
 [[main]]
     name = "Book of Notes"
-    url = "https://henriquemartins-notes.netlify.app"
+    url = "book/_book/"
     weight = 70
 
   
