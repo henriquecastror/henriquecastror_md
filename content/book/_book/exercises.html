@@ -24,7 +24,7 @@
 <meta name="author" content="Henrique Castro Martins (hcm@iag.puc-rio.br)" />
 
 
-<meta name="date" content="2020-10-28" />
+<meta name="date" content="2020-10-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -494,7 +494,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb16-13"><a href="exercises.html#cb16-13"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span><span class="st"> </span></span>
 <span id="cb16-14"><a href="exercises.html#cb16-14"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="book-notes-hcm_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 <p><strong>It seems we have an abrupt discontinuity here. The cut seems to be when X = 100. This graph suggests that, ignoring the discontinuity, the association between X and Y is positive.</strong></p>
 <p><strong>Let’s split the observations into two groups now, using X=100 as threshold:</strong></p>
 <div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="exercises.html#cb18-1"></a><span class="co"># Creating  groupS</span></span>
@@ -513,7 +513,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb18-14"><a href="exercises.html#cb18-14"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
 <span id="cb18-15"><a href="exercises.html#cb18-15"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="book-notes-hcm_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
 <p><strong>It becomes clear that, within each group, the association is negative.</strong></p>
 <p><strong>Let’s look only for the observations close to the cut for a moment:</strong></p>
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="exercises.html#cb20-1"></a><span class="co"># define cut</span></span>
@@ -539,7 +539,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb20-21"><a href="exercises.html#cb20-21"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
 <span id="cb20-22"><a href="exercises.html#cb20-22"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="book-notes-hcm_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <p><strong>It seems that, close to the cut, the associations are different: it is positive when X &lt; cut, and negative when X&gt;cut. We may use this finding to define our RDD model below.</strong></p>
 <p><strong>Let’s estimate the RDD now:</strong></p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="exercises.html#cb22-1"></a><span class="co"># Regression  - not RDD yet (this is the result of the first graph)</span></span>
@@ -651,7 +651,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["book-notes-hcm.pdf"],
+"download": ["book-notes.pdf"],
 "toc": {
 "collapse": "subsection"
 }
