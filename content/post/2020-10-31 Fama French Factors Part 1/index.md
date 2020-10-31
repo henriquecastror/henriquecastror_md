@@ -44,7 +44,7 @@ This post is co-authored with [Gerson Junior](https://scholar.google.com/citatio
 
 The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. Keep in mind that we begin from scratch, so we are not thinking about coding optmization for now. 
 
-You can download [here](www.google.com) the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
+You can download {{% staticref "files/FF Example.xlsx" "newtab" %}} Here {{% /staticref %}} the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
 
 **Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size) and six portfolios (sample is split into three groups of Growth against two groups of Size).**
 
