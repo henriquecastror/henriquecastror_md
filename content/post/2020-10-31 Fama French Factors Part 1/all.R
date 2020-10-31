@@ -63,26 +63,26 @@ print(round(port_ret,3))
 # Six portfolios returns
 data$smb_ret <-  data$weight * data$Return
 
-ret2 <- as.data.frame(tapply(data$smb_ret,
+ret <- as.data.frame(tapply(data$smb_ret,
                                 list(data$Year, 
                                      data$port), 
                                 FUN = sum))
 
 # SMB return
 
-ret2$smb_buy  <- as.data.frame((ret$GrowthSmall + ret$NeutralSmall + ret$ValueSmall)/1/3)
-ret2$smb_sell <- as.data.frame((ret$GrowthBig   + ret$NeutralBig   + ret$ValueBig  )/1/3)
+ret$smb_buy  <- as.data.frame((ret$GrowthSmall + ret$NeutralSmall + ret$ValueSmall)/1/3)
+ret$smb_sell <- as.data.frame((ret$GrowthBig   + ret$NeutralBig   + ret$ValueBig  )/1/3)
 
-ret2$smb      <- ret$smb_buy - ret$smb_sell
+ret$smb      <- ret$smb_buy - ret$smb_sell
 
 
 
 # HML return
 
-ret2$hml_buy  <- as.data.frame((ret$ValueSmall + ret$ValueBig)/1/2)
-ret2$hml_sell <- as.data.frame((ret$GrowthSmall+ ret$GrowthBig)/1/2)
+ret$hml_buy  <- as.data.frame((ret$ValueSmall + ret$ValueBig)/1/2)
+ret$hml_sell <- as.data.frame((ret$GrowthSmall+ ret$GrowthBig)/1/2)
 
-ret2$hml      <- ret$hml_buy - ret$hml_sell
+ret$hml      <- ret$hml_buy - ret$hml_sell
 
 
 

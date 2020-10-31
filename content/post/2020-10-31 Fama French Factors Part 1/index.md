@@ -44,7 +44,7 @@ This post is co-authored with [Gerson Junior](https://scholar.google.com/citatio
 
 The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. Keep in mind that we begin from scratch, so we are not thinking about coding optmization for now. 
 
-You can download {{% staticref "files/FF Example.xlsx" "newtab" %}} Here {{% /staticref %}} the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
+You can download {{% staticref "files/FF Example.xlsx" "newtab" %}} here {{% /staticref %}} the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
 
 **Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size) and six portfolios (sample is split into three groups of Growth against two groups of Size).**
 
@@ -67,7 +67,7 @@ Then, you have to import our data. Again, this is fabricated by us. You can see 
     # import data
     data <- read_excel("FF Example.xlsx", sheet="Before")
   
-The first important step is to create deciles for the first sorting step, which is based on MtB. The result is simply a column with the decile the firm is (sorter by MtB). We did that in both years.    
+The first important step is to create deciles for the first sorting step, which is based on MtB. The result is simply a column with the decile the firm is (sorted by MtB). We did that in both years.    
     
     # Create deciles by MtB
     data <- data  %>% 
@@ -101,7 +101,7 @@ The product of these first rows is the definition of four new columns. We will u
     
 ## Defining Portfolios
     
-The row below is to define the 2x3 portfolios.
+The row below is to define the 3x2 portfolios.
 
     # Finding portfolios
     data$port <- paste0(data$MtB_class,data$Size_class)
@@ -109,7 +109,7 @@ The row below is to define the 2x3 portfolios.
 Then, we calculate the weights of each firm in each portfolio in each year. Our weight is based on firms' Size.
     
     # generate firm-level time- and portfolio-specific weights
-    data <- data  %>% group_by(Year, port) %>% mutate (weight = MtB/sum(MtB))
+    data <- data  %>% group_by(Year, port) %>% mutate (weight = Size/sum(Size))
 
 
     
@@ -117,7 +117,7 @@ Then, we calculate the weights of each firm in each portfolio in each year. Our 
     
 Okay, now that we have the six portfolios in each year, we can calculate the return of the SmB (Small minus Big) and HmL (High minus Low) factors. 
 
-First, we need to define which stocks we are buying and which we are selling. We use the structure below. For more information about this structure, see the [French's site](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html).
+First, we need to define which stocks we are buying and which we are selling. We use the structure below. For more information about this structure, see [French's site](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html).
 
 
 $$SmB =  \frac{1}{3}(Small Value + Small Neutral + Small Growth) - \frac{1}{3} (Big Value + Big Neutral + Big Growth)$$
@@ -162,9 +162,9 @@ You can print portfolios' return in each year:
     
     paste("The returns of the High minus Low portfolios are, respectively," , round(ret$hml * 100 ,3),"%")
 
+The SmB return in year 1 and 2 are, respectively, -4.79% and 6.02%, while the HmL return in year 1 and 2 are, respectively, 7.06% and 1.71%.
 
-
-You can save the file to learn more about how we did it.
+You can save the file to learn more about how we did it. This is our result: {{% staticref "files/FF Example After.xlsx" "newtab" %}} here {{% /staticref %}}.
     
     write_xlsx(data, "FF Example After.xlsx")
     
