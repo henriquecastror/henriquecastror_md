@@ -42,11 +42,11 @@ This post is co-authored with [Gerson Junior](https://scholar.google.com/citatio
 
 ## The goal
 
-The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. Keep in mind that we begin from scratch, so we are not thinking about coding optmization. 
+The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. Keep in mind that we begin from scratch, so we are not thinking about coding optmization for now. 
 
 You can download [here](www.google.com) the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
 
-**Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size) and six portfolios (sample is split into three groups of Growth against two groups of size).**
+**Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size) and six portfolios (sample is split into three groups of Growth against two groups of Size).**
 
 ## First  step
 
@@ -59,7 +59,7 @@ To start the process, install and load the following packages.
 
 Clear your workspace.
 
-    # Clean dataset
+    # Clean workspace
     rm(list = ls())
 
 Then, you have to import our data. Again, this is fabricated by us. You can see we have 10 stocks in two years. We also have each firms' Return, Market-to-book (MtB), and Size. All these values are random.
@@ -67,21 +67,21 @@ Then, you have to import our data. Again, this is fabricated by us. You can see 
     # import data
     data <- read_excel("FF Example.xlsx", sheet="Before")
   
-The first important step is to create deciles for the first sorting based on MtB. The result is simply a column  with the decile the firm is using MtB as a sorting variable. We did that in both years.    
+The first important step is to create deciles for the first sorting step, which is based on MtB. The result is simply a column with the decile the firm is (sorter by MtB). We did that in both years.    
     
     # Create deciles by MtB
     data <- data  %>% 
             group_by(Year) %>%  
             mutate(MtB_deciles = ntile(MtB, 10))
 
-Then, using these deciles, we can split firms into three groups: **Growth** (first within the first three deciles), **Neutral** (firms from the 4th decile to the 7th decile), and **Value** (firms from the 8th decile until the 10th).
+Then, using these deciles, we can split firms into three groups: **Growth** (firms until the 3rd decile), **Neutral** (firms from the 4th decile to the 7th decile), and **Value** (firms from the 8th decile until the 10th).
     
     # Defining Growth, Neutral, and Value
     data$MtB_class = ifelse(data$MtB_deciles<=3 ,"Growth", ifelse(data$MtB_deciles>=8 ,"Value", "Neutral" ))
     
-This step is a little tricky. Not sure we can explain well in words, perhaps you want to see the data.frame first. 
+Next step is a little tricky. Not sure we can explain well in words, perhaps you want to see the data.frame first. 
 
-But the idea below is to sort firms within each of the three groups of MtB, and split them into **Small** or **Big**. So, for the group **Growth**, we split into **Small** or **Big**, then we did the same for the group **Neutral**, then for the group **Value**.
+But the idea below is to sort firms within each of the three groups of MtB, and split them into **Small** or **Big**. So, for the group **Growth**, we split firms into **Small** or **Big**, then we did the same for the group **Neutral**, then for the group **Value**.
     
 
     # Create deciles by Size within MtB
@@ -96,7 +96,8 @@ But the idea below is to sort firms within each of the three groups of MtB, and 
     data$Size_class = ifelse(data$Size_deciles <= median(data$Size_deciles) ,"Small", "Big")
     
     
-The product of these first rows is the definition of four new columns in the dataset, which we will use the two spliting the sample. 
+The product of these first rows is the definition of four new columns. We will use the two new variables were we split the sample. 
+
     
 ## Defining Portfolios
     
@@ -105,7 +106,7 @@ The row below is to define the 2x3 portfolios.
     # Finding portfolios
     data$port <- paste0(data$MtB_class,data$Size_class)
     
-Then, we calculate the weights of each firm in each portfolio in each year.
+Then, we calculate the weights of each firm in each portfolio in each year. Our weight is based on firms' Size.
     
     # generate firm-level time- and portfolio-specific weights
     data <- data  %>% group_by(Year, port) %>% mutate (weight = MtB/sum(MtB))
@@ -114,16 +115,16 @@ Then, we calculate the weights of each firm in each portfolio in each year.
     
 ## Final part    
     
-Okay, now that we have the six portfolios in each year, we can calculate the return of the SmB (small minus big) and HmL (High minus Low) factors. 
+Okay, now that we have the six portfolios in each year, we can calculate the return of the SmB (Small minus Big) and HmL (High minus Low) factors. 
 
-First, you need to define which stocks you are buying and which you are selling. We use the structure below:
+First, we need to define which stocks we are buying and which we are selling. We use the structure below. For more information about this structure, see the [French's site](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html).
+
 
 $$SmB =  \frac{1}{3}(Small Value + Small Neutral + Small Growth) - \frac{1}{3} (Big Value + Big Neutral + Big Growth)$$
     
 $$HML = \frac{1}{2} (Small Value + Big Value) - \frac{1}{2} (Small Growth + Big Growth)$$
 
 
-For more information about this decision, see the [French's site](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/Data_Library/f-f_factors.html).
  
 
 Ok, the code below calculates the return of each of the six portfolios, and store then in a new data.frame:
@@ -155,7 +156,7 @@ And here, we calculate the return of the HmL portfolio.
     
     ret$hml      <- ret$hml_buy - ret$hml_sell
     
-You can print in the display the portfolios return in each year:    
+You can print portfolios' return in each year:    
     
     paste("The returns of the Small minus Big portfolios are, respectively," ,round(ret$smb * 100 ,3),"%")
     
@@ -174,4 +175,5 @@ It is not easy to calculate the factors' returns, but it is doable. Our next ste
 
 Thanks for passing by. See ya!
     
+        
         
