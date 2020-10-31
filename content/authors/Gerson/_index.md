@@ -26,6 +26,9 @@ interests:
 
 education:
   courses:
+  - course: PhD Candidate in Finance
+    institution: PUC-Rio
+    year: 2022
 
 
 

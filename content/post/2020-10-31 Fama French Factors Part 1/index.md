@@ -42,13 +42,13 @@ This post is co-authored with [Gerson Junior](https://scholar.google.com/citatio
 
 ## The goal
 
-The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. At the beggining, we were not sure how to do it. So we will use this post (and probably two more), to learn it. Keep in mind that we began from the scratch, so we were not thinking about coding optmization. 
+The goal of this post is simple: to learn how to calculate the [Fama and French](https://www.sciencedirect.com/science/article/abs/pii/0304405X93900235) portfolios' returns. Keep in mind that we begin from scratch, so we are not thinking about coding optmization. 
 
-You can download [here](www.google.com) the data that we fabricated to learn with. **We hope you help us, if we make any mistake.**
+You can download [here](www.google.com) the data that we fabricated to learn with. **We hope you help us if we make any mistake.**
 
-**Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size), and 6 portfolios (sample is split in three groups of Growth against two groups of size).**
+**Important: we are using the two-factor 3X2 portfolio, meaning we have two factors (Growth and Size) and six portfolios (sample is split into three groups of Growth against two groups of size).**
 
-## Fist step
+## First  step
 
 To start the process, install and load the following packages.
 
@@ -57,7 +57,7 @@ To start the process, install and load the following packages.
     library(tidyverse)
     library(writexl)
 
-Clear your workspace too:
+Clear your workspace.
 
     # Clean dataset
     rm(list = ls())
@@ -67,7 +67,7 @@ Then, you have to import our data. Again, this is fabricated by us. You can see 
     # import data
     data <- read_excel("FF Example.xlsx", sheet="Before")
   
-The first important step is to create deciles for the first sorting based on MtB. The result is simply a collumn with the decile the firm is using MtB as sorting variable. We did that in both years.    
+The first important step is to create deciles for the first sorting based on MtB. The result is simply a column  with the decile the firm is using MtB as a sorting variable. We did that in both years.    
     
     # Create deciles by MtB
     data <- data  %>% 
@@ -114,7 +114,7 @@ Then, we calculate the weights of each firm in each portfolio in each year.
     
 ## Final part    
     
-Ok, now that we have the six portfolios in each year, we can calculate the return of the SmB (small minus big) and HmL (High minus Low) factors. 
+Okay, now that we have the six portfolios in each year, we can calculate the return of the SmB (small minus big) and HmL (High minus Low) factors. 
 
 First, you need to define which stocks you are buying and which you are selling. We use the structure below:
 
@@ -157,9 +157,9 @@ And here, we calculate the return of the HmL portfolio.
     
 You can print in the display the portfolios return in each year:    
     
-    paste("The returns of the Small minus Big portolios are, respectively," ,round(ret$smb * 100 ,3),"%")
+    paste("The returns of the Small minus Big portfolios are, respectively," ,round(ret$smb * 100 ,3),"%")
     
-    paste("The returns of the High minus Low portolios are, respectively," , round(ret$hml * 100 ,3),"%")
+    paste("The returns of the High minus Low portfolios are, respectively," , round(ret$hml * 100 ,3),"%")
 
 
 
