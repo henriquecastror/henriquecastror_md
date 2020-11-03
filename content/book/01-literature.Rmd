@@ -41,6 +41,7 @@ output:
 - **@Harvey2019**: A discussion about replications.
 - **@Spiegel2019**: About replication and open data.
 - **@MendesCristiana2021**: What is Salami Science?
+- **@VanRaaij2018**: About Data Reuse
 
 
 ## List of materials - Econometrics
