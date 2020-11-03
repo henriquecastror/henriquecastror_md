@@ -1,0 +1,18 @@
+---
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+# Journal's rankings
+
+**Updated in: "`r Sys.Date()`"**
+
+
+```{r, echo=FALSE}
+library(readxl)
+smart <- read_excel("files/smartacademy/Smart Academy 2020.xlsx")
+knitr::kable(head(smart[, 3:8],1000))
+```
+
+

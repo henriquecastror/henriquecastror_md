@@ -1,4 +1,5 @@
 book-of-notes
+journals-rankings
 literature
 list-of-papers---classic
 list-of-papers---corporate-finance
