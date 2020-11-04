@@ -4,7 +4,7 @@ output:
   html_document: default
   pdf_document: default
 ---
-# Journal's rankings
+# Journals' rankings
 
 **Updated in: "`r Sys.Date()`"**
 
