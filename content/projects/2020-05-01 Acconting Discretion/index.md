@@ -19,3 +19,5 @@ Previous corporate governance literature suggests that investors and regulators 
 Co-authored with [Marcio Pimenta](http://lattes.cnpq.br/1670868214172308) (PhD Candidate).
 
 The first article of this project was accepted for presentation at the 6th annual International Corporate Governance Society ([ICGS](https://icgsociety.org/)) conference to be held November 14 - 16, 2020. 
+
+You can check the slides [here](https://henriquemartins.net/slideslist/2020-11-14-icgs-presentation/).

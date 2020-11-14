@@ -10,6 +10,7 @@ output:
 **Updated in: "`r Sys.Date()`"**
 
 
+
 ```{r, echo=FALSE}
 library(readxl)
 smart <- read_excel("files/smartacademy/Smart Academy 2020.xlsx")
