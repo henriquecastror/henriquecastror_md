@@ -76,3 +76,7 @@ output:
 - **@BerkDemarzo2013**: Meu livro preferido para graduação e MBAs. No entanto, a versão boa é a inglês.
 - **@BodieKaneMarcus2013**: 
 
+
+## List of papers - Science
+- **@aguinis2011editorial**: Good reflection about Editor's roles.
+
