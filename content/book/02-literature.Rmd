@@ -58,9 +58,9 @@ output:
 - **@Jiang2017**: A discussion about instrumental variables.
 - **@KahnWhited2018**: Identification is not causality, and vice-versa.
 - **@Lindner2019**: Some ideas aboout multicollinearity.
-- **@McLean2012**: Good article to learn how to make interpretations of coefficients and marginal effects. They are very didatic.
+- **@McLean2012**: Good article to learn how to make interpretations of coefficients and marginal effects. They are very didactic.
 - **@Murray2006**: Nice examples of instruments
-- **@Petersen2009**
+- **@Petersen2009**: Discussion about standard-errors in Finance.
 - **@Reeb2012**: Easy to reed review about endogeneity in International Business.
 - **@Roodman2009**: Important to estimate GMM in stata.
 - **@Roodman2009xtabond2**: Important to estimate GMM in Stata.
