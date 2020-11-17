@@ -58,6 +58,7 @@ output:
 - **@Jiang2017**: A discussion about instrumental variables.
 - **@KahnWhited2018**: Identification is not causality, and vice-versa.
 - **@Lindner2019**: Some ideas aboout multicollinearity.
+- **@McLean2012**: Good article to learn how to make interpretations of coefficients and marginal effects. They are very didatic.
 - **@Murray2006**: Nice examples of instruments
 - **@Petersen2009**
 - **@Reeb2012**: Easy to reed review about endogeneity in International Business.
