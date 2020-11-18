@@ -48,6 +48,8 @@ We made significant developments in the field of Open Science.
 
 - We have a clear [policy](https://rac.anpad.org.br/index.php/rac/processo_avaliacao) for Open Peer Review.
 
+- We had a Call for Papers of [Data Reuse](https://zenodo.org/record/3858031#.Xs5VoGhKjDd) 
+
 
 These are small but consistent developments to improve academic research in Brazil. The goal is to make it more transparent, reproducible, and accessible to anyone. 
 
