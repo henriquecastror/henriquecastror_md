@@ -14,7 +14,7 @@ url_slides: "/slides/slides3-RAC-os.html"
 ---
 
 
-Click the button above to see the slides I used at the [9th Frum EcoInovar](http://ecoinovar.com.br/).
+Click the button above to see the slides I used at the [9th Fórum EcoInovar](http://ecoinovar.com.br/).
 
 
 Thank you for passing by!
