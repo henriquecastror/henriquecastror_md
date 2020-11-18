@@ -23,36 +23,27 @@ I hope you like it!
 
 
 
+
+
+
+
+
+
+
+
+
+
 ---
+
+
 
 class: left
 
-# Tip 1: Learn to receive feedback
+# Open Science (OS)
 
-**This is the most important tip.** 
+É um movimento internacional, já presente em vários campos de pesquisa, com o objetivo de tornar a pesquisa acadêmica mais transparente, acessível e relevante. 
 
-When we get a rejection, we usually get frustrated. Learning to receive negative feedback to work on your weakness is super important to succeed in your career.
-
-
-
----
-
-class: left
-
-# Tip 2: Never omit references
-
-
-Editors know the literature so well. If you are omitting essential references, they will notice it.
-
-    
-    
-
-
-
-
-
-
-
+Além disso, OS objetiva  aumentar o impacto da ciência na sociedade a partir da democratização do conhecimento.
 
 
 
