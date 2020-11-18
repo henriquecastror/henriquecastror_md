@@ -1,0 +1,82 @@
+---
+title: "A experiência de Open Science na RAC"
+author: "Henrique Castro Martins"
+date: 2020-11-19
+output:
+  xaringan::moon_reader: default
+  pdf_document: default
+params:
+  
+  name1: HCM
+  
+---
+
+
+class: left
+
+# Introdução
+
+
+I will share in these slides the notes I took from the two panels with editors from A-Journals at the [**International Corporate Governance Society (ICGS)**](https://icgsociety.org/) Annual Meeting.
+
+I hope you like it!
+
+
+
+---
+
+class: left
+
+# Tip 1: Learn to receive feedback
+
+**This is the most important tip.** 
+
+When we get a rejection, we usually get frustrated. Learning to receive negative feedback to work on your weakness is super important to succeed in your career.
+
+
+
+---
+
+class: left
+
+# Tip 2: Never omit references
+
+
+Editors know the literature so well. If you are omitting essential references, they will notice it.
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+class: right, middle
+
+.left[ __Espero que tenham gostado!__ ] 
+
+
+<img src="slides1-empiricalissues-me.jpg" width="15%" align="right" />
+
+$$\\[2.25cm]$$
+
+# *Find me at:*
+
+[henriquemartins.net](https://henriquemartins.net/)
+
+[hcm@iag.puc-rio.br](mailto:hcm@iag.puc-rio.br)
+
+
