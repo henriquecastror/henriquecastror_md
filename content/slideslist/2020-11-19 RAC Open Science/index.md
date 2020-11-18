@@ -2,12 +2,12 @@
 authors:
 - admin
 
-date: "2020-11-19T00:00:00Z"
+date: "2020-11-18T00:00:00Z"
 
 tags: 
 - Open Science
 
-title: 2020-11-19 RAC Open Science
+title: 2020-11-18 RAC Open Science
 
 url_slides: "/slides/slides3-RAC-os.html"
 
