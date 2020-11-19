@@ -13,6 +13,16 @@ params:
 ---
 
 
+<img src="caution.jpg" width="40%" align="right" />
+
+
+
+$$\\[6cm]$$
+**Todos os comentários são opiniões minhas, não representam a opinião das instituições de que faço parte.**
+
+
+---
+
 class: left
 
 # Open Science (OS)
@@ -56,8 +66,7 @@ $$\\[2cm]$$
 Política completa pode ser encontrada [aqui](https://rac.anpad.org.br/index.php/rac/openscience).
 
 
-
-
+Declaração de Ciência Aberta pode ser encontrada  [aqui](https://rac.anpad.org.br/index.php/rac/about/submissions).
 
 
 ---
@@ -67,9 +76,9 @@ class: left
 # Dados Abertos - Como a RAC faz?
 
 
-- **Artigos teóricos**: 
+- **Artigos teóricos: não há compartilhamento**:
 
-    - Nenhum compartilhamento de dados é necessário. Os autores devem informá-lo na Declaração de Ciência Aberta (Open Science Statement).
+    - Os autores devem informar caráter teórico na Declaração de Ciência Aberta.
 
 --
 
@@ -81,12 +90,12 @@ class: left
 
 - **Dados secundários: Compartilhamento obrigatório**
 
-    - Banco Mundial, Ipeadata, dados do governo, etc.
+    - Banco Mundial, Ipeadata, dados governamentais, etc.
 --
 
 - **Dados reutilizados: Compartilhamento obrigatório**
 
-    - Dados em repositórios públicos, como Dataverse, Mendeley, etc.
+    - Dados em repositórios públicos (Dataverse, Mendeley, etc.)
 --
 
 
@@ -134,7 +143,8 @@ class: left
 
         - Apresentar **código** com comandos para baixar os dados da fonte original,
         - Apresentar **tabela** com nome / título da variável / dados, conforme definido pela fonte original,
-        - Comprometer-se a **apoiar editores e revisores** que tentam replicar resultados.
+        - Comprometer-se a **apoiar editores e revisores** que tentarem replicar resultados.
+        
 
 
 
@@ -161,7 +171,7 @@ class: left
 
 - Materiais geram um doi que pode ser posteriormente **citado**. 
 
-    - Exemplo: esse é o doi do último artigo publicado na RAC: [https://doi.org/10.7910/DVN/ZXBMHD](https://doi.org/10.7910/DVN/ZXBMHD) em **10 de Novembro**.
+    - Exemplo: esse é o doi de um dos últimos artigos publicados na RAC: [https://doi.org/10.7910/DVN/ZXBMHD](https://doi.org/10.7910/DVN/ZXBMHD) em **10 de Novembro**.
 
 
 ---
@@ -178,13 +188,20 @@ class: left
 
 
 
-- **Após o artigo ser aceito**, revisores são convidados a permitirem que sua identificação apareça na versão final do artigo.
+- **Após o artigo ser aceito**, revisores são convidados a permitir que sua identificação apareça na versão final do artigo.
 
 --
 
-- Em paralelo, revisores e autores são convidados a permitirem a publitização de seus reports e suas cartas de resposta.
+- Em paralelo, **revisores e autores são convidados** a permitir a publicidade do conteúdo dos seus reports e suas cartas de resposta.
 
     - Veja um exemplo [aqui](https://rac.anpad.org.br/index.php/rac/issue/view/148)
+    
+--
+
+- **A RAC não altera o conteúdo** dos pareceres em nenhuma situação (erros de digitação, por exemplo, são incluídos)
+  
+    - Somente comentários que violem a ética (comentários depreciativos ou difamatórios) serão editados (omitidos) do relatório. 
+    - Nesses casos, será declarado que partes do relatório foram editadas. 
 
 
 
@@ -194,6 +211,7 @@ class: left
 <img src="slides3-RAC-os.png" width="100%" align="middle" />
 
 
+Exemplo [aqui](https://zenodo.org/record/4002421).
 
 ---
 
