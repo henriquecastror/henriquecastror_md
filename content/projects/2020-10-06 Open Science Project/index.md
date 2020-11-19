@@ -50,15 +50,17 @@ We made significant developments in the field of Open Science.
 
 - We had a Call for Papers of [Data Reuse](https://zenodo.org/record/3858031#.Xs5VoGhKjDd) 
 
+- We implemented an Open peer review process.
 
 These are small but consistent developments to improve academic research in Brazil. The goal is to make it more transparent, reproducible, and accessible to anyone. 
 
-Thanks to the RAC's EIC, [Wesley Mendes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4777646J1), for trusting in me to working in this project.
+Thanks to the RAC's EIC, [Wesley Mendes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4777646J1), for trusting in me to working on this project.
 
 
-# Seminars about Open Science
+## Seminars about Open Science
 
-If you are interest, you can check a talk I had about Open Science:
+If you are interest, you can check the slides I used in recent talks about Open Science:
 
 - https://henriquemartins.net/seminar/2020-08-06-open-science/
+- https://henriquemartins.net/slideslist/2020-11-19-rac-open-science/
 
