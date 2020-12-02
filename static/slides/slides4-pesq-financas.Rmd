@@ -605,9 +605,6 @@ Artigo original [aqui](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2014.
 
 **Controle sintético**
 
-
-
-
 <img src="slides4-synt.png" width="100%" align="center" />
 
 Artigo original [aqui](https://www.jstor.org/stable/pdf/24363579.pdf?refreqid=excelsior%3A4a9d49f1f99ebd90f77fee919aa901fb).
@@ -621,13 +618,104 @@ Artigo original [aqui](https://www.jstor.org/stable/pdf/24363579.pdf?refreqid=ex
 
 
 
+---
+
+class: center, middle
+
+
+# Highlights sobre Open Science (Ciência Aberta)
+
+
 
 
 
 
 ---
 
-# Preocupações recentes em pesquisa quantitativa: Open Science (OS)
+# Preocupações recentes em pesquisa
+
+**P-Hacking**
+
+<img src="slides4-phacking.png" width="90%" align="center" />
+
+$$\\[0.5cm]$$
+
+Artigo original [aqui](https://doi.org/10.1111/jofi.12530).
+
+
+---
+
+# Preocupações recentes em pesquisa
+
+**Publication bias**
+
+<img src="slides4-Harvey-2017.png" width="60%" align="right" />
+
+$$\\[0.5cm]$$
+
+Artigo original [aqui](https://doi.org/10.1111/jofi.12530).
+
+
+
+
+
+
+
+ 
+---
+
+# Preocupações recentes em pesquisa 
+
+**Crise de replicação**
+
+<img src="slides4-aguinis.png" width="80%" align="middle" />
+
+
+$$\\[1cm]$$
+
+
+Artigo original [aqui](https://link.springer.com/article/10.1057/s41267-017-0081-0).
+
+
+
+
+
+
+
+
+
+---
+
+# Open Science (OS)
+
+" _Open science encompasses unhindered access to scientific articles, **access to data from public research**, and **collaborative research** enabled by ICT tools and incentives._ 
+
+_Broadening access to scientific publications and data is at the heart of open science, so that research outputs are in **the hands of as many as possible**, and potential benefits are **spread as widely as possible**_" ([OCDE](https://www.oecd.org/science/inno/open-science.htm)).
+
+$$\\[0.4cm]$$
+--
+
+**É um movimento internacional, já presente em vários campos de pesquisa, com o objetivo de tornar a pesquisa acadêmica mais transparente, acessível e relevante.**
+
+
+$$\\[0.4cm]$$
+--
+
+Exemplo mais recente: **Dados de COVID** ([link](https://www.oecd.org/coronavirus/policy-responses/why-open-science-is-critical-to-combatting-covid-19-cd6ab2f9/)).
+
+
+
+
+
+
+
+
+
+---
+
+# Open Science
+
+- [Editorial Open Science](https://rac.anpad.org.br/index.php/rac/article/view/1376) - RAC 2020
 
 - [Dados abertos](https://rac.anpad.org.br/index.php/rac/article/view/1384)
 
@@ -637,17 +725,13 @@ Artigo original [aqui](https://www.jstor.org/stable/pdf/24363579.pdf?refreqid=ex
 
 - [Artigos-tutoriais](https://rac.anpad.org.br/index.php/rac/article/view/1391) (Open Education)
 
-- Artigos depositados como preprints podem ser submetidos
-
-$$\\[2cm]$$
-
-Política completa pode ser encontrada [aqui](https://rac.anpad.org.br/index.php/rac/openscience).
-
-
-Declaração de Ciência Aberta pode ser encontrada  [aqui](https://rac.anpad.org.br/index.php/rac/about/submissions).
+- Apresentação completa sobre Open Science
+    
+    - [Seminário UFV](https://henriquemartins.net/seminar/2020-08-06-open-science/)
+    - Praticada na [RAC](https://henriquemartins.net/slideslist/2020-11-19-rac-open-science/)
+    
 
 
----
 
 
 
@@ -661,9 +745,17 @@ class: left
 
 - Após o artigo ser aceito, autores são convidados a disponibilizar os dados e demais materiais de pesquisa em **repositório público** 
 
-    - [Mendeley data](https://data.mendeley.com/)).
-    - [Dataverse](https://dataverse.harvard.edu/dataverse).
+    - [Mendeley data](https://data.mendeley.com/)
+    - [Dataverse](https://dataverse.harvard.edu/)
 
+
+--
+
+- Exemplo, se você entrar aqui, **verá todos os passos empíricos** que os autores fizeram para chegar aos resultados que chegaram.
+
+    - Você pode aprender o que eles fizeram
+    - **Se você achar um erro**, você pode fazer contato para retratação ou pedir mais informações aos autores
+    
 --
 
 - Materiais geram um doi que pode ser posteriormente **citado**. 
@@ -677,14 +769,6 @@ class: left
 
 
 
-
----
-
-# P-hacking
-
-
-
-<img src="slides4-Harvey-2017.png" width="80%" align="center" />
 
 
 
