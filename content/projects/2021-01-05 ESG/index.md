@@ -3,7 +3,6 @@ title: ESG
 summary: Undestanding the antecedents and consequences of corporate ESG
 
 tags:
-- Open Science
 - Governance
 - ESG
 

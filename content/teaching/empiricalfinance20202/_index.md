@@ -2,7 +2,7 @@
 date: "2020-05-01T00:00:00Z"
 draft: false
 lastmod: "2020-06-25T00:00:00Z"
-linktitle: Empirical Finance
+linktitle: Empirical Finance 2020/02
 menu:
   empiricalfinance20202:
     name: Introduction

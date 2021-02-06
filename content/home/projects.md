@@ -26,16 +26,17 @@ subtitle = ""
   #   tag = "*"
   
  [[content.filter_button]]
-    name = "Open Science"
-    tag = "Open Science"
-  
+    name = "Governance"
+    tag = "Governance"
+
  [[content.filter_button]]
     name = "Corporate Finance"
     tag = "Corporate Finance"
     
  [[content.filter_button]]
-    name = "Governance"
-    tag = "Governance"
+    name = "Open Science"
+    tag = "Open Science"
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
