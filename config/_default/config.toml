@@ -14,7 +14,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "I create this website using wowchemy. Feel free to use all content, but please cite the website if you use. All errors are my own."
+copyright = "I create this website using wowchemy. Feel free to use all content, but please cite the website if you use it. All errors are my own."
 
 ############################
 ## Advanced options below ##
