@@ -7,7 +7,7 @@ bookdown::gitbook:
       after: |
         <li><a href="www.henriquemartins.net" target="blank">Thank you! Obrigado!</a></li>
     edit: 
-    download: 
+    download: []
 #bookdown::pdf_book:
   #includes:
     #in_header: preamble.tex
