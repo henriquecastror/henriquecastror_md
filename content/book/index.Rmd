@@ -10,12 +10,12 @@ link-citations: yes
 github-repo:
 description: "This is a book containing all sorts of notes related to my classes, my articles or projects."
 output:
-  html_document:
+  bookdown::gitbook: default
     toc: true
     toc_depth: 1
     toc_float:
       collapsed: true
-      smooth_scroll: false
+      smooth_scroll: true
 ---
 
 # Book of notes
