@@ -9,6 +9,7 @@ output:
 
 
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -235,7 +236,7 @@ ggplot(dataRDD, aes(x, y))  +
 
 
 **Let's split the observations into two groups now, using X=100 as threshold:** 
-```{r}
+```{r pressure, echo=FALSE}
 # Creating  groupS
 dataRDD$treated <- 0
 dataRDD$treated[dataRDD$x >= 101] <- 1  

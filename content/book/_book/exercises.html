@@ -498,54 +498,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><img src="book-notes_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
 <p><strong>It seems we have an abrupt discontinuity here. The cut seems to be when X = 100. This graph suggests that, ignoring the discontinuity, the association between X and Y is positive.</strong></p>
 <p><strong>Let’s split the observations into two groups now, using X=100 as threshold:</strong></p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="exercises.html#cb18-1"></a><span class="co"># Creating  groupS</span></span>
-<span id="cb18-2"><a href="exercises.html#cb18-2"></a>dataRDD<span class="op">$</span>treated &lt;-<span class="st"> </span><span class="dv">0</span></span>
-<span id="cb18-3"><a href="exercises.html#cb18-3"></a>dataRDD<span class="op">$</span>treated[dataRDD<span class="op">$</span>x <span class="op">&gt;=</span><span class="st"> </span><span class="dv">101</span>] &lt;-<span class="st"> </span><span class="dv">1</span>  </span>
-<span id="cb18-4"><a href="exercises.html#cb18-4"></a></span>
-<span id="cb18-5"><a href="exercises.html#cb18-5"></a><span class="co"># Generate a line graph - two groups</span></span>
-<span id="cb18-6"><a href="exercises.html#cb18-6"></a><span class="kw">ggplot</span>(dataRDD, <span class="kw">aes</span>(x, y, <span class="dt">group=</span>treated, <span class="dt">color =</span> <span class="kw">factor</span>(treated)))  <span class="op">+</span><span class="st"> </span></span>
-<span id="cb18-7"><a href="exercises.html#cb18-7"></a><span class="st">  </span><span class="kw">geom_point</span>( <span class="dt">size=</span><span class="fl">1.25</span>) <span class="op">+</span><span class="st"> </span></span>
-<span id="cb18-8"><a href="exercises.html#cb18-8"></a><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;&quot;</span>, <span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;RDD example&quot;</span>)<span class="op">+</span></span>
-<span id="cb18-9"><a href="exercises.html#cb18-9"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">plot.title =</span> <span class="kw">element_text</span>(<span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size=</span><span class="dv">25</span>, <span class="dt">face=</span><span class="st">&quot;bold&quot;</span>),</span>
-<span id="cb18-10"><a href="exercises.html#cb18-10"></a>        <span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;grey95&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;grey95&quot;</span>),</span>
-<span id="cb18-11"><a href="exercises.html#cb18-11"></a>        <span class="dt">axis.text.y =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
-<span id="cb18-12"><a href="exercises.html#cb18-12"></a>        <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
-<span id="cb18-13"><a href="exercises.html#cb18-13"></a>        <span class="dt">legend.title =</span> <span class="kw">element_blank</span>(),</span>
-<span id="cb18-14"><a href="exercises.html#cb18-14"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
-<span id="cb18-15"><a href="exercises.html#cb18-15"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="book-notes_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="book-notes_files/figure-html/pressure-1.png" width="672" /></p>
 <p><strong>It becomes clear that, within each group, the association is negative.</strong></p>
 <p><strong>Let’s look only for the observations close to the cut for a moment:</strong></p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="exercises.html#cb20-1"></a><span class="co"># define cut</span></span>
-<span id="cb20-2"><a href="exercises.html#cb20-2"></a>cut &lt;-<span class="st"> </span><span class="dv">100</span></span>
-<span id="cb20-3"><a href="exercises.html#cb20-3"></a></span>
-<span id="cb20-4"><a href="exercises.html#cb20-4"></a><span class="co"># define the bandwidth - using 50 observations each side</span></span>
-<span id="cb20-5"><a href="exercises.html#cb20-5"></a>band &lt;-<span class="st"> </span><span class="dv">50</span></span>
-<span id="cb20-6"><a href="exercises.html#cb20-6"></a>xlow =<span class="st"> </span>cut <span class="op">-</span><span class="st"> </span>band</span>
-<span id="cb20-7"><a href="exercises.html#cb20-7"></a>xhigh =<span class="st"> </span>cut <span class="op">+</span><span class="st"> </span>band</span>
-<span id="cb20-8"><a href="exercises.html#cb20-8"></a></span>
-<span id="cb20-9"><a href="exercises.html#cb20-9"></a><span class="co"># subset the data for the bandwidth</span></span>
-<span id="cb20-10"><a href="exercises.html#cb20-10"></a>data &lt;-<span class="st"> </span><span class="kw">subset</span>(dataRDD, x <span class="op">&gt;</span><span class="st"> </span>xlow <span class="op">&amp;</span><span class="st"> </span>x <span class="op">&lt;=</span><span class="st"> </span>xhigh, <span class="dt">select=</span><span class="kw">c</span>(x, y,  treated))</span>
-<span id="cb20-11"><a href="exercises.html#cb20-11"></a></span>
-<span id="cb20-12"><a href="exercises.html#cb20-12"></a><span class="co"># Generate a line graph - two groups</span></span>
-<span id="cb20-13"><a href="exercises.html#cb20-13"></a><span class="kw">ggplot</span>(data, <span class="kw">aes</span>(x, y, <span class="dt">group=</span>treated, <span class="dt">color =</span> <span class="kw">factor</span>(treated)))  <span class="op">+</span><span class="st"> </span></span>
-<span id="cb20-14"><a href="exercises.html#cb20-14"></a><span class="st">  </span><span class="kw">geom_point</span>( <span class="dt">size=</span><span class="fl">1.25</span>) <span class="op">+</span><span class="st"> </span></span>
-<span id="cb20-15"><a href="exercises.html#cb20-15"></a><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;&quot;</span>, <span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;RDD example&quot;</span>)<span class="op">+</span></span>
-<span id="cb20-16"><a href="exercises.html#cb20-16"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">plot.title =</span> <span class="kw">element_text</span>(<span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size=</span><span class="dv">25</span>, <span class="dt">face=</span><span class="st">&quot;bold&quot;</span>),</span>
-<span id="cb20-17"><a href="exercises.html#cb20-17"></a>        <span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;grey95&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;grey95&quot;</span>),</span>
-<span id="cb20-18"><a href="exercises.html#cb20-18"></a>        <span class="dt">axis.text.y =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
-<span id="cb20-19"><a href="exercises.html#cb20-19"></a>        <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
-<span id="cb20-20"><a href="exercises.html#cb20-20"></a>        <span class="dt">legend.title =</span> <span class="kw">element_blank</span>(),</span>
-<span id="cb20-21"><a href="exercises.html#cb20-21"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
-<span id="cb20-22"><a href="exercises.html#cb20-22"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="exercises.html#cb19-1"></a><span class="co"># define cut</span></span>
+<span id="cb19-2"><a href="exercises.html#cb19-2"></a>cut &lt;-<span class="st"> </span><span class="dv">100</span></span>
+<span id="cb19-3"><a href="exercises.html#cb19-3"></a></span>
+<span id="cb19-4"><a href="exercises.html#cb19-4"></a><span class="co"># define the bandwidth - using 50 observations each side</span></span>
+<span id="cb19-5"><a href="exercises.html#cb19-5"></a>band &lt;-<span class="st"> </span><span class="dv">50</span></span>
+<span id="cb19-6"><a href="exercises.html#cb19-6"></a>xlow =<span class="st"> </span>cut <span class="op">-</span><span class="st"> </span>band</span>
+<span id="cb19-7"><a href="exercises.html#cb19-7"></a>xhigh =<span class="st"> </span>cut <span class="op">+</span><span class="st"> </span>band</span>
+<span id="cb19-8"><a href="exercises.html#cb19-8"></a></span>
+<span id="cb19-9"><a href="exercises.html#cb19-9"></a><span class="co"># subset the data for the bandwidth</span></span>
+<span id="cb19-10"><a href="exercises.html#cb19-10"></a>data &lt;-<span class="st"> </span><span class="kw">subset</span>(dataRDD, x <span class="op">&gt;</span><span class="st"> </span>xlow <span class="op">&amp;</span><span class="st"> </span>x <span class="op">&lt;=</span><span class="st"> </span>xhigh, <span class="dt">select=</span><span class="kw">c</span>(x, y,  treated))</span>
+<span id="cb19-11"><a href="exercises.html#cb19-11"></a></span>
+<span id="cb19-12"><a href="exercises.html#cb19-12"></a><span class="co"># Generate a line graph - two groups</span></span>
+<span id="cb19-13"><a href="exercises.html#cb19-13"></a><span class="kw">ggplot</span>(data, <span class="kw">aes</span>(x, y, <span class="dt">group=</span>treated, <span class="dt">color =</span> <span class="kw">factor</span>(treated)))  <span class="op">+</span><span class="st"> </span></span>
+<span id="cb19-14"><a href="exercises.html#cb19-14"></a><span class="st">  </span><span class="kw">geom_point</span>( <span class="dt">size=</span><span class="fl">1.25</span>) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb19-15"><a href="exercises.html#cb19-15"></a><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;&quot;</span>, <span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;RDD example&quot;</span>)<span class="op">+</span></span>
+<span id="cb19-16"><a href="exercises.html#cb19-16"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">plot.title =</span> <span class="kw">element_text</span>(<span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size=</span><span class="dv">25</span>, <span class="dt">face=</span><span class="st">&quot;bold&quot;</span>),</span>
+<span id="cb19-17"><a href="exercises.html#cb19-17"></a>        <span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;grey95&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;grey95&quot;</span>),</span>
+<span id="cb19-18"><a href="exercises.html#cb19-18"></a>        <span class="dt">axis.text.y =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb19-19"><a href="exercises.html#cb19-19"></a>        <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb19-20"><a href="exercises.html#cb19-20"></a>        <span class="dt">legend.title =</span> <span class="kw">element_blank</span>(),</span>
+<span id="cb19-21"><a href="exercises.html#cb19-21"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
+<span id="cb19-22"><a href="exercises.html#cb19-22"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
 <pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
-<p><img src="book-notes_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
 <p><strong>It seems that, close to the cut, the associations are different: it is positive when X &lt; cut, and negative when X&gt;cut. We may use this finding to define our RDD model below.</strong></p>
 <p><strong>Let’s estimate the RDD now:</strong></p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="exercises.html#cb22-1"></a><span class="co"># Regression  - not RDD yet (this is the result of the first graph)</span></span>
-<span id="cb22-2"><a href="exercises.html#cb22-2"></a>rdd1 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>x   , <span class="dt">data =</span> data)</span>
-<span id="cb22-3"><a href="exercises.html#cb22-3"></a><span class="kw">summary</span>(rdd1)</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="exercises.html#cb21-1"></a><span class="co"># Regression  - not RDD yet (this is the result of the first graph)</span></span>
+<span id="cb21-2"><a href="exercises.html#cb21-2"></a>rdd1 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>x   , <span class="dt">data =</span> data)</span>
+<span id="cb21-3"><a href="exercises.html#cb21-3"></a><span class="kw">summary</span>(rdd1)</span></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = y ~ x, data = data)
@@ -564,15 +549,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## Residual standard error: 9.817 on 98 degrees of freedom
 ## Multiple R-squared:  0.6576, Adjusted R-squared:  0.6542 
 ## F-statistic: 188.3 on 1 and 98 DF,  p-value: &lt; 2.2e-16</code></pre>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="exercises.html#cb24-1"></a><span class="co"># Generating xhat - Now we are going to the RDD</span></span>
-<span id="cb24-2"><a href="exercises.html#cb24-2"></a>data<span class="op">$</span>xhat &lt;-<span class="st"> </span>data<span class="op">$</span>x <span class="op">-</span><span class="st"> </span>cut</span>
-<span id="cb24-3"><a href="exercises.html#cb24-3"></a></span>
-<span id="cb24-4"><a href="exercises.html#cb24-4"></a><span class="co"># Generating xhat * treated to allow different inclinations (we will use the findings of the last graph, i.e. that each group has a different trend.)</span></span>
-<span id="cb24-5"><a href="exercises.html#cb24-5"></a>data<span class="op">$</span>xhat_treated &lt;-<span class="st"> </span>data<span class="op">$</span>xhat <span class="op">*</span><span class="st"> </span>data<span class="op">$</span>treated</span>
-<span id="cb24-6"><a href="exercises.html#cb24-6"></a></span>
-<span id="cb24-7"><a href="exercises.html#cb24-7"></a><span class="co"># RDD Assuming different trends</span></span>
-<span id="cb24-8"><a href="exercises.html#cb24-8"></a>rdd2 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>xhat <span class="op">+</span><span class="st"> </span>treated  <span class="op">+</span><span class="st"> </span>xhat_treated, <span class="dt">data =</span> data)</span>
-<span id="cb24-9"><a href="exercises.html#cb24-9"></a><span class="kw">summary</span>(rdd2)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="exercises.html#cb23-1"></a><span class="co"># Generating xhat - Now we are going to the RDD</span></span>
+<span id="cb23-2"><a href="exercises.html#cb23-2"></a>data<span class="op">$</span>xhat &lt;-<span class="st"> </span>data<span class="op">$</span>x <span class="op">-</span><span class="st"> </span>cut</span>
+<span id="cb23-3"><a href="exercises.html#cb23-3"></a></span>
+<span id="cb23-4"><a href="exercises.html#cb23-4"></a><span class="co"># Generating xhat * treated to allow different inclinations (we will use the findings of the last graph, i.e. that each group has a different trend.)</span></span>
+<span id="cb23-5"><a href="exercises.html#cb23-5"></a>data<span class="op">$</span>xhat_treated &lt;-<span class="st"> </span>data<span class="op">$</span>xhat <span class="op">*</span><span class="st"> </span>data<span class="op">$</span>treated</span>
+<span id="cb23-6"><a href="exercises.html#cb23-6"></a></span>
+<span id="cb23-7"><a href="exercises.html#cb23-7"></a><span class="co"># RDD Assuming different trends</span></span>
+<span id="cb23-8"><a href="exercises.html#cb23-8"></a>rdd2 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>xhat <span class="op">+</span><span class="st"> </span>treated  <span class="op">+</span><span class="st"> </span>xhat_treated, <span class="dt">data =</span> data)</span>
+<span id="cb23-9"><a href="exercises.html#cb23-9"></a><span class="kw">summary</span>(rdd2)</span></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = y ~ xhat + treated + xhat_treated, data = data)

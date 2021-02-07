@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>A messy book of notes / Meu bloco de notas sobre tudo</title>
+  <meta name="description" content="This is a book containing all sorts of notes related to my classes, my articles or projects." />
+  <meta name="generator" content="bookdown #bookdown:version# and GitBook 2.6.7" />
+
+  <meta property="og:title" content="A messy book of notes / Meu bloco de notas sobre tudo" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a book containing all sorts of notes related to my classes, my articles or projects." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="A messy book of notes / Meu bloco de notas sobre tudo" />
+  
+  <meta name="twitter:description" content="This is a book containing all sorts of notes related to my classes, my articles or projects." />
+  
+
+<meta name="author" content="Henrique Castro Martins (hcm@iag.puc-rio.br)" />
+
+
+<meta name="date" content="2021-02-07" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">A messy book of notes / Meu bloco de notas sobre tudo</h1>
+<p class="author"><em>Henrique Castro Martins (<a href="mailto:hcm@iag.puc-rio.br" class="email">hcm@iag.puc-rio.br</a>)</em></p>
+<p class="date"><em>2021-02-07</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#book-of-notes"><span class="toc-section-number">1</span> Book of notes</a></li>
+<li><a href="#journals-rankings"><span class="toc-section-number">2</span> Journals’ rankings</a></li>
+<li><a href="#literature"><span class="toc-section-number">3</span> Literature</a><ul>
+<li><a href="#list-of-papers---classic"><span class="toc-section-number">3.1</span> List of papers - Classic</a></li>
+<li><a href="#list-of-papers---corporate-finance"><span class="toc-section-number">3.2</span> List of papers - Corporate Finance</a></li>
+<li><a href="#list-of-papers---governance"><span class="toc-section-number">3.3</span> List of papers - Governance</a></li>
+<li><a href="#list-of-papers---open-science"><span class="toc-section-number">3.4</span> List of papers - Open Science</a></li>
+<li><a href="#list-of-materials---econometrics"><span class="toc-section-number">3.5</span> List of materials - Econometrics</a></li>
+<li><a href="#list-of-books---finance"><span class="toc-section-number">3.6</span> List of books - Finance</a></li>
+<li><a href="#list-of-papers---science"><span class="toc-section-number">3.7</span> List of papers - Science</a></li>
+</ul></li>
+<li><a href="#master-syllabus-2020.2"><span class="toc-section-number">4</span> Master Syllabus (2020.2)</a><ul>
+<li><a href="#syllabus"><span class="toc-section-number">4.1</span> Syllabus</a></li>
+<li><a href="#goals"><span class="toc-section-number">4.2</span> Goals</a></li>
+<li><a href="#program"><span class="toc-section-number">4.3</span> Program</a></li>
+<li><a href="#grading"><span class="toc-section-number">4.4</span> Grading</a></li>
+<li><a href="#mandatory-readings"><span class="toc-section-number">4.5</span> Mandatory readings</a></li>
+<li><a href="#schedule-days"><span class="toc-section-number">4.6</span> Schedule (days)</a></li>
+</ul></li>
+<li><a href="#exercises"><span class="toc-section-number">5</span> Exercises</a><ul>
+<li><a href="#master-coding-marathon-2020-oct"><span class="toc-section-number">5.1</span> Master coding marathon (2020 Oct)</a><ul>
+<li><a href="#exercise-1"><span class="toc-section-number">5.1.1</span> Exercise 1</a></li>
+<li><a href="#exercise-2"><span class="toc-section-number">5.1.2</span> Exercise 2</a></li>
+<li><a href="#exercise-3"><span class="toc-section-number">5.1.3</span> Exercise 3</a></li>
+<li><a href="#exercise-4"><span class="toc-section-number">5.1.4</span> Exercise 4</a></li>
+<li><a href="#exercise-5"><span class="toc-section-number">5.1.5</span> Exercise 5</a></li>
+<li><a href="#conclusion"><span class="toc-section-number">5.1.6</span> Conclusion</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A messy book of notes / Meu bloco de notas sobre tudo</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<div id="book-of-notes" class="section level1">
+<h1><span class="header-section-number">1</span> Book of notes</h1>
+<p>Placeholder</p>
+<!--chapter:end:index.Rmd-->
+</div>
+<div id="journals-rankings" class="section level1">
+<h1><span class="header-section-number">2</span> Journals’ rankings</h1>
+<p><strong>Updated in: “2021-02-07”</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col width="68%" />
+<col width="6%" />
+<col width="10%" />
+<col width="3%" />
+<col width="6%" />
+<col width="3%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Journal</th>
+<th align="left">Qualis</th>
+<th align="left">Qualis new</th>
+<th align="left">ABS</th>
+<th align="left">JCR</th>
+<th align="left">H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Abacus</td>
+<td align="left">A2</td>
+<td align="left">B1</td>
+<td align="left">3</td>
+<td align="left">1.975</td>
+<td align="left">41</td>
+</tr>
+<tr class="even">
+<td align="left">Academy of Management Journal</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">7.571</td>
+<td align="left">304</td>
+</tr>
+<tr class="odd">
+<td align="left">Academy of Management Perspectives</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">5.098</td>
+<td align="left">123</td>
+</tr>
+<tr class="even">
+<td align="left">Academy of Management Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">8.413</td>
+<td align="left">260</td>
+</tr>
+<tr class="odd">
+<td align="left">Accounting and Business Research</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.833</td>
+<td align="left">52</td>
+</tr>
+<tr class="even">
+<td align="left">Accounting and Finance</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">2.217</td>
+<td align="left">44</td>
+</tr>
+<tr class="odd">
+<td align="left">Accounting Horizons</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.576</td>
+<td align="left">69</td>
+</tr>
+<tr class="even">
+<td align="left">Accounting Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">3.993</td>
+<td align="left">143</td>
+</tr>
+<tr class="odd">
+<td align="left">Accounting, Auditing and Accountability Journal</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">3.497</td>
+<td align="left">92</td>
+</tr>
+<tr class="even">
+<td align="left">Accounting, Organizations and Society</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">3.958</td>
+<td align="left">125</td>
+</tr>
+<tr class="odd">
+<td align="left">Administrative Science Quarterly</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">8.391</td>
+<td align="left">175</td>
+</tr>
+<tr class="even">
+<td align="left">Annals of Corporate Governance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Annals of Economics and Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">0.396</td>
+<td align="left">21</td>
+</tr>
+<tr class="even">
+<td align="left">Annals of Finance</td>
+<td align="left">A2</td>
+<td align="left">A3</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">23</td>
+</tr>
+<tr class="odd">
+<td align="left">Annual Review of Financial Economics</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">2.057</td>
+<td align="left">27</td>
+</tr>
+<tr class="even">
+<td align="left">Applied Economics</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">1.103</td>
+<td align="left">78</td>
+</tr>
+<tr class="odd">
+<td align="left">Applied Economics Letters</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">1</td>
+<td align="left">0.752</td>
+<td align="left">47</td>
+</tr>
+<tr class="even">
+<td align="left">Applied Financial Economics</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">BAR. BRAZILIAN ADMINISTRATION REVIEW</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">BBR. BRAZILIAN BUSINESS REVIEW</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Business and Society</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">4.074</td>
+<td align="left">70</td>
+</tr>
+<tr class="even">
+<td align="left">Business Ethics Quarterly</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.625</td>
+<td align="left">70</td>
+</tr>
+<tr class="odd">
+<td align="left">Business Horizons</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">2</td>
+<td align="left">3.444</td>
+<td align="left">76</td>
+</tr>
+<tr class="even">
+<td align="left">Contemporary Accounting Research</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.026</td>
+<td align="left">90</td>
+</tr>
+<tr class="odd">
+<td align="left">Corporate Governance: An International Review</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">2.294</td>
+<td align="left">53</td>
+</tr>
+<tr class="even">
+<td align="left">Corporate Governance: The International Journal of Business in Society</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Corporate Social Responsibility and Environmental Management</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">1</td>
+<td align="left">4.542</td>
+<td align="left">66</td>
+</tr>
+<tr class="even">
+<td align="left">Economics and Finance Research</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Economics Letters</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">1.745</td>
+<td align="left">92</td>
+</tr>
+<tr class="even">
+<td align="left">Economics of Governance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1</td>
+<td align="left">0.710</td>
+<td align="left">25</td>
+</tr>
+<tr class="odd">
+<td align="left">Emerging Markets Finance and Trade</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">1.214</td>
+<td align="left">29</td>
+</tr>
+<tr class="even">
+<td align="left">Emerging Markets Review</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">3.092</td>
+<td align="left">45</td>
+</tr>
+<tr class="odd">
+<td align="left">European Accounting Review</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.855</td>
+<td align="left">70</td>
+</tr>
+<tr class="even">
+<td align="left">European Financial Management</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.470</td>
+<td align="left">60</td>
+</tr>
+<tr class="odd">
+<td align="left">European Journal of Finance</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.217</td>
+<td align="left">31</td>
+</tr>
+<tr class="even">
+<td align="left">Family Business Review</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">5.212</td>
+<td align="left">96</td>
+</tr>
+<tr class="odd">
+<td align="left">Finance Research Letters</td>
+<td align="left">A2</td>
+<td align="left">A3</td>
+<td align="left">2</td>
+<td align="left">3.527</td>
+<td align="left">31</td>
+</tr>
+<tr class="even">
+<td align="left">Financial Analysts Journal</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.682</td>
+<td align="left">74</td>
+</tr>
+<tr class="odd">
+<td align="left">Financial Management</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.677</td>
+<td align="left">63</td>
+</tr>
+<tr class="even">
+<td align="left">Financial Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">44</td>
+</tr>
+<tr class="odd">
+<td align="left">Global Finance Journal</td>
+<td align="left">-</td>
+<td align="left">A3</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">32</td>
+</tr>
+<tr class="even">
+<td align="left">Global Strategy Journal</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">4.065</td>
+<td align="left">18</td>
+</tr>
+<tr class="odd">
+<td align="left">International Business Review</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">3.953</td>
+<td align="left">87</td>
+</tr>
+<tr class="even">
+<td align="left">International Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">0.848</td>
+<td align="left">38</td>
+</tr>
+<tr class="odd">
+<td align="left">International Journal of Accounting</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">50</td>
+</tr>
+<tr class="even">
+<td align="left">International Journal of Disclosure and Governance</td>
+<td align="left">A2</td>
+<td align="left">A4</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">16</td>
+</tr>
+<tr class="odd">
+<td align="left">International Journal of Emerging Markets</td>
+<td align="left">B1</td>
+<td align="left">B1</td>
+<td align="left">1</td>
+<td align="left">1.022</td>
+<td align="left">26</td>
+</tr>
+<tr class="even">
+<td align="left">International Journal of Finance and Economics</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">3</td>
+<td align="left">0.943</td>
+<td align="left">37</td>
+</tr>
+<tr class="odd">
+<td align="left">International Journal of Management Reviews</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">8.631</td>
+<td align="left">96</td>
+</tr>
+<tr class="even">
+<td align="left">International Journal of Management, Economics and Social Sciences</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">International Journal of Managerial Finance</td>
+<td align="left">A2</td>
+<td align="left">A3</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">22</td>
+</tr>
+<tr class="even">
+<td align="left">International Review of Applied Economics</td>
+<td align="left">A2</td>
+<td align="left">A3</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">37</td>
+</tr>
+<tr class="odd">
+<td align="left">International Review of Economics and Finance</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">1.818</td>
+<td align="left">47</td>
+</tr>
+<tr class="even">
+<td align="left">International Review of Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1.177</td>
+<td align="left">15</td>
+</tr>
+<tr class="odd">
+<td align="left">International Review of Financial Analysis</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">2.497</td>
+<td align="left">49</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Accounting and Economics</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">3.723</td>
+<td align="left">143</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Accounting Research</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">3.773</td>
+<td align="left">132</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Accounting, Auditing and Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">47</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Applied Accounting Research</td>
+<td align="left">-</td>
+<td align="left">A3</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">19</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Applied Corporate Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Banking and Finance</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">2.269</td>
+<td align="left">148</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Behavioral Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">0.930</td>
+<td align="left">17</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Business Economics</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">17</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Business Ethics</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">4.141</td>
+<td align="left">168</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Business Finance and Accounting</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.473</td>
+<td align="left">72</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Business Research</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">4.874</td>
+<td align="left">179</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Comparative Economics</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.992</td>
+<td align="left">78</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Contemporary Accounting and Economics</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">1.690</td>
+<td align="left">18</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Corporate Finance</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">4</td>
+<td align="left">2.521</td>
+<td align="left">91</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Economics and Business</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">47</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Economics and Management Strategy</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">1.432</td>
+<td align="left">65</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Empirical Finance</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.566</td>
+<td align="left">69</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Finance</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">6.813</td>
+<td align="left">285</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Financial and Quantitative Analysis</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.707</td>
+<td align="left">110</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Financial Econometrics</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">1.595</td>
+<td align="left">37</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Financial Economics</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">5.731</td>
+<td align="left">240</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Financial Intermediation</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.820</td>
+<td align="left">72</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Financial Markets</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.677</td>
+<td align="left">56</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Financial Research</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.263</td>
+<td align="left">46</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Financial Services Research</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.587</td>
+<td align="left">50</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Financial Stability</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">3</td>
+<td align="left">2.451</td>
+<td align="left">45</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Futures Markets</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">3</td>
+<td align="left">1.359</td>
+<td align="left">50</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of International Accounting, Auditing and Taxation</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">39</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of International Business Studies</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">9.158</td>
+<td align="left">184</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of International Financial Management and Accounting</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">2.280</td>
+<td align="left">35</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of International Financial Markets, Institutions and Money</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">2.553</td>
+<td align="left">52</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of International Management</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">3.821</td>
+<td align="left">66</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of International Money and Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">2.014</td>
+<td align="left">91</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Management</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">8.880</td>
+<td align="left">208</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Management &amp; Organization</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Management and Governance</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">47</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Management Inquiry</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.778</td>
+<td align="left">60</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of Management Studies</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">4</td>
+<td align="left">4.888</td>
+<td align="left">172</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of Multinational Financial Management</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">1.965</td>
+<td align="left">40</td>
+</tr>
+<tr class="odd">
+<td align="left">Journal of the American Taxation Association</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">20</td>
+</tr>
+<tr class="even">
+<td align="left">Journal of World Business</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">4</td>
+<td align="left">5.194</td>
+<td align="left">104</td>
+</tr>
+<tr class="odd">
+<td align="left">Long Range Planning</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">4.041</td>
+<td align="left">96</td>
+</tr>
+<tr class="even">
+<td align="left">Management and Organization Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">2.339</td>
+<td align="left">59</td>
+</tr>
+<tr class="odd">
+<td align="left">Management International Review</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">2.015</td>
+<td align="left">53</td>
+</tr>
+<tr class="even">
+<td align="left">Management Science</td>
+<td align="left">A1</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">3.935</td>
+<td align="left">237</td>
+</tr>
+<tr class="odd">
+<td align="left">Managerial and Decision Economics</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">0.494</td>
+<td align="left">50</td>
+</tr>
+<tr class="even">
+<td align="left">Managerial Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">35</td>
+</tr>
+<tr class="odd">
+<td align="left">Multinational Business Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">2.216</td>
+<td align="left">26</td>
+</tr>
+<tr class="even">
+<td align="left">North American Journal of Economics and Finance</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">1.535</td>
+<td align="left">34</td>
+</tr>
+<tr class="odd">
+<td align="left">Quantitative Finance</td>
+<td align="left">A1</td>
+<td align="left">A4</td>
+<td align="left">3</td>
+<td align="left">1.491</td>
+<td align="left">65</td>
+</tr>
+<tr class="even">
+<td align="left">Quarterly Journal of Economics</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">4*</td>
+<td align="left">11.375</td>
+<td align="left">246</td>
+</tr>
+<tr class="odd">
+<td align="left">Quarterly Review of Economics and Finance</td>
+<td align="left">A1</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">48</td>
+</tr>
+<tr class="even">
+<td align="left">RAC. REVISTA DE ADMINISTRAÇÃO CONTEMPORÂNEA</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">RAE-REVISTA DE ADMINISTRACAO DE EMPRESAS</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">0.472</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">RAUSP - REVISTA DE ADMINISTRAÇÃO (FEA-USP)</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">RBGN-REVISTA BRASILEIRA DE GESTAO DE NEGOCIOS</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">0.875</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">Research in International Business and Finance</td>
+<td align="left">A2</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">1.801</td>
+<td align="left">35</td>
+</tr>
+<tr class="odd">
+<td align="left">Review of Accounting and Finance</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">19</td>
+</tr>
+<tr class="even">
+<td align="left">Review of Accounting Studies</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.600</td>
+<td align="left">67</td>
+</tr>
+<tr class="odd">
+<td align="left">Review of Behavioral Finance</td>
+<td align="left">-</td>
+<td align="left">A3</td>
+<td align="left">1</td>
+<td align="left">-</td>
+<td align="left">10</td>
+</tr>
+<tr class="even">
+<td align="left">Review of Corporate Finance Studies</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Review of Finance</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">4</td>
+<td align="left">2.885</td>
+<td align="left">53</td>
+</tr>
+<tr class="even">
+<td align="left">Review of Financial Studies</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">4.649</td>
+<td align="left">174</td>
+</tr>
+<tr class="odd">
+<td align="left">Review of Law and Economics</td>
+<td align="left">-</td>
+<td align="left">A2</td>
+<td align="left">2</td>
+<td align="left">-</td>
+<td align="left">17</td>
+</tr>
+<tr class="even">
+<td align="left">Review of Managerial Science</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">3.000</td>
+<td align="left">20</td>
+</tr>
+<tr class="odd">
+<td align="left">Review of Quantitative Finance and Accounting</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">-</td>
+<td align="left">39</td>
+</tr>
+<tr class="even">
+<td align="left">REVISTA BRASILEIRA DE FINANÇAS</td>
+<td align="left">B1</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">REVISTA DE CONTABILIDADE E FINANÇAS</td>
+<td align="left">A2</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">Small Business Economics</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">4.803</td>
+<td align="left">120</td>
+</tr>
+<tr class="odd">
+<td align="left">Socio-Economic Review</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">3</td>
+<td align="left">3.774</td>
+<td align="left">51</td>
+</tr>
+<tr class="even">
+<td align="left">Strategic Management Journal</td>
+<td align="left">A1</td>
+<td align="left">-</td>
+<td align="left">4*</td>
+<td align="left">5.471</td>
+<td align="left">269</td>
+</tr>
+<tr class="odd">
+<td align="left">Strategic Organization</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">3.413</td>
+<td align="left">51</td>
+</tr>
+<tr class="even">
+<td align="left">World Bank Economic Review</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">3</td>
+<td align="left">1.761</td>
+<td align="left">85</td>
+</tr>
+<tr class="odd">
+<td align="left">World Bank Research Observer</td>
+<td align="left">-</td>
+<td align="left">-</td>
+<td align="left">2</td>
+<td align="left">3.500</td>
+<td align="left">61</td>
+</tr>
+<tr class="even">
+<td align="left">World Economy</td>
+<td align="left">-</td>
+<td align="left">A1</td>
+<td align="left">2</td>
+<td align="left">0.960</td>
+<td align="left">64</td>
+</tr>
+</tbody>
+</table>
+<!--chapter:end:01-smartacademy.Rmd-->
+</div>
+<div id="literature" class="section level1">
+<h1><span class="header-section-number">3</span> Literature</h1>
+<p>Placeholder</p>
+<div id="list-of-papers---classic" class="section level2">
+<h2><span class="header-section-number">3.1</span> List of papers - Classic</h2>
+</div>
+<div id="list-of-papers---corporate-finance" class="section level2">
+<h2><span class="header-section-number">3.2</span> List of papers - Corporate Finance</h2>
+</div>
+<div id="list-of-papers---governance" class="section level2">
+<h2><span class="header-section-number">3.3</span> List of papers - Governance</h2>
+</div>
+<div id="list-of-papers---open-science" class="section level2">
+<h2><span class="header-section-number">3.4</span> List of papers - Open Science</h2>
+</div>
+<div id="list-of-materials---econometrics" class="section level2">
+<h2><span class="header-section-number">3.5</span> List of materials - Econometrics</h2>
+</div>
+<div id="list-of-books---finance" class="section level2">
+<h2><span class="header-section-number">3.6</span> List of books - Finance</h2>
+</div>
+<div id="list-of-papers---science" class="section level2">
+<h2><span class="header-section-number">3.7</span> List of papers - Science</h2>
+<!--chapter:end:02-literature.Rmd-->
+</div>
+</div>
+<div id="master-syllabus-2020.2" class="section level1">
+<h1><span class="header-section-number">4</span> Master Syllabus (2020.2)</h1>
+<p>Placeholder</p>
+<div id="syllabus" class="section level2">
+<h2><span class="header-section-number">4.1</span> Syllabus</h2>
+</div>
+<div id="goals" class="section level2">
+<h2><span class="header-section-number">4.2</span> Goals</h2>
+</div>
+<div id="program" class="section level2">
+<h2><span class="header-section-number">4.3</span> Program</h2>
+</div>
+<div id="grading" class="section level2">
+<h2><span class="header-section-number">4.4</span> Grading</h2>
+</div>
+<div id="mandatory-readings" class="section level2">
+<h2><span class="header-section-number">4.5</span> Mandatory readings</h2>
+</div>
+<div id="schedule-days" class="section level2">
+<h2><span class="header-section-number">4.6</span> Schedule (days)</h2>
+<!--chapter:end:03-master-syllabus-2020-2.Rmd-->
+</div>
+</div>
+<div id="exercises" class="section level1">
+<h1><span class="header-section-number">5</span> Exercises</h1>
+<div id="master-coding-marathon-2020-oct" class="section level2">
+<h2><span class="header-section-number">5.1</span> Master coding marathon (2020 Oct)</h2>
+<p><strong>This is part of my Master course: Empirical Corporate Finance and Governance</strong></p>
+<p><strong>Before we start, load the following packages</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">library</span>(plm)       </span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">library</span>(tseries)   </span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="kw">library</span>(haven)</span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="kw">library</span>(readxl)</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="kw">library</span>(AER)</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="kw">library</span>(ggplot2)</span></code></pre></div>
+<div id="exercise-1" class="section level3">
+<h3><span class="header-section-number">5.1.1</span> Exercise 1</h3>
+<p><strong>1) Using the dataset CRIME2.dta, provide an estimation and a THOROUGH interpretation of the following model:</strong></p>
+<p><span class="math display">\[crimes_{i,t}  = β_1+ β_2 Pop_{i,t}+β_3 unem+β_4 officers+γ_i+ε_t\]</span></p>
+<p><strong>Where γ_i = Area fixed effects</strong></p>
+<p><strong>The solution is:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())</span>
+<span id="cb2-2"><a href="#cb2-2"></a>data &lt;-<span class="st"> </span><span class="kw">read_dta</span>(<span class="st">&quot;files/CRIME2.DTA&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3"></a>datapanel &lt;-<span class="st"> </span><span class="kw">pdata.frame</span>(data, <span class="dt">index=</span><span class="kw">c</span>(<span class="st">&quot;area&quot;</span>,<span class="st">&quot;year&quot;</span>))</span>
+<span id="cb2-4"><a href="#cb2-4"></a>EX_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">plm</span>(crimes <span class="op">~</span><span class="st"> </span>pop <span class="op">+</span><span class="st"> </span>unem <span class="op">+</span><span class="st"> </span>officers , <span class="dt">data=</span>datapanel, <span class="dt">model=</span><span class="st">&quot;within&quot;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="kw">summary</span>(EX_<span class="dv">1</span>)</span></code></pre></div>
+<pre><code>## Oneway (individual) effect Within Model
+## 
+## Call:
+## plm(formula = crimes ~ pop + unem + officers, data = datapanel, 
+##     model = &quot;within&quot;)
+## 
+## Balanced Panel: n = 46, T = 2, N = 92
+## 
+## Residuals:
+##     Min.  1st Qu.   Median  3rd Qu.     Max. 
+## -18940.2  -2275.3      0.0   2275.3  18940.2 
+## 
+## Coefficients:
+##            Estimate Std. Error t-value Pr(&gt;|t|)  
+## pop        0.096297   0.041652  2.3119  0.02564 *
+## unem     153.656368 301.509194  0.5096  0.61292  
+## officers  16.864757   9.080762  1.8572  0.07014 .
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Total Sum of Squares:    3007200000
+## Residual Sum of Squares: 2437400000
+## R-Squared:      0.18947
+## Adj. R-Squared: -0.7153
+## F-statistic: 3.35062 on 3 and 43 DF, p-value: 0.027546</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>An increase of 1 person in population is associated with an increase of 0.09 points of crime. The significance is at the 3% level.</li>
+<li>The number of officers is positively associated with crime. The significance is at the 8 % level.</li>
+<li>The remaining two variables are not significant.</li>
+<li>R-squared seems ok, around 19%</li>
+</ul>
+</div>
+<div id="exercise-2" class="section level3">
+<h3><span class="header-section-number">5.1.2</span> Exercise 2</h3>
+<p><strong>2) Repeat exercise 1 using a first difference model.</strong></p>
+<p><strong>The solution is</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>EX_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">plm</span>(crimes <span class="op">~</span><span class="st"> </span>pop <span class="op">+</span>unem <span class="op">+</span>officers , <span class="dt">data=</span>datapanel, <span class="dt">model=</span><span class="st">&quot;fd&quot;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="kw">summary</span>(EX_<span class="dv">2</span>)</span></code></pre></div>
+<pre><code>## Oneway (individual) effect First-Difference Model
+## 
+## Call:
+## plm(formula = crimes ~ pop + unem + officers, data = datapanel, 
+##     model = &quot;fd&quot;)
+## 
+## Balanced Panel: n = 46, T = 2, N = 92
+## Observations used in estimation: 46
+## 
+## Residuals:
+##      Min.   1st Qu.    Median   3rd Qu.      Max. 
+## -23327.99  -4808.84   -434.39   4177.11  32626.66 
+## 
+## Coefficients:
+##               Estimate Std. Error t-value Pr(&gt;|t|)  
+## (Intercept) 6.6076e+03 2.5187e+03  2.6234  0.01208 *
+## pop         5.7103e-02 4.1825e-02  1.3653  0.17943  
+## unem        1.1122e+03 4.6203e+02  2.4072  0.02055 *
+## officers    1.5668e+01 8.5291e+00  1.8370  0.07330 .
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Total Sum of Squares:    5577600000
+## Residual Sum of Squares: 4188500000
+## R-Squared:      0.24905
+## Adj. R-Squared: 0.19541
+## F-statistic: 4.64301 on 3 and 42 DF, p-value: 0.00683</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>Now, unemployment is significant. The association is positive. Significance at the 3% level.</li>
+<li>Pop and Officers are not significant</li>
+<li>R-squared increases to 25%</li>
+<li>Notice the number of observations. It is half the number if Exercise 1. This is because Exercise 2 is the first difference. You lose 1 observation per individual.</li>
+</ul>
+</div>
+<div id="exercise-3" class="section level3">
+<h3><span class="header-section-number">5.1.3</span> Exercise 3</h3>
+<p><strong>3) Using the dataset DiD.xlsx, provide an estimation and a THOROUGH interpretation of a difference-in-difference model:</strong></p>
+<ul>
+<li>Where:
+<ul>
+<li>Treated: A and B groups</li>
+<li>Control: C to G groups</li>
+<li>The exogenous shock occurred in 2010</li>
+<li>Covariates: x1, x2 and x3.</li>
+<li>All variables are in levels (not logarithms)</li>
+</ul></li>
+</ul>
+<p><strong>The solution is:</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>dataDiD  &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;files/DiD.xlsx&quot;</span>)</span>
+<span id="cb6-4"><a href="#cb6-4"></a></span>
+<span id="cb6-5"><a href="#cb6-5"></a><span class="co"># Creating a dummy (binary) variable to indicate time (post and before treatment)</span></span>
+<span id="cb6-6"><a href="#cb6-6"></a>dataDiD<span class="op">$</span>time  &lt;-<span class="st"> </span><span class="kw">as.numeric</span>(dataDiD<span class="op">$</span>year <span class="op">&gt;=</span><span class="st"> </span><span class="dv">2010</span>)</span>
+<span id="cb6-7"><a href="#cb6-7"></a></span>
+<span id="cb6-8"><a href="#cb6-8"></a><span class="co"># Creating a dummy to indicate treatment</span></span>
+<span id="cb6-9"><a href="#cb6-9"></a>dataDiD<span class="op">$</span>treated &lt;-<span class="st"> </span><span class="dv">0</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a>dataDiD<span class="op">$</span>treated[dataDiD<span class="op">$</span>group <span class="op">==</span><span class="st"> &quot;A&quot;</span>] &lt;-<span class="st"> </span><span class="dv">1</span>  </span>
+<span id="cb6-11"><a href="#cb6-11"></a>dataDiD<span class="op">$</span>treated[dataDiD<span class="op">$</span>group <span class="op">==</span><span class="st"> &quot;B&quot;</span>] &lt;-<span class="st"> </span><span class="dv">1</span>  </span>
+<span id="cb6-12"><a href="#cb6-12"></a></span>
+<span id="cb6-13"><a href="#cb6-13"></a><span class="co">#* Generating the interaction between treated and time</span></span>
+<span id="cb6-14"><a href="#cb6-14"></a>dataDiD<span class="op">$</span>did =<span class="st"> </span>dataDiD<span class="op">$</span>time<span class="op">*</span>dataDiD<span class="op">$</span>treated</span>
+<span id="cb6-15"><a href="#cb6-15"></a></span>
+<span id="cb6-16"><a href="#cb6-16"></a><span class="co"># Estimating the DD </span></span>
+<span id="cb6-17"><a href="#cb6-17"></a>did11 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>time <span class="op">+</span><span class="st"> </span>treated <span class="op">+</span><span class="st"> </span>did <span class="op">+</span><span class="st"> </span>x1 <span class="op">+</span><span class="st"> </span>x2 <span class="op">+</span><span class="st"> </span>x3, <span class="dt">data =</span> dataDiD)</span>
+<span id="cb6-18"><a href="#cb6-18"></a><span class="kw">summary</span>(did11)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ time + treated + did + x1 + x2 + x3, data = dataDiD)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -2.76559 -0.53483 -0.07086  0.46097  2.93998 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.71417    0.21456   3.329  0.00113 ** 
+## time         0.05300    0.20359   0.260  0.79501    
+## treated      1.14398    0.27761   4.121 6.60e-05 ***
+## did          0.27200    0.38088   0.714  0.47639    
+## x1           0.35768    0.03506  10.201  &lt; 2e-16 ***
+## x2          -0.29309    0.06461  -4.536 1.26e-05 ***
+## x3           0.11981    0.04133   2.899  0.00438 ** 
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.018 on 133 degrees of freedom
+## Multiple R-squared:  0.5372, Adjusted R-squared:  0.5164 
+## F-statistic: 25.73 on 6 and 133 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>The treated group seem to have higher Y than the control group. The variable <em>treated</em> is significant at the 0.01% level.</li>
+<li>The shock does not seem to affect the treated group. The variable <em>did</em> is not significant.</li>
+<li>All covariates are significant at the 1% level.</li>
+<li>Overall, the conclusion is that the shock does not “work”, since <em>did</em> is not significant.</li>
+</ul>
+</div>
+<div id="exercise-4" class="section level3">
+<h3><span class="header-section-number">5.1.4</span> Exercise 4</h3>
+<p><strong>Using the dataset FERTIL2.rdata, provide an estimation and a THOROUGH interpretation of the following model by OLS:</strong></p>
+<p><span class="math display">\[children = β_1+ β_2 educ+β_3 age+β_4 age^2+μ \]</span></p>
+<p><strong>Additional comments:</strong></p>
+<ul>
+<li>The variable frsthalf is a dummy marking if the woman was born during the first semester of a given year. Assuming that frsthalf is uncorrelated with the error term of eq. 1, check whether it is a reasonable IV for educ.</li>
+<li>Estimate the model above, using frsthalf as an IV for educ. Compare the estimations with eq. 1.</li>
+<li>Provide a comparison between the coefficients of educ in the OLS and the IV models</li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())</span>
+<span id="cb8-2"><a href="#cb8-2"></a></span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="kw">load</span>(<span class="st">&quot;files/FERTIL2.RData&quot;</span>)</span>
+<span id="cb8-4"><a href="#cb8-4"></a></span>
+<span id="cb8-5"><a href="#cb8-5"></a><span class="co"># OLS Model</span></span>
+<span id="cb8-6"><a href="#cb8-6"></a>iv_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">lm</span>(children <span class="op">~</span><span class="st"> </span>educ <span class="op">+</span><span class="st"> </span>age <span class="op">+</span><span class="st"> </span>agesq , <span class="dt">data=</span>FERTIL2)</span>
+<span id="cb8-7"><a href="#cb8-7"></a><span class="kw">summary</span>(iv_<span class="dv">1</span>)     </span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = children ~ educ + age + agesq, data = FERTIL2)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -5.8351 -0.7135 -0.0054  0.7141  7.5055 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -4.1383066  0.2405942 -17.200   &lt;2e-16 ***
+## educ        -0.0905755  0.0059207 -15.298   &lt;2e-16 ***
+## age          0.3324486  0.0165495  20.088   &lt;2e-16 ***
+## agesq       -0.0026308  0.0002726  -9.651   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.46 on 4357 degrees of freedom
+## Multiple R-squared:  0.5687, Adjusted R-squared:  0.5684 
+## F-statistic:  1915 on 3 and 4357 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>One additional year of education is associated with 0.09 fewer children.</li>
+<li>Age shows a non-linear relationship with children. The curve is inverted U-shaped</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="co"># 2SLS estimation  - two-step</span></span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="co"># Fist-stage</span></span>
+<span id="cb10-3"><a href="#cb10-3"></a>iv2_1stage &lt;-<span class="st"> </span><span class="kw">lm</span>(educ <span class="op">~</span><span class="st"> </span>age <span class="op">+</span><span class="st"> </span>agesq <span class="op">+</span><span class="st"> </span>frsthalf  , <span class="dt">data =</span> FERTIL2)</span>
+<span id="cb10-4"><a href="#cb10-4"></a><span class="kw">summary</span>(iv2_1stage)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = educ ~ age + agesq + frsthalf, data = FERTIL2)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -7.9599 -2.4941  0.2663  2.2663 14.9934 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  9.6928643  0.5980686  16.207  &lt; 2e-16 ***
+## age         -0.1079504  0.0420402  -2.568   0.0103 *  
+## agesq       -0.0005056  0.0006929  -0.730   0.4657    
+## frsthalf    -0.8522854  0.1128296  -7.554 5.12e-14 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 3.711 on 4357 degrees of freedom
+## Multiple R-squared:  0.1077, Adjusted R-squared:  0.107 
+## F-statistic: 175.2 on 3 and 4357 DF,  p-value: &lt; 2.2e-16</code></pre>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="co"># Predict Y hat</span></span>
+<span id="cb12-2"><a href="#cb12-2"></a>Y2hat &lt;-<span class="st"> </span><span class="kw">fitted</span>(iv2_1stage)</span>
+<span id="cb12-3"><a href="#cb12-3"></a></span>
+<span id="cb12-4"><a href="#cb12-4"></a><span class="co"># Second-stage</span></span>
+<span id="cb12-5"><a href="#cb12-5"></a>iv2_2stage &lt;-<span class="st"> </span><span class="kw">lm</span>(children <span class="op">~</span><span class="st"> </span>Y2hat <span class="op">+</span><span class="st"> </span>age <span class="op">+</span><span class="st"> </span>agesq, <span class="dt">data =</span> FERTIL2)</span>
+<span id="cb12-6"><a href="#cb12-6"></a><span class="kw">summary</span>(iv2_2stage)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = children ~ Y2hat + age + agesq, data = FERTIL2)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -5.6519 -0.7580 -0.0187  0.7297  7.8906 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -3.3878054  0.5503400  -6.156 8.14e-10 ***
+## Y2hat       -0.1714989  0.0533921  -3.212  0.00133 ** 
+## age          0.3236052  0.0179310  18.047  &lt; 2e-16 ***
+## agesq       -0.0026723  0.0002808  -9.516  &lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.497 on 4357 degrees of freedom
+## Multiple R-squared:  0.5466, Adjusted R-squared:  0.5463 
+## F-statistic:  1751 on 3 and 4357 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>In the first-stage, when women were born during the first semester of a year, they receive less education. The IV seems good.</li>
+<li>In the second-stage, one additional year of education is associated with 0.17 fewer children. This is a magnitude almost twice higher than the OLS results.</li>
+</ul>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="co"># ivreg - one-step estimation</span></span>
+<span id="cb14-2"><a href="#cb14-2"></a>iv_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">ivreg</span>(children <span class="op">~</span><span class="st"> </span>educ <span class="op">+</span><span class="st"> </span>age <span class="op">+</span><span class="st"> </span>agesq  <span class="op">|</span><span class="st"> </span>age <span class="op">+</span><span class="st"> </span>agesq <span class="op">+</span><span class="st"> </span>frsthalf  , <span class="dt">data =</span> FERTIL2)</span>
+<span id="cb14-3"><a href="#cb14-3"></a><span class="kw">summary</span>(iv_<span class="dv">2</span>)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## ivreg(formula = children ~ educ + age + agesq | age + agesq + 
+##     frsthalf, data = FERTIL2)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -6.05272 -0.71481  0.06224  0.76236  7.23693 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -3.3878054  0.5481502  -6.180 6.98e-10 ***
+## educ        -0.1714989  0.0531796  -3.225  0.00127 ** 
+## age          0.3236052  0.0178596  18.119  &lt; 2e-16 ***
+## agesq       -0.0026723  0.0002797  -9.555  &lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 1.491 on 4357 degrees of freedom
+## Multiple R-Squared: 0.5502,  Adjusted R-squared: 0.5499 
+## Wald test:  1765 on 3 and 4357 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><strong>Important: The results are the same as those obtained in the second-step estimation. However, std. errors are different. This is not a problem here because it does not change the main interpretation. It could be a problem in other cases.</strong></p>
+</div>
+<div id="exercise-5" class="section level3">
+<h3><span class="header-section-number">5.1.5</span> Exercise 5</h3>
+<p><strong>5) Using the dataset RDD.xlsx, provide an estimation and a THOROUGH interpretation of regression discontinuity design.</strong></p>
+<ul>
+<li><strong>Hints:</strong>
+<ul>
+<li>Check for a discontinuity.</li>
+<li>Use 50 observations of each side of the cut.</li>
+<li>Check if both sides have similar trends.</li>
+</ul></li>
+</ul>
+<p><strong>This is the solution</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="kw">rm</span>(<span class="dt">list =</span> <span class="kw">ls</span>())</span>
+<span id="cb16-2"><a href="#cb16-2"></a>dataRDD  &lt;-<span class="st"> </span><span class="kw">read_excel</span>(<span class="st">&quot;files/RDD.xlsx&quot;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3"></a></span>
+<span id="cb16-4"><a href="#cb16-4"></a><span class="co"># Generate a line graph - Including all observations together</span></span>
+<span id="cb16-5"><a href="#cb16-5"></a><span class="kw">ggplot</span>(dataRDD, <span class="kw">aes</span>(x, y))  <span class="op">+</span><span class="st"> </span></span>
+<span id="cb16-6"><a href="#cb16-6"></a><span class="st">  </span><span class="kw">geom_point</span>( <span class="dt">size=</span><span class="fl">1.25</span>) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb16-7"><a href="#cb16-7"></a><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;&quot;</span>, <span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;Evolution of Y - Control and Treatment groups&quot;</span>)<span class="op">+</span></span>
+<span id="cb16-8"><a href="#cb16-8"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">plot.title =</span> <span class="kw">element_text</span>(<span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size=</span><span class="dv">25</span>, <span class="dt">face=</span><span class="st">&quot;bold&quot;</span>),</span>
+<span id="cb16-9"><a href="#cb16-9"></a>        <span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;grey95&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;grey95&quot;</span>),</span>
+<span id="cb16-10"><a href="#cb16-10"></a>        <span class="dt">axis.text.y =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb16-11"><a href="#cb16-11"></a>        <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb16-12"><a href="#cb16-12"></a>        <span class="dt">legend.title =</span> <span class="kw">element_blank</span>(),</span>
+<span id="cb16-13"><a href="#cb16-13"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb16-14"><a href="#cb16-14"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><strong>It seems we have an abrupt discontinuity here. The cut seems to be when X = 100. This graph suggests that, ignoring the discontinuity, the association between X and Y is positive.</strong></p>
+<p><strong>Let’s split the observations into two groups now, using X=100 as threshold:</strong></p>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="book-notes_files/figure-html/pressure-1.png" width="672" /></p>
+<p><strong>It becomes clear that, within each group, the association is negative.</strong></p>
+<p><strong>Let’s look only for the observations close to the cut for a moment:</strong></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="co"># define cut</span></span>
+<span id="cb19-2"><a href="#cb19-2"></a>cut &lt;-<span class="st"> </span><span class="dv">100</span></span>
+<span id="cb19-3"><a href="#cb19-3"></a></span>
+<span id="cb19-4"><a href="#cb19-4"></a><span class="co"># define the bandwidth - using 50 observations each side</span></span>
+<span id="cb19-5"><a href="#cb19-5"></a>band &lt;-<span class="st"> </span><span class="dv">50</span></span>
+<span id="cb19-6"><a href="#cb19-6"></a>xlow =<span class="st"> </span>cut <span class="op">-</span><span class="st"> </span>band</span>
+<span id="cb19-7"><a href="#cb19-7"></a>xhigh =<span class="st"> </span>cut <span class="op">+</span><span class="st"> </span>band</span>
+<span id="cb19-8"><a href="#cb19-8"></a></span>
+<span id="cb19-9"><a href="#cb19-9"></a><span class="co"># subset the data for the bandwidth</span></span>
+<span id="cb19-10"><a href="#cb19-10"></a>data &lt;-<span class="st"> </span><span class="kw">subset</span>(dataRDD, x <span class="op">&gt;</span><span class="st"> </span>xlow <span class="op">&amp;</span><span class="st"> </span>x <span class="op">&lt;=</span><span class="st"> </span>xhigh, <span class="dt">select=</span><span class="kw">c</span>(x, y,  treated))</span>
+<span id="cb19-11"><a href="#cb19-11"></a></span>
+<span id="cb19-12"><a href="#cb19-12"></a><span class="co"># Generate a line graph - two groups</span></span>
+<span id="cb19-13"><a href="#cb19-13"></a><span class="kw">ggplot</span>(data, <span class="kw">aes</span>(x, y, <span class="dt">group=</span>treated, <span class="dt">color =</span> <span class="kw">factor</span>(treated)))  <span class="op">+</span><span class="st"> </span></span>
+<span id="cb19-14"><a href="#cb19-14"></a><span class="st">  </span><span class="kw">geom_point</span>( <span class="dt">size=</span><span class="fl">1.25</span>) <span class="op">+</span><span class="st"> </span></span>
+<span id="cb19-15"><a href="#cb19-15"></a><span class="st">  </span><span class="kw">labs</span>(<span class="dt">y =</span> <span class="st">&quot;&quot;</span>, <span class="dt">x=</span><span class="st">&quot;&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;RDD example&quot;</span>)<span class="op">+</span></span>
+<span id="cb19-16"><a href="#cb19-16"></a><span class="st">  </span><span class="kw">theme</span>(<span class="dt">plot.title =</span> <span class="kw">element_text</span>(<span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size=</span><span class="dv">25</span>, <span class="dt">face=</span><span class="st">&quot;bold&quot;</span>),</span>
+<span id="cb19-17"><a href="#cb19-17"></a>        <span class="dt">panel.background =</span> <span class="kw">element_rect</span>(<span class="dt">fill =</span> <span class="st">&quot;grey95&quot;</span>, <span class="dt">colour =</span> <span class="st">&quot;grey95&quot;</span>),</span>
+<span id="cb19-18"><a href="#cb19-18"></a>        <span class="dt">axis.text.y =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb19-19"><a href="#cb19-19"></a>        <span class="dt">axis.text.x =</span> <span class="kw">element_text</span>(<span class="dt">face=</span><span class="st">&quot;bold&quot;</span>, <span class="dt">color=</span><span class="st">&quot;black&quot;</span>, <span class="dt">size =</span> <span class="dv">16</span>),</span>
+<span id="cb19-20"><a href="#cb19-20"></a>        <span class="dt">legend.title =</span> <span class="kw">element_blank</span>(),</span>
+<span id="cb19-21"><a href="#cb19-21"></a>        <span class="dt">legend.key.size =</span> <span class="kw">unit</span>(<span class="dv">2</span>, <span class="st">&quot;cm&quot;</span>)) <span class="op">+</span></span>
+<span id="cb19-22"><a href="#cb19-22"></a><span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="dt">fill =</span> <span class="ot">NA</span>)</span></code></pre></div>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="book-notes_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><strong>It seems that, close to the cut, the associations are different: it is positive when X &lt; cut, and negative when X&gt;cut. We may use this finding to define our RDD model below.</strong></p>
+<p><strong>Let’s estimate the RDD now:</strong></p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="co"># Regression  - not RDD yet (this is the result of the first graph)</span></span>
+<span id="cb21-2"><a href="#cb21-2"></a>rdd1 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>x   , <span class="dt">data =</span> data)</span>
+<span id="cb21-3"><a href="#cb21-3"></a><span class="kw">summary</span>(rdd1)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x, data = data)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -21.1020  -7.0202  -0.3039   4.1966  25.8967 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) 16.97302    3.55621   4.773 6.35e-06 ***
+## x            0.46664    0.03401  13.721  &lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 9.817 on 98 degrees of freedom
+## Multiple R-squared:  0.6576, Adjusted R-squared:  0.6542 
+## F-statistic: 188.3 on 1 and 98 DF,  p-value: &lt; 2.2e-16</code></pre>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="co"># Generating xhat - Now we are going to the RDD</span></span>
+<span id="cb23-2"><a href="#cb23-2"></a>data<span class="op">$</span>xhat &lt;-<span class="st"> </span>data<span class="op">$</span>x <span class="op">-</span><span class="st"> </span>cut</span>
+<span id="cb23-3"><a href="#cb23-3"></a></span>
+<span id="cb23-4"><a href="#cb23-4"></a><span class="co"># Generating xhat * treated to allow different inclinations (we will use the findings of the last graph, i.e. that each group has a different trend.)</span></span>
+<span id="cb23-5"><a href="#cb23-5"></a>data<span class="op">$</span>xhat_treated &lt;-<span class="st"> </span>data<span class="op">$</span>xhat <span class="op">*</span><span class="st"> </span>data<span class="op">$</span>treated</span>
+<span id="cb23-6"><a href="#cb23-6"></a></span>
+<span id="cb23-7"><a href="#cb23-7"></a><span class="co"># RDD Assuming different trends</span></span>
+<span id="cb23-8"><a href="#cb23-8"></a>rdd2 &lt;-<span class="st"> </span><span class="kw">lm</span>(y  <span class="op">~</span><span class="st"> </span>xhat <span class="op">+</span><span class="st"> </span>treated  <span class="op">+</span><span class="st"> </span>xhat_treated, <span class="dt">data =</span> data)</span>
+<span id="cb23-9"><a href="#cb23-9"></a><span class="kw">summary</span>(rdd2)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ xhat + treated + xhat_treated, data = data)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -12.9477  -3.2607   0.6875   3.2227  12.2004 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  55.83059    1.53681  36.329  &lt; 2e-16 ***
+## xhat          0.29431    0.05405   5.445 3.97e-07 ***
+## treated      28.93921    2.20672  13.114  &lt; 2e-16 ***
+## xhat_treated -0.51587    0.07644  -6.749 1.13e-09 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 5.515 on 96 degrees of freedom
+## Multiple R-squared:  0.8942, Adjusted R-squared:  0.8909 
+## F-statistic: 270.3 on 3 and 96 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><strong>Fundamental interpretation:</strong></p>
+<ul>
+<li>The treated group (i.e. the group at the right of the cut) shows 29 units of Y more than control group. This is a significant difference, suggesting that the treatment “works”</li>
+<li>The trend is positive when X&lt;cut. The coefficient is 0.29 and is significant.</li>
+<li>The trend is negative when X&gt;cut. The coefficient is -0.51 and is significant.</li>
+</ul>
+</div>
+<div id="conclusion" class="section level3">
+<h3><span class="header-section-number">5.1.6</span> Conclusion</h3>
+<p><strong>If you have any thoughts, let me know! Thanks for passing by!</strong></p>
+<!--chapter:end:04-exercises.Rmd-->
+</div>
+</div>
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
