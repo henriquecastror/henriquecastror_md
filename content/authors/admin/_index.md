@@ -67,6 +67,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/henriquecastror/
+  label: My LinkedIn
+  display:
+    header: true
 
 - icon: youtube
   icon_pack: fab
