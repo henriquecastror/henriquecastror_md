@@ -1,10 +1,10 @@
 ---
 title: Digital Competence
-linkTitle: Digital Competence 2021/1
+linkTitle: Digital Competence
 summary:  This is part of my graduating couse about Digital Competence in 2021/1.
 date: '2021-02-06'
 type: book
-weight: 2
+weight: 1
 ---
 
 

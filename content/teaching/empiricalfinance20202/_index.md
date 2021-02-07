@@ -2,7 +2,7 @@
 date: "2020-05-01T00:00:00Z"
 draft: false
 lastmod: "2020-06-25T00:00:00Z"
-linktitle: Empirical Finance 2020/02
+linktitle: Empirical Finance
 menu:
   empiricalfinance20202:
     name: Introduction
@@ -12,7 +12,7 @@ summary: This is part of my couse about Empirical Finance in 2020/02.
 title: Introduction
 toc: true
 type: docs
-weight: 1
+weight: 2
 ---
 
 
