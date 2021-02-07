@@ -74,6 +74,9 @@ social:
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/channel/UCS9ws4WEedza36NRimBZXeg?view_as=subscriber
+  label: Youtube
+  display:
+    header: true
   
 # - icon: twitter
 #  icon_pack: fab
