@@ -23,7 +23,7 @@
   title = "Email"
   icon_pack = "fas"
   icon = "envelope"
-  enable = false
+  enable = true
 
 [[buttons]]
   id = "linkedin"
