@@ -26,8 +26,8 @@ subtitle = ""
   #   tag = "*"
   
  [[content.filter_button]]
-    name = "Governance"
-    tag = "Governance"
+    name = "Corporate Governance"
+    tag = "Corporate Governance"
 
  [[content.filter_button]]
     name = "Corporate Finance"

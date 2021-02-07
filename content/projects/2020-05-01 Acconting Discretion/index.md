@@ -7,7 +7,7 @@ image:
 summary: Creating an Accounting Discretion Index (ADI)
 tags: 
 - Research
-- Governance
+- Corporate Governance
 
 title: Accounting Discretion
 ---

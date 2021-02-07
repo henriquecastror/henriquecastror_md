@@ -7,7 +7,7 @@ image:
 summary: The analysis of the governance antecedents and outcomes
 tags:
 - Research
-- Governance
+- Corporate Governance
 
 title: Governance and Debt
 ---

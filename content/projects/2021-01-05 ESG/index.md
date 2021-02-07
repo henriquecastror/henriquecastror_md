@@ -3,7 +3,7 @@ title: ESG
 summary: Undestanding the antecedents and consequences of corporate ESG
 
 tags:
-- Governance
+- Corporate Governance
 - ESG
 
 date: "2020-10-15T00:00:00Z"
