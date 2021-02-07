@@ -1,8 +1,8 @@
 bookdown::gitbook:
-  css: style.css
+#  css: style.css
   config:
     toc:
-      collapse: subsection
+      collapse: section
       scroll_highlight: yes
       before: |
         <li><a href="./">Book of Notes / Bloco de Notas</a></li>
