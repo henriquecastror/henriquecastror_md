@@ -56,13 +56,12 @@ social:
   icon_pack: ai
   link: http://lattes.cnpq.br/6076997472159785
 
-
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
 
 - icon: scopus
-  icon_pack: scopus
+  icon_pack: ai
   link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
 
 - icon: orcid
@@ -73,6 +72,10 @@ social:
   icon_pack: ai
   link: https://www.researchgate.net/profile/Henrique_Castro_Martins
 
+- icon: dataverse
+  icon_pack: ai
+  link: https://dataverse.harvard.edu/dataverse/henrique
+  
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/henriquecastror/
