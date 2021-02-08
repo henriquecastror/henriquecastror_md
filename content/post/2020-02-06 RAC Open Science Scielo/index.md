@@ -23,8 +23,10 @@ subtitle: os caminhos da producao cientifica aberta no Brasil
 summary: 
 
 tags:
-- Portuguese
+- Português
 - RAC
+- Media
+- Open Science
 
 title: Open Science RAC (Blog Scielo - in portuguese)
 

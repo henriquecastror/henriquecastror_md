@@ -23,7 +23,9 @@ subtitle: A importancia do reuso de dados na pesquisa academica
 summary: 
 
 tags:
-- Portugues
+- Português
+- RAC
+- Media
 - Open Science
 
 title: Data Reuse RAC (Blog Scielo - in portuguese)

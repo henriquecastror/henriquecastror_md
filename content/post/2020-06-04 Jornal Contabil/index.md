@@ -24,6 +24,7 @@ summary:
 
 tags: 
 - Português
+- Media
 
 title: Pandemia - Três problemas a lidar na gestão financeira das empresas (Jornal Contábil - in portuguese)
 
