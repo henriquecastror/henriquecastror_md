@@ -112,6 +112,3 @@ Placeholder
 
 <!--chapter:end:04-exercises.Rmd-->
 
-# Test
-
-<!--chapter:end:04-exercises.Rmd-->

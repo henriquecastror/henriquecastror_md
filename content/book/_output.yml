@@ -19,7 +19,7 @@ bookdown::gitbook:
       weibo: no
       instapaper: no
       vk: no
-      all: ['facebook', 'twitter', 'linkedin']
+      all: null
 #bookdown::pdf_book:
   #includes:
     #in_header: preamble.tex
