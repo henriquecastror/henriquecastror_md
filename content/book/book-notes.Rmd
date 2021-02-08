@@ -23,9 +23,22 @@ output:
 
 # Book of notes
 
-Placeholder
+This is a collection of random notes that I am continually updating using **Markdown**.
+
+The primary purpose is to make online stuff that is important in my **classes**, **projects**, or **articles**.
+
+You may consult here searching for **references**, **project ideas**, and some **codes** that I used eventually.
+
+You may consult a bunch of other stuff in https://henriquemartins.net/. 
+
+**I hope you find it useful. Thanks for passing by!**
 
 
+
+
+```{block, type='caution'}
+Vou misturar Português e Inglês. Some notes are in English, others in Portuguese.
+```
 
 <!--chapter:end:index.Rmd-->
 
@@ -99,3 +112,6 @@ Placeholder
 
 <!--chapter:end:04-exercises.Rmd-->
 
+# Test
+
+<!--chapter:end:04-exercises.Rmd-->
