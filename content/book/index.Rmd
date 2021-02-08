@@ -31,11 +31,6 @@ You may consult here searching for **references**, **project ideas**, and some *
 
 You may consult a bunch of other stuff in https://henriquemartins.net/. 
 
-**I hope you find it useful. Thanks for passing by!**
+I hope you find it **useful**. Thanks for passing by!
 
-
-
-
-```{block, type='caution'}
-Vou misturar Português e Inglês. Some notes are in English, others in Portuguese.
-```
+> **Ps: Vou misturar Português e Inglês. Some notes are in English, others in Portuguese.**
