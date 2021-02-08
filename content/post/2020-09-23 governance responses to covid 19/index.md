@@ -23,7 +23,7 @@ subtitle: A comment about the OECD survey
 summary: 
 
 tags:
-- Governance
+- Corporate Governance
 
 title: National corporate governance responses to Covid 19
 

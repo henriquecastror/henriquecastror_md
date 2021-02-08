@@ -26,7 +26,7 @@ summary:
 
 tags:
 - Research
-- Governance
+- Corporate Governance
 - Open Data
 
 title: The number of Brazilian listed firms

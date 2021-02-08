@@ -7,7 +7,7 @@ date: "2020-10-27T00:00:00Z"
 tags: 
 - Research
 - Finance
-- Governance
+- Corporate Governance
 
 title: 2020-10-27 Issues in Empirical Finance Research
 

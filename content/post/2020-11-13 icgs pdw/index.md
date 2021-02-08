@@ -3,16 +3,16 @@ authors:
 - admin
 categories: []
 
-date: "2020-11-14T00:00:00Z"
+date: "2020-12-30T00:00:00Z"
 
-draft: true
+draft: false
 
 featured: false
 
 gallery_item:
 
 image:
-  caption: https://icgsociety.org/
+  caption: https://unsplash.com/photos/vcF5y2Edm6A
   focal_point: true
   preview_only: false
 
@@ -23,15 +23,18 @@ subtitle:
 summary: 
 
 tags:
-- Accounting discretion
-- Conference
-- Governance
+- Português
+- Brazil
+- Media
 
-title: Paper Development Workshop
+title: Blog Certo Interview
 
 ---
 
-We just received the news that a paper was accepted to presentation at the 6th annual International Corporate Governance Society ([ICGS](https://icgsociety.org/)) conference to be held November 14 - 16, 2020.
+Hey, I had an interview to the Blog Certo website. We discussed how to enjoy summer time with limited budget and a pandemic out there.
+
+
+You can read the article [here](https://blog.acordocerto.com.br/ferias-em-ano-de-crise-como-economizar-em-tempos-de-novo-normal/). I hope you like it.
 
 This paper is the first of [Marcio Pimenta](http://lattes.cnpq.br/1670868214172308)'s thesis. Good job, Marcio!
 

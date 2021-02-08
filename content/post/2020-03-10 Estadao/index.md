@@ -23,7 +23,7 @@ subtitle:
 summary: 
 
 tags: 
-- Governance
+- Corporate Governance
 - Português
 - Brazil
 - Media

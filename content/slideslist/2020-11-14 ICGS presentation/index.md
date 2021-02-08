@@ -6,7 +6,7 @@ date: "2020-11-14"
 
 tags: 
 - Slides
-- Governance
+- Corporate Governance
 - Research
 
 title: 2020-11-14 ICGS presentation

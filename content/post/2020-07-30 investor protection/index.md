@@ -27,7 +27,7 @@ summary:
 tags:
 - Open Code
 - Finance
-- Governance
+- Corporate Governance
 
 title: Minority Investor Protection
 
