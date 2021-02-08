@@ -10,32 +10,15 @@ link-citations: yes
 github-repo:
 description: "This is a book containing all sorts of notes related to my classes, my articles or projects."
 output:
-  bookdown::gitbook: default
+  bookdown::html_book:
     toc: true
+    collapse: section
+    scroll_highlight: yes
     toc_depth: 1
     toc_float:
       collapsed: true
       smooth_scroll: true
- config:
-    toc:
-      collapse: section
-      scroll_highlight: yes
-      before: |
-        <li><a href="./">Book of Notes / Bloco de Notas</a></li>
-      after: |
-        <li><a href="www.henriquemartins.net" target="blank">Thank you! Obrigado!</a></li>
-    edit: 
-    download: null
-    search: yes
-    sharing:
-      facebook: yes
-      github: no
-      twitter: yes
-      linkedin: yes
-      weibo: no
-      instapaper: no
-      vk: no
-      all: ['facebook', 'twitter', 'linkedin']      
+      
 ---
 
 # Book of notes
