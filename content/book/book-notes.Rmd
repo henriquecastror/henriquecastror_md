@@ -1,0 +1,101 @@
+--- 
+title: "A messy book of notes / Meu bloco de notas sobre tudo"
+author: "Henrique Castro Martins (hcm@iag.puc-rio.br)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [ref books.bib , ref papers.bib , ref econometrics.bib , ref open science.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo:
+description: "This is a book containing all sorts of notes related to my classes, my articles or projects."
+output:
+  bookdown::html_book:
+    toc: true
+    collapse: section
+    scroll_highlight: yes
+    toc_depth: 1
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      
+---
+
+# Book of notes
+
+Placeholder
+
+
+
+<!--chapter:end:index.Rmd-->
+
+---
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+# Journals' rankings
+
+**Updated in: "`r Sys.Date()`"**
+
+
+
+```{r, echo=FALSE}
+library(readxl)
+smart <- read_excel("files/smartacademy/Smart Academy 2020.xlsx")
+knitr::kable(head(smart[, 3:8],1000))
+```
+
+
+
+<!--chapter:end:01-smartacademy.Rmd-->
+
+
+# Literature
+
+Placeholder
+
+
+## List of papers - Classic
+## List of papers - Corporate Finance
+## List of papers - Governance
+## List of papers - Open Science
+## List of materials - Econometrics
+## List of books - Finance
+## List of papers - Science
+
+<!--chapter:end:02-literature.Rmd-->
+
+
+# Master Syllabus (2020.2) 
+
+Placeholder
+
+
+## Syllabus 
+## Goals
+## Program
+## Grading
+## Mandatory readings 
+## Schedule (days) 
+
+<!--chapter:end:03-master-syllabus-2020-2.Rmd-->
+
+
+# Exercises 
+
+Placeholder
+
+
+## Master coding marathon (2020 Oct)
+### Exercise 1
+### Exercise 2
+### Exercise 3
+### Exercise 4 
+### Exercise 5
+### Conclusion
+
+<!--chapter:end:04-exercises.Rmd-->
+
