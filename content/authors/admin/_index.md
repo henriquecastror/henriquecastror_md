@@ -61,20 +61,20 @@ social:
   link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
 
 - icon: scopus
-  icon_pack: ai
+  icon_pack: fa
   link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
 
 - icon: orcid
-  icon_pack: fa
-  link: https://orcid.org/0000-0002-3186-4245
-
-- icon: researchgate
   icon_pack: ai
-  link: https://www.researchgate.net/profile/Henrique_Castro_Martins
+  link: https://orcid.org/0000-0002-3186-4245
 
 - icon: publons
   icon_pack: ai
   link: https://publons.com/researcher/1215850/henrique-castro-martins/
+
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Henrique_Castro_Martins
 
 - icon: dataverse
   icon_pack: ai
