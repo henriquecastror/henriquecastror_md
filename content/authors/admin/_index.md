@@ -61,7 +61,7 @@ social:
   link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
 
 - icon: scopus
-  icon_pack: fa
+  icon_pack: ai
   link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
 
 - icon: orcid
@@ -111,6 +111,8 @@ social:
 #  link: http://lattes.cnpq.br/6076997472159785
   
   
+# https://jpswalsh.github.io/academicons/
+
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -126,6 +128,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+
 user_groups:
 - Researchers
 - Visitors
