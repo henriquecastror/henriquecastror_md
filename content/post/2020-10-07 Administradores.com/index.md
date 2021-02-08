@@ -24,6 +24,7 @@ summary:
 
 tags: 
 - Português
+- Media
 
 title: Retomada será mais longa (e difícil) para os pequenos (in portuguese)
 
