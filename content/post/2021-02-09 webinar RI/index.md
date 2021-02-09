@@ -35,7 +35,7 @@ I am happy to share this talk I had with [Luciana Ferreira](https://www.linkedin
 
 They will be teaching in a 100% digital course about this same topic. [Check it out](https://iag.puc-rio.br/curso/aprimorando-conhecimentos-mercado-de-capitais-e-ri/).
 
- {{< youtube rpdaHeODdr8 >}}
+Full video here: {{< youtube rpdaHeODdr8 >}}
 
 
 
