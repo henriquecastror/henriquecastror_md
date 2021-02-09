@@ -60,9 +60,9 @@ social:
   icon_pack: ai
   link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
 
-- icon: scopus
-  icon_pack: ai
-  link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
+#- icon: scopus
+#  icon_pack: ai
+#  link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
 
 - icon: orcid
   icon_pack: ai
