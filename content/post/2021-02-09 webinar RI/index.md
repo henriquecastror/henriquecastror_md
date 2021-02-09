@@ -27,10 +27,13 @@ tags:
 - Corporate Finance
 - Corporate Governance
 
-title: Webinar with Luciana Ferreira and José Treiger
+title: Webinar with Luciana Ferreira and Jose Treiger
 
 ---
 
+I am happy to share this talk I had with [Luciana Ferreira](www.linkedin.com/in/luciana-paulo-ferreira/) and [Jose Treiger](www.linkedin.com/in/jose-marcos-treiger-a74a3b/) about Investors Relations and Corporate Governance.
+
+They will be teaching in a 100% digital course about this same topic. [Check it out](iag.puc-rio.br/curso/aprimorando-conhecimentos-mercado-de-capitais-e-ri/).
 
 Full video here: {{< youtube rpdaHeODdr8 >}}
 
