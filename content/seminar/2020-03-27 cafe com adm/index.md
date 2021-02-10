@@ -3,17 +3,13 @@ title: Café com ADM (March 27 2020)
 event: academia Theme Conference
 event_url: 
 location: Rio de Janeiro, Brazil
-summary: This is the pandemic and finance
+summary: A talk about the effects of COVID on the financial policy of small firms
 abstract: "Abstract."
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
 
 date: "2020-03-27T14:00:00Z"
 date_end: "2020-03-27T15:00:00Z"
 all_day: false
 
-# Schedule page publish date (NOT talk date).
 publishDate: "2020-03-27T00:00:00Z"
 
 authors: []
@@ -36,8 +32,8 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: ""
-url_video: ""
+url_slides: "https://zenodo.org/record/3972198"
+url_video: "https://youtu.be/6LhOVcg5tSU"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -60,7 +56,9 @@ math: true
 ---
 
 
-I am happy to share this talk I had with the guys from the Café com ADM. We discussed the effects of the pandemic on finance.
+I am happy to share this talk I had with the guys from the [Café com ADM](https://administradores.com.br/podcast/). 
+
+We discussed the effects of the pandemic on finance.
 
 I hope you like it.
 
