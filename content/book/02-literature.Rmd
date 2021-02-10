@@ -46,6 +46,7 @@ output:
 
 ## List of materials - Econometrics
 - **@Abadie2010**: An example of Synthetic Control.
+- **@Adams2017**: A coOl list about empirical problems in governance (and finance) research.
 - **@AngristPischke2008**: Good to learn about causality methods.
 - **@AngristPischke2014**: Easier to read than previous one. I use this one in classes.
 - **@Bascle2008**: Also easy to read review about endogeneity and methods.
