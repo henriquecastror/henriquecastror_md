@@ -32,8 +32,8 @@ links:
 #  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
-url_slides: "https://zenodo.org/record/3972198"
-url_video: "https://youtu.be/6LhOVcg5tSU"
+url_slides: ""
+url_video: ""
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -63,12 +63,6 @@ We discussed the effects of the pandemic on finance.
 I hope you like it.
 
 {{< youtube HbbAKO-DkG8 >}}
-
-
-
-
-
-
 
 
 
