@@ -23,7 +23,7 @@ subtitle: Calculating profit and return ratios
 summary: 
 
 tags:
-- Graduacao
+- Graduação
 - MBA
 
 title: Basic Finance 3 - Profit and return ratios
