@@ -16,7 +16,7 @@ role: Assistant Professor of Finance
 # Organizations/Affiliations
 organizations:
 - name: Pontifical Catholic University of Rio de Janeiro (PUC-Rio)
-  url: "https://iag.puc-rio.br/"
+  url: "https://www.puc-rio.br"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -134,7 +134,7 @@ user_groups:
 - Visitors
 ---
 
-I hold a Ph.D. in Finance, and I am currently an Assistant Professor at the IAG PUC-Rio (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group (FINE) from IAG PUC-Rio. 
+I hold a Ph.D. in Finance, and I am currently an Assistant Professor at [IAG PUC-Rio](https://iag.puc-rio.br/) (Rio de Janeiro, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. I am also a leader of the Finance Research Group ([FINE](https://iag.puc-rio.br/en/fine-en/)) from IAG PUC-Rio. 
 
 If you have any questions about my research, or if you want to work with me, contact me at hcm@iag.puc-rio.br.
 
