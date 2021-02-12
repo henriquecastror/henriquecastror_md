@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: henriquemartins.net
-Token: 12176049948003dd2d758331c11a82177d6f8bb2926212c9d93afae9105b1370
