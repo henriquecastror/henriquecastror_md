@@ -28,7 +28,7 @@ tags:
 - Media
 - Open Science
 
-title: Open Science RAC (Blog Scielo - in portuguese)
+title: Open Science RAC (Blog Scielo)
 
 ---
 

@@ -27,7 +27,7 @@ tags:
 - Brazil
 - Media
 
-title: Gestão de caixa ganha com visão de longo prazo (Valor Econômico - in portuguese)
+title: Gestão de caixa ganha com visão de longo prazo (Valor Econômico)
 
 ---
 
