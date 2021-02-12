@@ -12,7 +12,6 @@ tags:
 
 title: 2020-12-02 Quantitative and Finance research seminar
 
-url_slides: "/slides/slides4-pesq-financas.html"
 
 url_slides: "/slides/2020-12-02 Introducao pesquisa financas/slides4-pesq-financas.html"
 
