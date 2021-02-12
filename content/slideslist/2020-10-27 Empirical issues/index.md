@@ -11,7 +11,7 @@ tags:
 
 title: 2020-10-27 Issues in Empirical Finance Research
 
-url_slides: "/slides/slides1-empiricalissues.html"
+url_slides: "/slides/2020-10-27 Empirical issues/slides1-empiricalissues.html"
 
 ---
 
