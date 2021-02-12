@@ -10,7 +10,7 @@ tags:
 
 title: 2020-11-19 RAC Open Science
 
-url_slides: "/slides/slides3-RAC-os.html"
+url_slides: "/slides/2020-11-19 RAC Open Science/slides3-RAC-os.html"
 
 ---
 
