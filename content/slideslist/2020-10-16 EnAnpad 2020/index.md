@@ -8,7 +8,7 @@ tags:
 - Português
 - Slides
 
-title: 2020-10-16 EnAnpad
+title: (Oct 2020) EnAnpad
 
 
 ---

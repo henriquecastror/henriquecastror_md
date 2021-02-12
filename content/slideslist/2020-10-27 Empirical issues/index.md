@@ -9,7 +9,7 @@ tags:
 - Finance
 - Corporate Governance
 
-title: 2020-10-27 Issues in Empirical Finance Research
+title: (Oct 2020) Issues in Empirical Finance Research
 
 url_slides: "/slides/2020-10-27 Empirical issues/slides1-empiricalissues.html"
 

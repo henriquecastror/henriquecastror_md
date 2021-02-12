@@ -9,7 +9,7 @@ tags:
 - Corporate Governance
 - Research
 
-title: 2020-11-14 ICGS presentation
+title: (Nov 2020) ICGS presentation
 
 ---
 

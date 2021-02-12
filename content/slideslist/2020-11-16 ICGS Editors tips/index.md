@@ -9,7 +9,7 @@ tags:
 - Finance
 - Corporate Governance
 
-title: 2020-11-16 ICGS Editors' tips
+title: (Nov 2020) ICGS Editors' tips
 
 url_slides: "/slides/2020-11-16 ICGS Editors tips/slides2-editorstips.html"
 

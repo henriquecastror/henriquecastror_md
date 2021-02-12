@@ -8,7 +8,7 @@ tags:
 - Português
 - Slides
 
-title: 2020-08-06 Open Science seminar
+title: (Aug 2020) Open Science seminar
 
 
 ---
