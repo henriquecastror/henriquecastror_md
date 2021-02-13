@@ -12,7 +12,7 @@ featured: false
 gallery_item:
 
 image:
-  caption: 
+  caption: "https://unsplash.com/photos/whwNgUNUasE"
   focal_point: Top
   preview_only: false
 
@@ -25,6 +25,7 @@ summary:
 tags:
 - ESG
 - Corporate Governance
+- Brazil
 
 title: Evolution of Brazilian Companies ESG Score
 
@@ -35,19 +36,20 @@ I am working on a research project that aims to understand the antecedents and c
 Eventually, I came up with the graph below. 
 
 
-{{< figure src="Graph1.png" width="100%" >}}
+{{< figure src="Graph1.png" width="80%" >}}
 
-This graph did not make much sense to me since ESG is a hot topic and, I believe, no one would expect that Brazilian firms decreased ESG practices and disclosure over the last decade. "Something is wrong", I thought!
+This graph did not make much sense to me since ESG is a hot topic and, I believe, no one would expect that Brazilian firms decreased ESG practices over the last decade. "Something is wrong", I thought!
 
 Then, I realized that the sample of firms is different each year because some firms started to disclose ESG practices **during** the last decade. Basically, the number of firms disclosing in 2019 was 84, while in 2010 was 51. 
 
-I'd expect that a firm that recently started to disclose would get a lower score than a firm that has been implementing it for a while. Thus, the average of all firms may be decreasing over time. 
+I'd expect that a firm that recently started to disclose would get a lower score than a firm that has been implementing ESG practices for a while. Thus, the yearly average of all firms' ESG may be decreasing over time. 
 
-Then, I came up with this graph. It only contains firms that are disclosing ESG practices since 2010. In this graph, I have the same sample of firms in all years. 
-The sample is smaller, but it is much more informative if I want to understand the evolution of corporate ESG during this period.
+Then, I came up with the graph below. It only contains firms that disclose ESG practices since 2010. 
 
 
-{{< figure src="Graph2.png" width="100%" >}}
+{{< figure src="Graph2.png" width="80%" >}}
+
+In this graph, I have the same sample of firms in all years. The sample is smaller, but it is much more informative if I want to understand the evolution of corporate ESG during this period.
 
 See the difference? 
 
