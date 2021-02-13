@@ -23,7 +23,7 @@ subtitle: Calculating liquidity ratios
 summary: 
 
 tags:
-- Graduacao
+- Grad
 - MBA
 
 title: Basic Finance 1 - Liquidity ratios
