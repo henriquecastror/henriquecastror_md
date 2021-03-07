@@ -25,7 +25,7 @@ summary:
 tags:
 - Master
 
-title: How to create the slides to present your dissertation
+title: How to create an effective Master's presentation
 
 ---
 
