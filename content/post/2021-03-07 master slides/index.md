@@ -39,13 +39,13 @@ Then, ask how long you have to present. Usually, master students have about 15 t
 
 Assuming you have 15 minutes, you should not create more than 7 to 8 slides (9 to 10 in total, see below). Assume 2 min per slide. Professors won't pay attention to presentations with 20, 30 slides. 
 
-**Remember that the professors in your committee are experts in the topic of your dissertation**. So don't bother them with unnecessary explanations. You have to show that you know what you are talking about and you are all over your work, but remember that you are the rockie in the room. So stick to the time that is allocated to you.
+**Remember that professors in your committee are experts in the topic of your dissertation**. So don't bother them with unnecessary explanations. You have to show that you know what you are talking  and you are all over your work, but remember that you are the rockie in the room. So stick to the time that is allocated to you.
 
-If you have 8 slides, you should use the first 2 to 1) give the context of your work, 2) motivate your research, 3) justify why it is important, 4) discuss the research question. This order can vary throughout the slides, but it is almost mandatory to present these four topics. You can use chapter 1 of your dissertation to create these slides.
+If you have 8 slides, you should use the first 2 to a) give the context of your work, b) motivate your research, c) justify why it is important, d) discuss the research question. This order can vary throughout the slides, but it is almost mandatory to present these four topics. You can use chapter 1 of your dissertation to create these slides.
 
-Then, slide #3 should contain the theory that you used in your work. Avoid long paragraphs (nobody will have the time to read them while listening to you) and prefer to cite articles using bullets. You must be prepared to discuss each of the articles that you mention in this slide (and all articles that you cite in the dissertation, for that matter). You can include one or two short sentences to aggregate somehow the articles you cite, but **do not include full paragraphs in your slides** to discuss an specific article (you can use the appendix for that, see below). 
+Then, slide #3 should contain the theory that you used in your work. Avoid long paragraphs (nobody will have the time to read them while listening to you) and prefer to cite articles using bullets. You must be prepared to discuss each of the articles you mention in this slide (and all articles you cite in the dissertation, for that matter). You can include one or two short sentences to aggregate somehow the articles you cite, but **do not include full paragraphs in your slides** to discuss an specific article (you can use the appendix for that, see below). 
 
-You use slides #4 and #5 to discuss your empirical design. Again, avoid entire paragraphs and discuss using bullets, equations, and perhaps figures. Also, discuss the sample, any instrumental variable, any adjustment you made, etc. Be prepared to talk for around 3 minutes about these 2 slides since professors will pay a lot of attention to this part of your presentation. This might be the most critical part of your talk. 
+You use slides #4 and #5 to discuss your empirical design. Again, avoid entire paragraphs and discuss using bullets, equations, and perhaps figures. Also, discuss the sample, any instrumental variable, any adjustment you made, etc. Be prepared to talk for around 3 to 4 minutes about these 2 slides since professors will pay a lot of attention to this part of your presentation. This might be the most critical part of your talk. 
 
 You have 2 slides to present the results. Avoid tables, but you can use part of them with extreme caution. If you want to include something from a table, include only the part that matters (and draw professors' attention to the pages of your dissertation where the table is). It is always a good idea to come out with a figure to present the results if you can have one. 
 
@@ -53,7 +53,7 @@ Finally, use the final slides to your concluding remarks. Again, avoid entire pa
 
 There you go! 8 slides to a 15-min presentation! 
 
-This is how I see a nice master presentation, but they are not rules. If you feel you need 1 or 2 more slides, you can have it. However, **do not use more time than expected!**
+This is how I see a nice master presentation, but these are not rules. If you feel you need 1 or 2 more slides, you can have it. However, **do not use more time than expected!**
 
 
 In total, you may have 10 slides because you can use the first slide to include the title of your dissertation and your name, and the latter to include the same information again with a "Thank you for your attention" message. You do not spend time with these slides; they are there only to "initiate" and "conclude" your presentation, respectively. They are usually the slides that you keep on the screen while the real discussion is happening.
