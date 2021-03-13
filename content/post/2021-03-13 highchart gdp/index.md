@@ -92,8 +92,6 @@ Now, let's merge the GDP Growth data with the ISO3 codes
     
 Finally, the fun part. Create the map using the following code.    
 
-
-
     hc<-hcmap(
       map = "custom/world-highres3", 
       data = dat, 
@@ -110,25 +108,16 @@ Finally, the fun part. Create the map using the following code.
                 y = 0) %>%
       hc_title(text = "GDP Growth in 2019 for selected Countries")
 
-
-
-  
-    export_hc(hc, filename = "~/map.js", as = "is", name = NULL)
+      hc
 
 This is what you have to find.
 
-url_slides: "/slides/2020-12-02 Introducao pesquisa financas/slides4-pesq-financas.html"
+
+url_slides: "map.html"
+
+
+{{% staticref "map.html" "newtab" %}}
 
 
 
-    
-url_slides: "/static/html/map.html"
-
-url_slides: "static/html/map.html"
-
-
-{{% staticref "/static/html/map.html" "newtab" %}}
-
-{{% staticref "static/html/map.html" "newtab" %}}
-  
-
+This {{% staticref "files/map.html" "newtab" %}} here {{% /staticref %}}.
