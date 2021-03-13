@@ -1,6 +1,6 @@
 ---
 
-title: "GDP growth under Covid-19 - How to create an effective Master's presentation"
+title: "A highchart of GDP growth"
 
 categories: []
 
@@ -133,4 +133,4 @@ This is what you have to find.
 
 {{% staticref "static/html/map.html" "newtab" %}}
   
-
+url_slides: "/slides/2020-12-02 Introducao pesquisa financas/slides4-pesq-financas.html"
