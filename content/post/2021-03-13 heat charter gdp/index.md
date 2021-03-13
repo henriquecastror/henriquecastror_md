@@ -68,7 +68,7 @@ Here is where you decide which countries you want to analyse. Let's keep in simp
     Countries  <- c("Brazil","Argentina","Chile","Russian Federation","United States","China","Germany","Australia","South Africa","Canada","India","Egypt, Arab Rep.","United Kingdom")
     GDP_Filter <- GDP[GDP$country %in% Countries ,]
 
-We also will need the list of ISO codes. You can find the codes [here](https://www.iban.com/country-codes).
+We also will need the list of ISO codes. You can find the ISO codes [here](https://www.iban.com/country-codes).
 
     Countries_iso3  <- c("BRA","ARG","CHL","RUS", "USA","CHN","DEU","AUS","ZAF","CAN","IND","EGY","GBR")
 
@@ -93,8 +93,8 @@ Now, let's merge the GDP Growth data with the ISO3 codes
 Finally, the fun part. Create the map using the following code.    
 
 
-```{r}
-hcmap(
+
+    hc<-hcmap(
       map = "custom/world-highres3", 
       data = dat, 
       joinBy = "iso-a3",
@@ -109,7 +109,11 @@ hcmap(
                 x = 100,
                 y = 0) %>%
       hc_title(text = "GDP Growth in 2019 for selected Countries")
-```
+
+
+
+  
+    export_hc(hc, filename = "~/map.js", as = "is", name = NULL)
 
 This is what you have to find.
 
@@ -117,7 +121,7 @@ This is what you have to find.
 
 {{< chart data="map.html" width="80%" >}}
 
-{{< chart data="map" >}}
+{{< chart data="test" >}}
     
     
 "/static/html/map.html"
