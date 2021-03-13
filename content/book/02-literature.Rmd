@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Literature
 
@@ -15,8 +15,10 @@ output:
 - **@FamaFrench1983b**
 - **@LaPorta1998**: Must read about Law and Finance.
 - **@Jensen1976**: The origins of Agency conflicts and Corporate Governance.
-- **@Jensen1986**
+- **@Jensen1986**: Corporate Governance classics.
 - **@Markowitz1952**: The origins of portfolio.
+- **@MM1958**: Capital structure classics.
+- **@MyersMajluf1984**: Important for capital structure decisions.
 
 
 ## List of papers - Corporate Finance
@@ -46,9 +48,10 @@ output:
 
 ## List of materials - Econometrics
 - **@Abadie2010**: An example of Synthetic Control.
-- **@Adams2017**: A coOl list about empirical problems in governance (and finance) research.
+- **@Adams2017**: A cool list about empirical problems in governance (and finance) research.
 - **@AngristPischke2008**: Good to learn about causality methods.
 - **@AngristPischke2014**: Easier to read than previous one. I use this one in classes.
+-	**@AtanasovBlack2016**: Good Review about causal methods. 
 - **@Bascle2008**: Also easy to read review about endogeneity and methods.
 - **@Bertrand2004**
 - **@Brooks2019**: Book with nice examples and lots of codes.
@@ -63,12 +66,14 @@ output:
 - **@Murray2006**: Nice examples of instruments
 - **@Petersen2009**: Discussion about standard-errors in Finance.
 - **@Reeb2012**: Easy to reed review about endogeneity in International Business.
+-	**@RobertsWhited2013**: Good review about causal methods.
 - **@Roodman2009**: Important to estimate GMM in stata.
 - **@Roodman2009xtabond2**: Important to estimate GMM in Stata.
 - **@Schiozer2020**: A tutorial about Diff-in-Diff, with open data and open code.
 - **@Stuart2010**    
 - **@Wasserstein2016**: About p-value and the importance of not using a single metric to assess the quality of a model.
 - **@Wooldridge2019**: The basic must-to-read book about econometrics.
+
 
 
 
