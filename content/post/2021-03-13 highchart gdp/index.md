@@ -110,7 +110,7 @@ Finally, the fun part. Create the map using the following code.
 
       hc
 
-This is what you have to find:  {{% staticref "files/map.html" "newtab" %}} here {{% /staticref %}}.
+This is what you have to find:  {{% staticref "html/highchart_map.html" "newtab" %}} here {{% /staticref %}}.
 
 
 Nice chart, right? We hope you like it! 
