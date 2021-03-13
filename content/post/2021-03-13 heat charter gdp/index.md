@@ -1,17 +1,28 @@
 ---
+
 title: "GDP growth under Covid-19 - How to create an effective Master's presentation"
+
 categories: []
+
 date: '2021-03-13T00:00:00Z'
+
 draft: no
+
 featured: no
+
 gallery_item: null
+
 image:
   caption: "https://unsplash.com/photos/tI_DEyjWOkY"
   focal_point: Top
   preview_only: no
+
 projects: []
+
 subtitle: null
+
 summary: null
+
 tags:
 - Open Data
 - Open Science
@@ -20,12 +31,14 @@ tags:
 - Research
 - Master
 - Phd
+
 authors:
 - admin
 - Gerson
+
 ---
 
-Gerson and I are working in several projects to foster Open Science in our research community. We are sharing in this post a code to create a map using open data from the World Bank. The code is simple, and you can pay all along it.
+[Gerson](https://scholar.google.com/citations?user=bbgB49g0N2cC&hl=pt-BR) and I are working in several projects to foster Open Science in our research community. We are sharing in this post a code to create a map using open data from the World Bank. The code is simple, and you can pay all along it.
 
 First, install and load these packages.
 
@@ -101,11 +114,19 @@ hcmap(
 This is what you have to find.
 
 {{< figure src="map.html" width="80%" >}}
+
+{{< chart data="map.html" width="80%" >}}
+
+{{< chart data="map" >}}
     
     
 "/static/html/map.html"
 
+"static/html/map.html"
+
 
 {{% staticref "/static/html/map.html" "newtab" %}}
+
+{{% staticref "static/html/map.html" "newtab" %}}
   
 
