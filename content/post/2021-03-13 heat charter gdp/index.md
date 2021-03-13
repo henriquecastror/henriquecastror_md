@@ -117,20 +117,18 @@ Finally, the fun part. Create the map using the following code.
 
 This is what you have to find.
 
-{{< figure src="map.html" width="80%" >}}
+url_slides: "/slides/2020-12-02 Introducao pesquisa financas/slides4-pesq-financas.html"
 
-{{< chart data="map.html" width="80%" >}}
 
-{{< chart data="test" >}}
+
     
-    
-"/static/html/map.html"
+url_slides: "/static/html/map.html"
 
-"static/html/map.html"
+url_slides: "static/html/map.html"
 
 
 {{% staticref "/static/html/map.html" "newtab" %}}
 
 {{% staticref "static/html/map.html" "newtab" %}}
   
-url_slides: "/slides/2020-12-02 Introducao pesquisa financas/slides4-pesq-financas.html"
+
