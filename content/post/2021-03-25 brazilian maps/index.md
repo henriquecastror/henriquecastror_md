@@ -235,7 +235,7 @@ Now, for fun, let's create a gif from it.
       movie.name = "Gif1.gif"
     )
 
-Here is the gif
+Here is the gif:
 
 {{< figure library="true" src="Brazilian_map.gif" width="80%"  >}}
 
