@@ -12,7 +12,7 @@ tags:
 title: Cash holdings
 ---
 
-### Cash holdings decisions of Brazilian Fims
+### Cash holdings decisions of Brazilian Firms
 
 In this project, I aim to understand the dynamics of cashs management in Brazilian firms. More details soon.
 
