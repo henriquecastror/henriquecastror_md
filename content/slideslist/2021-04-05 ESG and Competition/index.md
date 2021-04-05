@@ -2,7 +2,7 @@
 authors:
 - admin
 
-date: "2021-04-04T00:00:00Z"
+date: "2021-04-05T00:00:00Z"
 
 tags: 
 - Research
@@ -13,7 +13,7 @@ tags:
 title: (Apr 2021) Seminar Paper ESG and Competition
 
 
-url_slides: "/slides/2021-04-05 ESG and Competition/1-ESG-and-Competition-FGV-Seminar.html"
+url_slides: "/slides/2021-04-05 ESG and Competition/ESG-and-Competition-FGV-Seminar.html"
 
 ---
 
