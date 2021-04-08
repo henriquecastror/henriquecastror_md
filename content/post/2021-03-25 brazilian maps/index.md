@@ -4,7 +4,7 @@ title: "Exploring Brazilian data in a map"
 
 categories: []
 
-date: '2021-03-26T00:00:00Z'
+date: '2021-04-08T00:00:00Z'
 
 draft: no
 
@@ -241,6 +241,6 @@ Here is the gif:
 {{< figure library="true" src="abevanimate.gif" width="100%"  >}}
 
 
-{{< figure library="true" src="Brazilian_map.gif" width="80%"  >}}
+{{< figure library="true" src="explicit_my3.gif" width="80%"  >}}
 
 Congrats, Gerson! Nice work.
