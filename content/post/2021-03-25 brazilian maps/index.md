@@ -41,7 +41,7 @@ authors:
 
 This is another work by [Gerson](https://scholar.google.com/citations?user=bbgB49g0N2cC&hl=pt-BR). He made all the codes this time, and I just wrote these few words here. Again, this is part of our project to foster Open Science in our research community and make coding more accessible. 
 
-First, install and load these packages. You may need to update your R to the version 4.03.
+First, install and load these packages. You may need to update your R to version 4.02.
 
     library(udunits2)
     library(units)
@@ -52,7 +52,7 @@ First, install and load these packages. You may need to update your R to the ver
     library(RColorBrewer)
     library(dplyr)
 
-Then, manually create the data (e.g., GDP per capita) for each state. You could download using some open code, but for simplicity, we are creating it by hand. 
+Then, manually create the data (e.g., GDP per capita) for each state. You could download using some open code, but for simplicity, we'll make it by hand. 
 	
     dados <- structure(
     list(X = 1:27, 
@@ -95,7 +95,7 @@ Finally, create the map.
     plot(p)
 
     
-This is what you get. Nice way to see the GDP of each of Brazilian's states, rights?
+This is what you get. Nice way to see the GDP of each of Brazilian's states, right?
     
 {{< figure src="G1.png" width="80%" >}}    
 
@@ -106,7 +106,7 @@ This is what you get. Nice way to see the GDP of each of Brazilian's states, rig
 
 ## COVID situation in Brazil
 
-You can create fancier stuff with the same code. We'll skip the explanation, but notice the structure is the same as above, but we are repeting it three times.
+You can create fancier stuff with the same code. We'll skip the explanation, but notice the structure is the same as above, but we are repeating it three times.
 
 
       dados1 <- structure(
@@ -218,7 +218,7 @@ You can create fancier stuff with the same code. We'll skip the explanation, but
     
     
     
-Now, for fun, let's create a gif from it.    
+Now, for fun, let's create a gif.    
     
     
     #GIF
@@ -238,9 +238,7 @@ Now, for fun, let's create a gif from it.
 Here is the gif:
 
 
-{{< figure library="true" src="abevanimate.gif" width="100%"  >}}
-
-
 {{< figure library="true" src="explicit_my3.gif" width="80%"  >}}
 
-Congrats, Gerson! Nice work.
+
+We hope you like it!
