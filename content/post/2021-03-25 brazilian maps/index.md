@@ -237,6 +237,10 @@ Now, for fun, let's create a gif from it.
 
 Here is the gif:
 
+
+{{< figure library="true" src="abevanimate.gif" width="100%"  >}}
+
+
 {{< figure library="true" src="Brazilian_map.gif" width="80%"  >}}
 
 Congrats, Gerson! Nice work.
