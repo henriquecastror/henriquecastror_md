@@ -60,7 +60,7 @@ math: true
 ---
 
 
-I am happy to share this talk I had with [Marcelo Perlin](https://www.msperlin.com/blog/) and [Gerson Junior](https://scholar.google.com/citations?user=bbgB49g0N2cC&hl=pt-BR) about Perlin's package to download Financial data from Brazilian Companies using R.
+I am happy to share this talk I had with [Marcelo Perlin](https://www.msperlin.com/blog/) and [Gerson Junior](https://scholar.google.com/citations?user=bbgB49g0N2cC&hl=pt-BR) about Perlin's new package to download financial data from Brazilian Companies using R (GetDFPdata2).
 
 
 {{< youtube FthV0_0xy2Q >}}
