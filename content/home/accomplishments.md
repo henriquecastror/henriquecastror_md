@@ -1,11 +1,11 @@
 +++
-# Accomplishments widget.
-widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+widget = "accomplishments"
+headless = true
+active = false 
+weight = 50 
+
+title = "Accomplishments"
 subtitle = ""
 
 # Date format
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   description = "Formulated informed blockchain models, hypotheses, and use cases."
   
 [[item]]
-  organization = "DataCamp"
+  organization = "Master in Finance"
   organization_url = "https://www.datacamp.com"
   title = "Object-Oriented Programming in R: S3 and R6 Course"
   url = ""
