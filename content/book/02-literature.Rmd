@@ -38,7 +38,8 @@ output:
 ## List of papers - Open Science
 - **RAC's editorials**: I recommend all RAC's Editorials since 2018 about Open Science, Open data and related topics (https://rac.anpad.org.br/index.php/rac)
 - **@Babin2020**: Replication methods in academic research.
-- **@Beugelsdijk2020**: The JIBS editorial about Open Science
+- **@Beugelsdijk2020**: The JIBS editorial about Open Science.
+- **BettisHelfatShaver2016replication**: About different types of replication studies.
 - **@Harvey2017**: discusses the publication of "significant" results. Read to understand what is the publication bias.
 - **@Harvey2019**: A discussion about replications.
 - **@Spiegel2019**: About replication and open data.
