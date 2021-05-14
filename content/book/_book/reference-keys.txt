@@ -7,6 +7,7 @@ list-of-papers---governance
 list-of-papers---open-science
 list-of-materials---econometrics
 list-of-books---finance
+list-of-papers---science
 master-syllabus-2020.2
 syllabus
 goals
@@ -14,12 +15,3 @@ program
 grading
 mandatory-readings
 schedule-days
-exercises
-master-coding-marathon-2020-oct
-exercise-1
-exercise-2
-exercise-3
-exercise-4
-exercise-5
-conclusion
-list-of-papers---science
