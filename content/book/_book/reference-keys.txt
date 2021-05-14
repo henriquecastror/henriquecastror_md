@@ -1,13 +1,5 @@
 book-of-notes
 journals-rankings
-literature
-list-of-papers---classic
-list-of-papers---corporate-finance
-list-of-papers---governance
-list-of-papers---open-science
-list-of-materials---econometrics
-list-of-books---finance
-list-of-papers---science
 master-syllabus-2020.2
 syllabus
 goals
