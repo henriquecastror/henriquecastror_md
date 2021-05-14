@@ -160,19 +160,3 @@ Placeholder
 
 <!--chapter:end:03-master-syllabus-2020-2.Rmd-->
 
-
-# Exercises 
-
-Placeholder
-
-
-## Master coding marathon (2020 Oct)
-### Exercise 1
-### Exercise 2
-### Exercise 3
-### Exercise 4 
-### Exercise 5
-### Conclusion
-
-<!--chapter:end:04-exercises.Rmd-->
-
