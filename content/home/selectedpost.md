@@ -49,8 +49,9 @@ subtitle = ""
 
 
 
-👉 [**A new project: Open Code Community. See Post here**](https://henriquemartins.net/post/2021-04-30 open-code-com/)
+👉 A new project: Open Code Community. 
+
+[** See Post here**](https://henriquemartins.net/post/2021-04-30-open-code-com/)
 
 
-
-{{< figure library="true" src="welcome.jog" width="80%"  >}}
+{{< figure library="true" src="welcome.jpg" width="80%"  >}}

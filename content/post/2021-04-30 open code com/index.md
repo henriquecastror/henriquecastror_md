@@ -36,6 +36,6 @@ Hey, check it out my new project about open code.
 
 We launched an website where everyone can share their own codes. It is all open and free.
 
-Check the website [here](opencodecom.net).
+Check the website [here](https://opencodecom.net/).
 
 I am very happy to launch this project. I hope it helps you!

@@ -31,10 +31,10 @@ title: Paper accepted - World Finance Conference
 
 ---
 
-Yeah, I had paper accepted to be presented at the [World Finance Conference](https://www.world-finance-conference.com/conference.php?id=21.
+Yeah, I had paper accepted to be presented at the [World Finance Conference](https://www.world-finance-conference.com/conference.php?id=21).
 
 
-The article title is _Competition and ESG practices in emerging markets: evidence from a differences-in-differences model_ and is part of my ESG projects. 
+The article title is _"Competition and ESG practices in emerging markets: evidence from a differences-in-differences model"_ and is part of my ESG projects. 
 
 Happy to share the news!
 
