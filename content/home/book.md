@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 95  # Order that this section will appear.
 
-title = "Selected post"
+title = "My Messy book of notes"
 subtitle = ""
 
 [design]
@@ -49,9 +49,9 @@ subtitle = ""
 
 
 
-👉 [**See Post here Test 2**](https://henriquemartins.net/post/2020-08-18-betas/)
+See my book of random notes including classes journal's rankings, literature, and others TBA.
 
-See site [here](https://henriquecastror-smart-academy.netlify.app/).
+Check it [here](https://henriquecastror-book-of-notes.netlify.app/).
 
 
 
