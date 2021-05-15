@@ -44,10 +44,10 @@
 #    url = "https://henriquemartins-notes.netlify.app/"
 #    weight = 70
 
-[[main]]
-    name = "Book of Notes"
-    url = "book/_book/"
-    weight = 70
+#[[main]]
+#    name = "Book of Notes"
+#    url = "book/_book/"
+#    weight = 70
 
     
   
