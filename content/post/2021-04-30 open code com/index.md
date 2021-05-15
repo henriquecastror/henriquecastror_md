@@ -32,10 +32,13 @@ title: New Project - the Open Code Community
 
 ---
 
-Hey, check it out my new project about open code. 
+Hey, check out my new project about open code. 
 
-We launched an website where everyone can share their own codes. It is all open and free.
+We launched a website where everyone can share their own codes. It is all open, accessible, and free.
 
 Check the website [here](https://opencodecom.net/).
 
-I am very happy to launch this project. I hope it helps you!
+I am thrilled to launch this project. If you like the type of codes I used to share here, please stay tuned.
+
+I hope it helps you!
+
