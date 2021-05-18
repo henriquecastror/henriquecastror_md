@@ -1,9 +1,11 @@
 ---
-title: "Competition and ESG practices in emerging markets: evidences from a diff-in-diff model"
+title: 'Competition and ESG practices in emerging markets: evidences from a diff-in-diff
+  model'
 author: "Henrique Castro Martins (IAG/PUC-Rio)"
 date: '2021-04-05'
 output:
   xaringan::moon_reader: default
+  ioslides_presentation: default
   beamer_presentation:
     theme: AnnArbor
     colortheme: dolphin
