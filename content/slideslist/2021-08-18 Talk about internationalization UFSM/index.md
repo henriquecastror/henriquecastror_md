@@ -13,7 +13,7 @@ tags:
 title: (Aug 2021) Talk about internationalization UFSM
 
 
-url_slides: "/slides/2021-08-18 Talk about internationalization UFSM.html"
+url_slides: "/slides/2021-08-18 Talk about internationalization UFSM/Talk-about-internationalization-UFSM.html"
 
 ---
 
