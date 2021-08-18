@@ -1,0 +1,176 @@
+---
+title: 'Talk Research Internationalization (for Brazilian researchers)'
+author: "Henrique Castro Martins"
+date: '2021-08-18'
+output:
+  xaringan::moon_reader: default
+  ioslides_presentation: default
+  beamer_presentation:
+    theme: AnnArbor
+    colortheme: dolphin
+    fonttheme: structurebold
+params:
+  name1: HCM
+---
+
+
+
+<img src="warning.jpg" width="85%" align="center" />
+
+
+**My opinions do not represent those of the institution I work for.**
+
+
+
+
+
+---
+
+# The current state
+
+**Too many** articles...
+
+--
+
+... in **low-quality** journals.
+
+--
+
+**Scholars are  doing their best**
+
+  - To get "tenure" (not a common concept in Brazil yet)
+  - To increase reputation
+  - High competitive environment (mental health is a problem)
+  
+  
+--
+
+**Journals are doing their best to increase impact**
+
+  - Game of metrics
+  - High competitive environment for journals
+
+
+  
+  
+
+---
+# Too many articles
+
+
+Brazil 60k scientific articles in 2018: [data.orldbank][https://data.worldbank.org/indicator/IP.JRN.ARTC.SC?locations=BR]
+
+
+World 2.554K scientific articles in 2018: [data.orldbank][https://data.worldbank.org/indicator/IP.JRN.ARTC.SC]
+
+
+--
+
+**Production of academic research is not a problem anymore.**
+
+---
+
+<img src="citation.png" width="80%" align="center" />
+
+
+**Production of academic research is not a problem anymore.** [Source](https://www.scimagojr.com/countryrank.php?area=1400&year=2020).
+
+
+
+---
+
+<img src="manyarticles.png" width="100%" align="center" />
+
+
+**Production of academic research is not a problem anymore.** [Source](https://www.universityworldnews.com/post.php?story=20180905095203579).
+
+
+
+
+---
+
+
+# International Standards
+
+**ABS List**
+
+  - [Site](https://charteredabs.org/academic-journal-guide-2021/)
+  
+  - A short (messy!) [list](https://henriquecastror-book-of-notes.netlify.app/journals-rankings.html).
+  
+--
+
+Focus is
+  - ABS 4* (too competitive)
+  - ABS 4 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+# For Faculty
+
+**The major output a professor can have is the positions their students get.**
+
+  - Students are **future co-authors** 
+      - likely more updated literature background
+  
+  - The best articles, most likely, come **during your career**, not during the PhD of your student.
+  
+  - Brazilian standards need to change from a short-term (i.e., 4 years students) **to a long-term mindset** (i.e., relationship with student and future outcomes).
+      - Helps thinking more about quality than quantity.
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+class: right, middle
+
+.left[ __Hope you like it!__ ] 
+
+
+<img src="me.png" width="15%" align="right" />
+
+$$\\[2.25cm]$$
+
+# *Find me at:*
+
+[henrique.martins@fgv.br](henrique.martins@fgv.br)
+
+[https://eaesp.fgv.br/en/faculty/henrique-castro-martins](https://eaesp.fgv.br/en/faculty/henrique-castro-martins)
+
+[henriquemartins.net](https://henriquemartins.net/)
+
+[https://www.linkedin.com/in/henriquecastror/](https://www.linkedin.com/in/henriquecastror/)
+
