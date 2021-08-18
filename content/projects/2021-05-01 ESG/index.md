@@ -19,4 +19,4 @@ This paper investigates how product market competition affects corporate environ
 
 This paper was selected to the presented at the [World Finance Conference](https://www.world-finance-conference.com/conference.php?id=21) in 3-6 August, 2021.
 
-Publish at Finance Research Letters: [here](https://www.sciencedirect.com/science/article/abs/pii/S1544612321003731).
+Published at Finance Research Letters: [here](https://www.sciencedirect.com/science/article/abs/pii/S1544612321003731).
