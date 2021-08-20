@@ -4,7 +4,7 @@ authors:
 - admin
 
 date: "2020-09-09T00:00:00Z"
-doi: "https://rac.anpad.org.br/index.php/rac/article/view/1424"
+doi: "https://doi.org/10.1590/1982-7849rac2021200212 "
 featured: false
 
 image: 
