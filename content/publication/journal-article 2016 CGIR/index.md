@@ -28,6 +28,7 @@ title: Cross-National Governance Research - A Systematic Review and Assessment
 
 ---
 
+<div data-badge-popover="right" data-badge-type="medium-donut" data-doi=" https://doi.org/10.1111/corg.12158" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 *Research Question/Issue:*
 
