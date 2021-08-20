@@ -32,6 +32,8 @@ title: Cross-National Governance Research - A Systematic Review and Assessment
 
 <a href="https://plu.mx/plum/a/?doi=10.1111%2Fcorg.12158" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Cross-National Governance Research: A Systematic Review and Assessment</a>
 
+
+
 *Research Question/Issue:*
 
 Using a systematic literature review approach, we survey 192 cross-national comparative studies published in 23 scholarly journals in the fields of accounting, economics, finance, and management for the period 2003 to 2014. The purpose is to synthesize and appraise the extant empirical research on the interplay between country- and firm-level governance mechanisms and the effects on firm outcomes. Particular focus is placed on studies that examine firm economic performance.
