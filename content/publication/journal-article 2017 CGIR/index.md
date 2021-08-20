@@ -30,6 +30,8 @@ title: Country-level governance quality, ownership concentration, and debt matur
 
 <a href="https://plu.mx/plum/a/?doi=10.1111%2Fcorg.12192" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Country-level governance quality, ownership concentration, and debt maturity: A comparative study of Brazil and Chile</a>
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
 
 
 *Research Question/Issue:*
