@@ -28,9 +28,9 @@ title: Cross-National Governance Research - A Systematic Review and Assessment
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-
-
+<a href="https://plu.mx/plum/a/?doi=10.1111%2Fcorg.12158" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Cross-National Governance Research: A Systematic Review and Assessment</a>
 
 *Research Question/Issue:*
 
