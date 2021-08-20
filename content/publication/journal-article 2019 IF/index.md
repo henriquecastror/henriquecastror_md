@@ -27,6 +27,9 @@ title: Investor protection, managerial entrenchment, and cash holdings - Cross-c
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<a href="https://plu.mx/plum/a/?doi=10.1111%2Finfi.12343" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Investor protection, managerial entrenchment, and cash holdings: Cross-country evidence</a>
 
 *Abstract:*
 

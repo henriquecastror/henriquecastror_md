@@ -27,6 +27,11 @@ title: Does control concentration affect board busyness? International evidence
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<a href="https://plu.mx/plum/a/?doi=10.1007%2Fs10997-019-09487-9" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Does control concentration affect board busyness? International evidence</a>
+
+
 
 *Abstract:*
 

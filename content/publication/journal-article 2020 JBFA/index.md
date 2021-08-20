@@ -28,6 +28,11 @@ title: Do shareholder protection and creditor rights have distinct effects on th
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<a href="https://plu.mx/plum/a/?doi=10.1111%2Fjbfa.12430" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Do shareholder protection and creditor rights have distinct effects on the association between debt maturity and ownership structure?</a>
+
+
 *Abstract:*
 
 This study examines the effects of the firm's ownership concentration and its institutional environment on corporate debt maturity choices. As ownership concentration and debt maturity are alternative governance mechanisms, we theorize and investigate whether their association is influenced by country-level governance factors that enhance outside monitoring by minority shareholders and debtholders. Our investigation is based on a dataset of 50,599 firm-year observations from 38 countries. We use a propensity-score matching approach and find that the effect of ownership concentration on debt maturity is conditional to country-level governance attributes. Ownership concentration has a negative effect on debt maturity in countries where both shareholder protection and creditor rights are weak. Ownership concentration, however, tends to lengthen debt maturity as protection increases, and this positive effect on the length of debt maturity is stronger in countries enhancing protection towards debtholders (instead of shareholders). We also explore other characteristics of ownership structure, such as the identity and presence of controlling shareholders. These results corroborate the view that entrenched shareholders may use debt maturity opportunistically. Our study provides new insights into the interplay between firm- and country-level governance mechanisms and a deeper understanding of cross-country differences in the association between ownership structure and debt financing.

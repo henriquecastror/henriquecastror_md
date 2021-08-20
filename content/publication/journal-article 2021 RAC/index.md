@@ -30,6 +30,10 @@ title: Tutorial-Articles - The Importance of Data and Code Sharing
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<a href="https://plu.mx/plum/a/?doi=10.1590%2F1982-7849rac2021200212" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">Tutorial-Articles: The Importance of Data and Code Sharing</a>
+
 
 *Abstract:*
 

@@ -27,7 +27,9 @@ title: The Brazilian bankruptcy law reform, corporate ownership concentration, a
 
 ---
 
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+<a href="https://plu.mx/plum/a/?doi=10.1002%2Fmde.3120" data-popup="right" data-size="large" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="true">The Brazilian bankruptcy law reform, corporate ownership concentration, and risk-taking</a>
 
 *Abstract:*
 
