@@ -132,9 +132,10 @@ highlight_name: false
 user_groups:
 - Researchers
 - Visitors
+
 ---
 
-I hold a Ph.D. in Finance, and I am currently an Assistant Professor at [FGV EAESP](https://eaesp.fgv.br/) (São Paulo, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. 
+I hold a Ph.D. in Finance, and I am currently an Assistant Professor at [FGV/EAESP](https://eaesp.fgv.br/) (São Paulo, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. 
 
 If you have any questions about my research, or if you want to work with me, contact me at henrique.martins@fgv.br.
 
