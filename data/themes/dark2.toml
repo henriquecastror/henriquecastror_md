@@ -5,7 +5,7 @@ name = "Dark"
 light = true
 
 # Primary
-primary = "hsla(231, 15%, 18%, 1)"
+primary = "#212a66"
 
 # Menu
 menu_primary = "#fff"
