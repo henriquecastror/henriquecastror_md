@@ -2,7 +2,7 @@
 name = "Dark"
 
 # Is theme light or dark?
-light = false
+light = true
 
 # Primary
 primary = "#000f91"
@@ -10,7 +10,7 @@ primary = "#000f91"
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#000f91"
+menu_text_active = "#000b6e"
 menu_title = "#2b2b2b"
 
 # Home sections
