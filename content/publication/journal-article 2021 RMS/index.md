@@ -27,7 +27,7 @@ tags:
 - Rule-taking
 
 
-title: Integrating uncertainty and governance into a capital structure puzzle: can risk-taking and rule-taking explain zero-leverage firms?
+title: "Integrating uncertainty and governance into a capital structure puzzle: can risk-taking and rule-taking explain zero-leverage firms?"
 
 
 ---
