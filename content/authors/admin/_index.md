@@ -50,7 +50,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:hcm@iag.puc-rio.br'
+  link: 'mailto:henrique.martins@fgv.br'
 
 - icon: lattes
   icon_pack: ai
