@@ -16,7 +16,7 @@ role: Assistant Professor of Finance
 # Organizations/Affiliations
 organizations:
 - name: Fundação Getúlio Vargas
-  url: "https://eaesp.fgv.br/en/faculty/henrique-castro-martins"
+  url: "https://eaesp.fgv.br/pessoa/henrique-castro-martins"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -76,9 +76,9 @@ social:
   icon_pack: ai
   link: https://www.researchgate.net/profile/Henrique_Castro_Martins
 
-- icon: dataverse
-  icon_pack: ai
-  link: https://dataverse.harvard.edu/dataverse/henrique
+#- icon: dataverse
+#  icon_pack: ai
+#  link: https://dataverse.harvard.edu/dataverse/henrique
   
 - icon: linkedin
   icon_pack: fab
@@ -102,9 +102,9 @@ social:
   icon_pack: fab
   link: https://instagram.com/henriquecastror
 
-- icon: facebook
-  icon_pack: fab
-  link: https://facebook.com/henriquecastror
+#- icon: facebook
+#  icon_pack: fab
+#  link: https://facebook.com/henriquecastror
   
 # - icon: cv
 #  icon_pack: ai
