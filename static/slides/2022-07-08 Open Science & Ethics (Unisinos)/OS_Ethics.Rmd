@@ -348,9 +348,11 @@ class: left
     - If the project is not good, abandon it (instead of publishing in such journals)
 
 
+--
 
-
-
+- **Do not cheat**
+    - The industry is getting better at finding wrongdoings.
+    - At the end of the day, people talk about reputation.
 
 
 
