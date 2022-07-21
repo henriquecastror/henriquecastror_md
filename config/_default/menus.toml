@@ -39,25 +39,25 @@
   weight = 65
 
 [[main]]
-    name = "Book of Notes"
-    url = "https://henriquecastror-book-of-notes.netlify.app/"
+    name = "Notes Research"
+    url = "https://hcm-research.netlify.app"
     weight = 70
+
+[[main]]
+    name = "Notes Classes"
+    url = "https://hcm-classes.netlify.app"
+    weight = 75
 
 #[[main]]
 #    name = "Book of Notes"
 #    url = "book/_book/"
 #    weight = 70
 
-    
   
 [[main]]
     name = "CV"
     url = "files/cv_Henrique_Castro_Martins.pdf"
     weight = 75
-    
-    
-
-
 
 
 
