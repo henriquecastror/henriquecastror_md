@@ -49,9 +49,9 @@ subtitle = ""
 
 
 
-See my book of random notes including journal's rankings, literature, and others TBA.
+See my book of random notes including journal's rankings, literature, and others.
 
-👉 Check it [here](https://henriquecastror-book-of-notes.netlify.app/).
+👉 Check it [here](https://hcm-classes.netlify.app/).
 
 
 
