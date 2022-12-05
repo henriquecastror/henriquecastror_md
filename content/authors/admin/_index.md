@@ -47,60 +47,60 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:henrique.martins@fgv.br'
+#social:
+#- icon: envelope
+#  icon_pack: fas
+#  link: 'mailto:henrique.martins@fgv.br'
 
-- icon: lattes
-  icon_pack: ai
-  link: http://lattes.cnpq.br/6076997472159785
+#- icon: lattes
+#  icon_pack: ai
+#  link: http://lattes.cnpq.br/6076997472159785
 
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.com.br/citations?user=7gIfkRMAAAAJ&hl=pt-BR&oi=ao
 
 #- icon: scopus
 #  icon_pack: ai
 #  link: https://www.scopus.com/authid/detail.uri?authorId=56179864100
 
-- icon: orcid
-  icon_pack: ai
-  link: https://orcid.org/0000-0002-3186-4245
+#- icon: orcid
+#  icon_pack: ai
+#  link: https://orcid.org/0000-0002-3186-4245
 
-- icon: publons
-  icon_pack: ai
-  link: https://publons.com/researcher/1215850/henrique-castro-martins/
+#- icon: publons
+#  icon_pack: ai
+#  link: https://publons.com/researcher/1215850/henrique-castro-martins/
 
-- icon: researchgate
-  icon_pack: ai
-  link: https://www.researchgate.net/profile/Henrique_Castro_Martins
+#- icon: researchgate
+#  icon_pack: ai
+#  link: https://www.researchgate.net/profile/Henrique_Castro_Martins
 
 #- icon: dataverse
 #  icon_pack: ai
 #  link: https://dataverse.harvard.edu/dataverse/henrique
   
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/henriquecastror/
-  label: My LinkedIn
-  display:
-    header: true
+#- icon: linkedin
+#  icon_pack: fab
+#  link: https://www.linkedin.com/in/henriquecastror/
+#  label: My LinkedIn
+#  display:
+#    header: true
 
-- icon: youtube
-  icon_pack: fab
-  link: https://www.youtube.com/channel/UCS9ws4WEedza36NRimBZXeg?view_as=subscriber
-  label: Youtube
-  display:
-    header: true
+#- icon: youtube
+#  icon_pack: fab
+#  link: https://www.youtube.com/channel/UCS9ws4WEedza36NRimBZXeg?view_as=subscriber
+#  label: Youtube
+#  display:
+#    header: true
   
 # - icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/henriquecastror
   
-- icon: instagram
-  icon_pack: fab
-  link: https://instagram.com/henriquecastror
+#- icon: instagram
+#  icon_pack: fab
+#  link: https://instagram.com/henriquecastror
 
 #- icon: facebook
 #  icon_pack: fab
