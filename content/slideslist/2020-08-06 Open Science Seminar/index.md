@@ -10,6 +10,7 @@ tags:
 
 title: (Aug 2020) Open Science seminar
 
+draft: true
 
 ---
 

@@ -10,6 +10,7 @@ tags:
 
 title: (Oct 2020) EnAnpad
 
+draft: true
 
 ---
 
