@@ -12,6 +12,8 @@ title: (Nov 2020) RAC Open Science
 
 url_slides: "/slides/2020-11-19 RAC Open Science/slides3-RAC-os.html"
 
+draft: true
+
 ---
 
 
