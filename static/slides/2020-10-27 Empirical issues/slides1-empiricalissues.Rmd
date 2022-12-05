@@ -6,7 +6,6 @@ output:
   xaringan::moon_reader: default
   pdf_document: default
 params:
-  
   name1: HCM
 ---
 

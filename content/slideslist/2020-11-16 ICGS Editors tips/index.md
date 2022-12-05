@@ -13,7 +13,10 @@ title: (Nov 2020) ICGS Editors' tips
 
 url_slides: "/slides/2020-11-16 ICGS Editors tips/slides2-editorstips.html"
 
+draft: true
+
 ---
+
 
 <!-- https://raw.githubusercontent.com/yihui/blogdown-static/master/content/_index.md -->
 

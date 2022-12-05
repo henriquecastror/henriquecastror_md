@@ -13,6 +13,8 @@ title: (Oct 2020) Issues in Empirical Finance Research
 
 url_slides: "/slides/2020-10-27 Empirical issues/slides1-empiricalissues.html"
 
+draft: true
+
 ---
 
 <!-- https://raw.githubusercontent.com/yihui/blogdown-static/master/content/_index.md -->
