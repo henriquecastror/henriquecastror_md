@@ -21,25 +21,25 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio:
 
-interests:
-- Corporate Finance
-- Corporate Governance
-- Financial policies
-- Empirical methods in finance
+#interests:
+#- Corporate Finance
+#- Corporate Governance
+#- Financial policies
+#- Empirical methods in finance
 
-education:
-  courses:
-  - course: PhD in Finance
-    institution: UFRGS
-    year: 2016
+#education:
+#  courses:
+#  - course: PhD in Finance
+#    institution: UFRGS
+#    year: 2016
     
-  - course: Master Finance
-    institution: UFRGS
-    year: 2012
+#  - course: Master Finance
+#    institution: UFRGS
+#    year: 2012
     
-  - course: BSc in Management
-    institution: PUCRS
-    year: 2010
+#  - course: BSc in Management
+#    institution: PUCRS
+#    year: 2010
 
 
 # Social/Academic Networking
@@ -135,7 +135,4 @@ user_groups:
 
 ---
 
-I hold a Ph.D. in Finance, and I am currently an Assistant Professor at [FGV/EAESP](https://eaesp.fgv.br/) (São Paulo, Brazil). I teach corporate finance, corporate governance and financial analysis at the undergraduate, MBA, Master, and Ph.D. levels. I am currently working on several projects on these topics. 
-
-If you have any questions about my research, or if you want to work with me, contact me at henrique.martins@fgv.br.
 
