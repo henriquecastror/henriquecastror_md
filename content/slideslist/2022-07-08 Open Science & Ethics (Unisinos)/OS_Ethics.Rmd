@@ -2,6 +2,7 @@
 title: "Open Science & Ética (Apresentação Unisinos)"
 author: "Henrique Castro Martins"
 date: '2022-07-08'
+draft: true
 output:
   xaringan::moon_reader: default
   beamer_presentation:
@@ -10,6 +11,7 @@ output:
     fonttheme: structurebold
 params:
   name1: HCM
+  
 ---
 
 
