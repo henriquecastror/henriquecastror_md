@@ -15,9 +15,6 @@ params:
 ---
 
 
-
-
-
 <img src="caution.jpg" width="40%" align="right" />
 
 
