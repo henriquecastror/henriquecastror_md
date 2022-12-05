@@ -28,25 +28,25 @@
 #  url = "teaching/"
 #  weight = 50
 
-[[main]]
-  name = "Seminars"
-  url = "seminar/"
-  weight = 60
+#[[main]]
+#  name = "Seminars"
+#  url = "seminar/"
+#  weight = 60
   
 [[main]]
   name = "My Slides"
   url = "slideslist/"
   weight = 65
 
-[[main]]
-    name = "Notes Research"
-    url = "https://hcm-research.netlify.app"
-    weight = 70
+#[[main]]
+#    name = "Notes Research"
+#    url = "https://hcm-research.netlify.app"
+#    weight = 70
 
-[[main]]
-    name = "Notes Classes"
-    url = "https://hcm-classes.netlify.app"
-    weight = 75
+#[[main]]
+#    name = "Notes Classes"
+#    url = "https://hcm-classes.netlify.app"
+#    weight = 75
 
 #[[main]]
 #    name = "Book of Notes"
@@ -54,10 +54,10 @@
 #    weight = 70
 
   
-[[main]]
-    name = "CV"
-    url = "files/cv_Henrique_Castro_Martins.pdf"
-    weight = 80
+#[[main]]
+#    name = "CV"
+#    url = "files/cv_Henrique_Castro_Martins.pdf"
+#    weight = 80
 
 
 

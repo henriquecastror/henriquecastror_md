@@ -1,0 +1,19 @@
+---
+title: 'Financial Strategy'
+subtitle: 'Part 0'
+author: 'Henrique C. Martins'
+format:
+  revealjs: 
+    slide-number: true
+    theme: simple
+    chalkboard: true
+    preview-links: auto
+    logo: background2.png
+    css: styles.css
+    footer: <https://eaesp.fgv.br/>
+    multiplex: true
+#resources:
+ # - demo.pdf
+---
+
+## teste
