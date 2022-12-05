@@ -33,10 +33,10 @@
 #  url = "seminar/"
 #  weight = 60
   
-[[main]]
-  name = "My Slides"
-  url = "slideslist/"
-  weight = 65
+#[[main]]
+#  name = "My Slides"
+#  url = "slideslist/"
+#  weight = 65
 
 #[[main]]
 #    name = "Notes Research"
